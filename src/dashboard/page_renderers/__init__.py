@@ -1,4 +1,4 @@
-from src.dashboard.pages import (
+from src.dashboard.page_renderers import (
     country_clustering,
     country_deep_dive,
     data_quality,

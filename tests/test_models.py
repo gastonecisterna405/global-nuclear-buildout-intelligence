@@ -27,20 +27,26 @@ def _make_countries(n: int = 12) -> pd.DataFrame:
     })
 
 
-def test_capacity_forecaster_output_shape():
-    from src.models.capacity_forecasting_xgboost import train_capacity_forecaster
+def test_capacity_forecaster_output_shape(tmp_path, monkeypatch):
+    from src.models import capacity_forecasting_xgboost as mod
+    monkeypatch.setattr(mod.config, "PREDICTIONS", tmp_path)
+    monkeypatch.setattr(mod.config, "METRICS", tmp_path)
+    monkeypatch.setattr(mod.config, "MODELS", tmp_path)
     countries = _make_countries(14)
-    out, metrics = train_capacity_forecaster(countries)
+    out, metrics = mod.train_capacity_forecaster(countries)
     assert len(out) == 14
     assert "forecast_capacity_2035_mwe" in out.columns
     assert "mae" in metrics
     assert metrics["mae"] >= 0
 
 
-def test_country_clustering_output():
-    from src.models.country_clustering import cluster_countries
+def test_country_clustering_output(tmp_path, monkeypatch):
+    from src.models import country_clustering as mod
+    monkeypatch.setattr(mod.config, "PREDICTIONS", tmp_path)
+    monkeypatch.setattr(mod.config, "METRICS", tmp_path)
+    monkeypatch.setattr(mod.config, "MODELS", tmp_path)
     countries = _make_countries(12)
-    out, metrics = cluster_countries(countries)
+    out, metrics = mod.cluster_countries(countries)
     assert len(out) == 12
     assert "cluster_id" in out.columns
     assert "pca_x" in out.columns
