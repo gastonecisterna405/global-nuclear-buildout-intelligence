@@ -3,6 +3,21 @@ name = "global-nuclear-buildout-intelligence"
 version = "0.1.0"
 description = "Reactor pipeline forecasting, technology mix scoring, and nuclear electricity supply scenarios"
 requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scikit-learn>=1.3",
+    "xgboost>=2.0",
+    "statsmodels>=0.14",
+    "scipy>=1.10",
+    "nltk>=3.8",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+    "plotly>=5.18",
+    "streamlit>=1.33",
+    "joblib>=1.3",
+    "requests>=2.31",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

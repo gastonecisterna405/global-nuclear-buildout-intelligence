@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import datetime
 import pandas as pd
 from src import config
 
@@ -98,7 +99,7 @@ SOURCES = [
 
 def register_sources() -> pd.DataFrame:
     df = pd.DataFrame(SOURCES)
-    df["date_accessed"] = "2026-05-17"
+    df["date_accessed"] = datetime.date.today().isoformat()
     out = config.PROCESSED / "data_sources.csv"
     out.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(out, index=False)

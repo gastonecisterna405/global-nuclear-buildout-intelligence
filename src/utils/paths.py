@@ -4,7 +4,7 @@ from src import config
 REQUIRED_DIRS = [
     config.RAW, config.INTERIM, config.PROCESSED, config.ANALYTICS, config.POWERBI,
     config.FIGURES, config.METRICS, config.PREDICTIONS, config.REPORTS, config.MODELS,
-    config.DOCS, config.SQL_OUT,
+    config.DOCS, config.SQL_OUT, config.OUTPUTS / "eda",
 ]
 
 def ensure_dirs() -> None:
