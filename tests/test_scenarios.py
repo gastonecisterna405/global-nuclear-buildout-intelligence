@@ -15,7 +15,10 @@ def test_generation_scales_with_capacity():
     assert estimate_generation_twh(2, 0.86) > estimate_generation_twh(1, 0.86)
 
 
-def test_scenario_builder_output_shape():
+def test_scenario_builder_output_shape(tmp_path, monkeypatch):
+    from src.features import scenario_features as mod
+    monkeypatch.setattr(mod.config, "PROCESSED", tmp_path)
+    monkeypatch.setattr(mod.config, "PREDICTIONS", tmp_path)
     from src.features.scenario_features import build_capacity_scenarios
 
     countries = pd.DataFrame([{
@@ -35,7 +38,10 @@ def test_scenario_builder_output_shape():
     assert out["estimated_generation_twh"].gt(0).all()
 
 
-def test_scenario_conservative_less_than_accelerated():
+def test_scenario_conservative_less_than_accelerated(tmp_path, monkeypatch):
+    from src.features import scenario_features as mod
+    monkeypatch.setattr(mod.config, "PROCESSED", tmp_path)
+    monkeypatch.setattr(mod.config, "PREDICTIONS", tmp_path)
     from src.features.scenario_features import build_capacity_scenarios
 
     countries = pd.DataFrame([{

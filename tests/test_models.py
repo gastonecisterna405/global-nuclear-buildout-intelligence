@@ -53,13 +53,14 @@ def test_country_clustering_output(tmp_path, monkeypatch):
     assert metrics["n_clusters"] >= 2
 
 
-def test_technology_maturity_score_range():
-    from src.features.technology_features import build_technology_taxonomy
+def test_technology_maturity_score_range(tmp_path, monkeypatch):
+    from src.features import technology_features as mod
+    monkeypatch.setattr(mod.config, "PROCESSED", tmp_path)
     import pandas as pd
     reactors = pd.DataFrame({
         "reactor_type_standardized": ["PWR", "SFR", "SMR-LWR"],
         "status_group": ["Operating", "Operating", "Construction"],
     })
-    tax = build_technology_taxonomy(reactors)
+    tax = mod.build_technology_taxonomy(reactors)
     assert tax["maturity_score"].between(0, 100).all(), "maturity_score out of [0,100]"
     assert (tax["maturity_score"] > 0).all()

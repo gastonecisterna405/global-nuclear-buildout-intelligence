@@ -1,8 +1,7 @@
 import pandas as pd
 import numpy as np
+import pytest
 from src.features.reactor_features import add_reactor_feature_flags
-from src.features.country_features import build_country_profiles
-from src.features.pipeline_features import build_reactor_pipeline
 
 
 def _base_reactor(**kwargs):
@@ -41,7 +40,10 @@ def test_pwr_no_advanced_flags():
     assert not out.loc[0, "molten_salt_flag"]
 
 
-def test_country_profiles_capacity_sum():
+def test_country_profiles_capacity_sum(tmp_path, monkeypatch):
+    from src.features import country_features as mod
+    monkeypatch.setattr(mod.config, "PROCESSED", tmp_path)
+
     reactors = pd.DataFrame([
         {"reactor_id": "A", "country": "X", "region": "Asia", "status_group": "Operating",
          "capacity_mwe": 1000.0, "age_years": 20.0,
@@ -53,26 +55,26 @@ def test_country_profiles_capacity_sum():
     context = pd.DataFrame([{
         "country": "X", "region": "Asia", "income_group": "High income",
         "gdp_current_usd": 1e12, "gdp_per_capita": 50000, "population": 1e7,
-        "electricity_generation_twh": 400, "nuclear_share_fraction": 0.2,
-        "nuclear_experience_years": 40, "historical_completed_reactors": 5,
+        "electricity_generation_twh": 400, "nuclear_share_percent": 20.0,
+        "nuclear_generation_twh": 80.0, "nuclear_experience_years": 40,
+        "historical_completed_reactors": 5,
     }])
-    # clean_country_context adds nuclear_share_percent
-    context["nuclear_share_percent"] = context["nuclear_share_fraction"] * 100
-    context["nuclear_generation_twh"] = context["electricity_generation_twh"] * context["nuclear_share_fraction"]
-    context = context.drop(columns=["nuclear_share_fraction"])
-
     pipeline = pd.DataFrame(columns=["country", "technology_family", "capacity_mwe"])
-    out = build_country_profiles(reactors, context, pipeline)
+    out = mod.build_country_profiles(reactors, context, pipeline)
     row = out[out.country == "X"].iloc[0]
     assert row["operating_capacity_mwe"] == 1000.0
     assert row["construction_capacity_mwe"] == 1200.0
     assert row["planned_capacity_mwe"] == 0.0
 
 
-def test_pipeline_maturity_score_range():
-    from src.features.technology_features import build_technology_taxonomy
+def test_pipeline_maturity_score_range(tmp_path, monkeypatch):
+    from src.features import technology_features as tmod
+    from src.features import pipeline_features as pmod
+    monkeypatch.setattr(tmod.config, "PROCESSED", tmp_path)
+    monkeypatch.setattr(pmod.config, "PROCESSED", tmp_path)
+
     reactors = _base_reactor(status_group="Construction", construction_start_year=2020.0)
-    tax = build_technology_taxonomy(reactors)
+    tax = tmod.build_technology_taxonomy(reactors)
     context = pd.DataFrame([{
         "country": "X", "region": "Asia", "income_group": "High income",
         "gdp_current_usd": 1e12, "gdp_per_capita": 50000, "population": 1e7,
@@ -80,6 +82,6 @@ def test_pipeline_maturity_score_range():
         "nuclear_generation_twh": 80, "nuclear_experience_years": 40,
         "historical_completed_reactors": 5,
     }])
-    pipeline = build_reactor_pipeline(reactors, tax, context)
+    pipeline = pmod.build_reactor_pipeline(reactors, tax, context)
     score = pipeline["project_maturity_score"].iloc[0]
     assert 0 <= score <= 100, f"maturity_score out of range: {score}"
