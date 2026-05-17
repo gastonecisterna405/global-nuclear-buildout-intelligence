@@ -1,0 +1,1 @@
+from src.models.electricity_supply_scenarios import add_value_proxy

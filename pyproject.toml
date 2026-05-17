@@ -1,0 +1,9 @@
+[project]
+name = "global-nuclear-buildout-intelligence"
+version = "0.1.0"
+description = "Reactor pipeline forecasting, technology mix scoring, and nuclear electricity supply scenarios"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

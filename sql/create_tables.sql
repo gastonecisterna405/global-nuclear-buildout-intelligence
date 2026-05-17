@@ -1,0 +1,4 @@
+-- SQLite schema is materialized by src/sql/build_database.py from processed CSV files.
+-- Tables: reactors, countries, technologies, pipeline_projects, capacity_scenarios,
+-- forecasts, project_risk_scores, technology_maturity_scores, policy_documents,
+-- nlp_topics, model_metrics, data_sources.

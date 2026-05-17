@@ -1,0 +1,22 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.DS_Store
+*.db
+*.sqlite
+data/raw/manual_uploads/
+
+# datos descargados (se regeneran con el pipeline)
+data/raw/
+data/interim/
+data/processed/
+data/analytics/
+
+# outputs generados
+outputs/
+
+# modelos serializados (demasiado grandes para git)
+models/*.joblib
+
+# exports powerbi generados
+data/powerbi/
