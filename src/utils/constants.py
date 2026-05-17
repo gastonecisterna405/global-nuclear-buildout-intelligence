@@ -12,8 +12,9 @@ STATUS_GROUPS = {
 }
 TECHNOLOGY_FAMILY = {
     "PWR": "Light Water Reactor", "VVER": "Light Water Reactor", "AP1000": "Light Water Reactor",
-    "EPR": "Light Water Reactor", "BWR": "Light Water Reactor", "PHWR": "Heavy Water Reactor",
-    "CANDU": "Heavy Water Reactor", "FBR": "Fast Reactor", "SFR": "Fast Reactor",
-    "LFR": "Fast Reactor", "HTGR": "Gas-Cooled Reactor", "MSR": "Molten Salt Reactor",
+    "APR1400": "Light Water Reactor", "EPR": "Light Water Reactor", "BWR": "Light Water Reactor",
+    "PHWR": "Heavy Water Reactor", "CANDU": "Heavy Water Reactor",
+    "FBR": "Fast Reactor", "SFR": "Fast Reactor", "LFR": "Fast Reactor",
+    "HTGR": "Gas-Cooled Reactor", "MSR": "Molten Salt Reactor",
     "SMR-LWR": "Small Modular Reactor", "Microreactor": "Microreactor",
 }

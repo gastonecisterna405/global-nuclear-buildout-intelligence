@@ -1,1 +1,33 @@
+from src.dashboard.pages import (
+    country_clustering,
+    country_deep_dive,
+    data_quality,
+    electricity_scenarios,
+    executive_overview,
+    executive_report,
+    forecasting,
+    global_map,
+    nlp_policy_intelligence,
+    powerbi_export,
+    project_risk,
+    reactor_pipeline,
+    smr_geniv_watch,
+    technology_mix,
+)
 
+__all__ = [
+    "country_clustering",
+    "country_deep_dive",
+    "data_quality",
+    "electricity_scenarios",
+    "executive_overview",
+    "executive_report",
+    "forecasting",
+    "global_map",
+    "nlp_policy_intelligence",
+    "powerbi_export",
+    "project_risk",
+    "reactor_pipeline",
+    "smr_geniv_watch",
+    "technology_mix",
+]

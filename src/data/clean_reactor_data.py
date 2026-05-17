@@ -20,7 +20,7 @@ def standardize_reactor_type(raw: str, design: str | None = None) -> str:
     if "AP1000" in text: return "AP1000"
     if "EPR" in text: return "EPR"
     if "VVER" in text: return "VVER"
-    if "APR1400" in text: return "PWR"
+    if "APR1400" in text: return "APR1400"
     if "BWRX" in text or "SMR" in text or "CAREM" in text: return "SMR-LWR"
     if "PHWR" in text or "CANDU" in text: return "PHWR"
     if "BWR" in text: return "BWR"
@@ -73,5 +73,5 @@ def clean_reactors() -> pd.DataFrame:
         "source_last_updated"
     ]
     out = df[cols]
-    out.to_csv(config.PROCESSED / "reactors_master.csv", index=False)
+    out.to_csv(config.INTERIM / "reactors_cleaned.csv", index=False)
     return out
