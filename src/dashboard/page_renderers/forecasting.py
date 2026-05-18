@@ -3,6 +3,7 @@ from __future__ import annotations
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from src.dashboard.page_renderers._methodology import section as _method
 
 from src import config
 
@@ -65,4 +66,10 @@ def render(forecasts: pd.DataFrame, metrics: pd.DataFrame) -> None:
         forecasts.to_csv(index=False),
         "capacity_forecasts.csv",
         mime="text/csv",
+    )
+    _method(
+        data="country_nuclear_profile.csv (34 country profiles with fleet stats and economic context)",
+        features="operating/construction/planned/proposed capacity · GDP · population · electricity generation · nuclear share % · average fleet age · nuclear experience years · policy signal score (13 features total)",
+        model="XGBoost Regressor (n_estimators=80, max_depth=3, lr=0.08) for cross-sectional country forecast · Holt-Winters Exponential Smoothing for global capacity trend extrapolation",
+        notes="XGBoost target is a scenario heuristic (not historical ground truth) — metrics measure fit to the formula, not real-world accuracy. A production model requires timestamped PRIS snapshots."
     )

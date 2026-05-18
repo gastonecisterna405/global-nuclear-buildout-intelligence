@@ -459,6 +459,115 @@ RAW_REACTORS = [
     ["Lianjiang-1",  "Lianjiang", "Unit 1","China","under construction","PWR","HPR-1000",1000,1080,"2023-02-23","","","", 20.550,110.143,"CGN","CGN","CGN",_S],
     ["Lufeng-5",     "Lufeng",    "Unit 5","China","under construction","PWR","HPR-1000",1000,1080,"2022-07-08","","","", 22.639,115.699,"CGN","CGN","CGN",_S],
     ["Changjiang-3", "Changjiang","Unit 3","China","under construction","PWR","ACPR-1000",1000,1080,"2021-07-28","","","", 19.490,109.141,"CNNC","CNNC","CNNC",_S],
+
+    # ── CHINA (completing operating fleet) ────────────────────────────────────
+    ["Fuqing-1",       "Fuqing",       "Unit 1","China","operating","PWR","CPR-1000", 1000,1089,"2008-11-21","2013-11-22","2014-11-22","", 25.432,119.462,"CNNC","CNNC","CNNC",_S],
+    ["Fuqing-2",       "Fuqing",       "Unit 2","China","operating","PWR","CPR-1000", 1000,1089,"2009-06-29","2015-10-16","2015-10-16","", 25.432,119.462,"CNNC","CNNC","CNNC",_S],
+    ["Fuqing-3",       "Fuqing",       "Unit 3","China","operating","PWR","CPR-1000", 1000,1089,"2010-12-31","2016-06-10","2016-10-10","", 25.432,119.462,"CNNC","CNNC","CNNC",_S],
+    ["Fuqing-4",       "Fuqing",       "Unit 4","China","operating","PWR","CPR-1000", 1000,1089,"2012-11-17","2017-09-17","2017-09-17","", 25.432,119.462,"CNNC","CNNC","CNNC",_S],
+    ["Fuqing-5",       "Fuqing",       "Unit 5","China","operating","PWR","HPR-1000", 1000,1089,"2015-05-07","2021-01-30","2021-09-30","", 25.432,119.462,"CNNC","CNNC","CNNC",_S],
+    ["Fuqing-6",       "Fuqing",       "Unit 6","China","operating","PWR","HPR-1000", 1000,1089,"2015-12-22","2022-01-11","2022-03-25","", 25.432,119.462,"CNNC","CNNC","CNNC",_S],
+    ["Ningde-1",       "Ningde",       "Unit 1","China","operating","PWR","CPR-1000", 1000,1089,"2008-02-18","2012-12-28","2013-04-15","", 27.060,120.210,"CGNPC","CGN","CGN",_S],
+    ["Ningde-2",       "Ningde",       "Unit 2","China","operating","PWR","CPR-1000", 1000,1089,"2008-11-12","2014-01-04","2014-05-04","", 27.060,120.210,"CGNPC","CGN","CGN",_S],
+    ["Ningde-3",       "Ningde",       "Unit 3","China","operating","PWR","CPR-1000", 1000,1089,"2010-01-08","2015-06-10","2015-06-10","", 27.060,120.210,"CGNPC","CGN","CGN",_S],
+    ["Ningde-4",       "Ningde",       "Unit 4","China","operating","PWR","CPR-1000", 1000,1089,"2012-09-29","2016-07-21","2016-07-21","", 27.060,120.210,"CGNPC","CGN","CGN",_S],
+    ["Yangjiang-2",    "Yangjiang",    "Unit 2","China","operating","PWR","CPR-1000", 1086,1140,"2009-05-04","2015-06-05","2015-06-05","", 21.705,111.606,"CGNPC","CGN","CGN",_S],
+    ["Yangjiang-3",    "Yangjiang",    "Unit 3","China","operating","PWR","CPR-1000", 1086,1140,"2010-11-15","2015-10-01","2016-01-01","", 21.705,111.606,"CGNPC","CGN","CGN",_S],
+    ["Yangjiang-4",    "Yangjiang",    "Unit 4","China","operating","PWR","ACPR-1000",1086,1140,"2012-11-17","2017-03-15","2017-03-15","", 21.705,111.606,"CGNPC","CGN","CGN",_S],
+    ["Yangjiang-6",    "Yangjiang",    "Unit 6","China","operating","PWR","ACPR-1000",1086,1140,"2013-12-23","2019-07-31","2019-07-31","", 21.705,111.606,"CGNPC","CGN","CGN",_S],
+    ["Hongyanhe-2",    "Hongyanhe",    "Unit 2","China","operating","PWR","CPR-1000", 1061,1119,"2008-03-28","2014-05-13","2014-05-13","", 39.794,121.474,"CGNPC","CGN","CGN",_S],
+    ["Hongyanhe-3",    "Hongyanhe",    "Unit 3","China","operating","PWR","CPR-1000", 1061,1119,"2009-03-07","2015-08-16","2015-08-16","", 39.794,121.474,"CGNPC","CGN","CGN",_S],
+    ["Hongyanhe-4",    "Hongyanhe",    "Unit 4","China","operating","PWR","CPR-1000", 1061,1119,"2009-08-15","2016-09-25","2016-09-25","", 39.794,121.474,"CGNPC","CGN","CGN",_S],
+    ["Hongyanhe-6",    "Hongyanhe",    "Unit 6","China","operating","PWR","ACPR-1000",1061,1119,"2015-07-24","2022-08-28","2022-08-28","", 39.794,121.474,"CGNPC","CGN","CGN",_S],
+    ["Changjiang-1",   "Changjiang",   "Unit 1","China","operating","PWR","ACPR-1000",1000,1080,"2010-04-25","2015-11-07","2015-11-07","", 19.490,109.141,"CNNC","CNNC","CNNC",_S],
+    ["Changjiang-2",   "Changjiang",   "Unit 2","China","operating","PWR","ACPR-1000",1000,1080,"2010-11-21","2016-08-26","2016-08-26","", 19.490,109.141,"CNNC","CNNC","CNNC",_S],
+    ["Fangchenggang-1","Fangchenggang","Unit 1","China","operating","PWR","CPR-1000", 1000,1086,"2010-07-30","2015-10-26","2016-01-01","", 21.483,108.140,"CGNPC","CGN","CGN",_S],
+    ["Fangchenggang-2","Fangchenggang","Unit 2","China","operating","PWR","CPR-1000", 1000,1086,"2010-12-23","2016-07-16","2016-10-01","", 21.483,108.140,"CGNPC","CGN","CGN",_S],
+    ["Fangchenggang-4","Fangchenggang","Unit 4","China","operating","PWR","HPR-1000", 1000,1080,"2016-12-23","2022-10-25","2023-03-25","", 21.483,108.140,"CGNPC","CGN","CGN",_S],
+    ["Qinshan-3-1",    "Qinshan III",  "Unit 1","China","operating","PHWR","CANDU-6",  677, 728,"1998-06-08","2002-11-19","2003-07-24","", 30.437,120.954,"CNNC","CNNC","AECL",_S],
+    ["Qinshan-3-2",    "Qinshan III",  "Unit 2","China","operating","PHWR","CANDU-6",  677, 728,"1998-09-25","2004-06-12","2004-07-01","", 30.437,120.954,"CNNC","CNNC","AECL",_S],
+    ["Tianwan-5",      "Tianwan",      "Unit 5","China","operating","PWR","VVER-1000", 1060,1126,"2015-12-27","2020-07-08","2020-09-08","", 34.692,119.455,"JNPC","JNPC","Rosatom",_S],
+    ["Tianwan-6",      "Tianwan",      "Unit 6","China","operating","PWR","VVER-1000", 1060,1126,"2016-09-07","2021-05-19","2021-05-19","", 34.692,119.455,"JNPC","JNPC","Rosatom",_S],
+    ["Shidaowan-HTR",  "Shidaowan",    "HTR-PM","China","operating","HTGR","HTR-PM",    200, 211,"2012-12-09","2021-12-20","2023-12-06","", 37.086,122.688,"CNNC","CNNC","CNNC",_S],
+    ["Xudabao-1",      "Xudabao",      "Unit 1","China","operating","PWR","VVER-1000", 1060,1126,"2007-08-18","2021-05-31","2021-09-30","", 40.588,120.285,"CGNPC","CGN","Rosatom",_S],
+    ["Xudabao-2",      "Xudabao",      "Unit 2","China","operating","PWR","VVER-1000", 1060,1126,"2008-01-15","2022-12-21","2022-12-21","", 40.588,120.285,"CGNPC","CGN","Rosatom",_S],
+    ["Sanmen-2b",      "Sanmen",       "Unit 2b","China","under construction","PWR","AP1000",1157,1250,"2010-01-01","","","", 29.101,121.641,"CNNC","CNNC","Westinghouse",_S],
+    ["Haiyang-3",      "Haiyang",      "Unit 3","China","under construction","PWR","AP1000",1157,1250,"2022-01-01","","","", 36.776,121.461,"SPNC","SPNC","Westinghouse",_S],
+    ["Xudabao-4",      "Xudabao",      "Unit 4","China","under construction","VVER","VVER-1200",1200,1250,"2023-06-01","","","", 40.588,120.285,"CGNPC","CGN","Rosatom",_S],
+
+    # ── INDIA (completing fleet) ───────────────────────────────────────────────
+    ["Rajasthan-1",    "Rawatbhata","Unit 1","India","shutdown","PHWR","PHWR-100",  90, 100,"1965-08-01","1972-12-16","1973-12-16","2004-11-04", 24.874, 75.583,"NPCIL","NPCIL","AECL",_S],
+    ["Rajasthan-3",    "Rawatbhata","Unit 3","India","operating","PHWR","PHWR-220", 202, 220,"1990-02-01","1999-12-01","2000-06-01","", 24.874, 75.583,"NPCIL","NPCIL","NPCIL",_S],
+    ["Rajasthan-4",    "Rawatbhata","Unit 4","India","operating","PHWR","PHWR-220", 202, 220,"1990-10-01","2000-12-23","2000-12-23","", 24.874, 75.583,"NPCIL","NPCIL","NPCIL",_S],
+    ["Rajasthan-6",    "Rawatbhata","Unit 6","India","operating","PHWR","PHWR-220", 202, 220,"2002-03-01","2009-01-31","2010-03-31","", 24.874, 75.583,"NPCIL","NPCIL","NPCIL",_S],
+    ["Narora-1",       "Narora",    "Unit 1","India","operating","PHWR","PHWR-220", 202, 220,"1976-01-01","1991-03-01","1991-03-01","", 28.194, 78.392,"NPCIL","NPCIL","NPCIL",_S],
+    ["Narora-2",       "Narora",    "Unit 2","India","operating","PHWR","PHWR-220", 202, 220,"1976-01-01","1992-07-01","1992-07-01","", 28.194, 78.392,"NPCIL","NPCIL","NPCIL",_S],
+    ["Kaiga-1",        "Kaiga",     "Unit 1","India","operating","PHWR","PHWR-220", 202, 220,"1989-09-01","2000-03-16","2000-11-16","", 14.881, 74.440,"NPCIL","NPCIL","NPCIL",_S],
+    ["Kaiga-2",        "Kaiga",     "Unit 2","India","operating","PHWR","PHWR-220", 202, 220,"1989-12-01","1999-12-16","2000-03-16","", 14.881, 74.440,"NPCIL","NPCIL","NPCIL",_S],
+    ["Kaiga-3",        "Kaiga",     "Unit 3","India","operating","PHWR","PHWR-220", 202, 220,"2002-03-15","2007-03-06","2007-03-06","", 14.881, 74.440,"NPCIL","NPCIL","NPCIL",_S],
+    ["Kaiga-4",        "Kaiga",     "Unit 4","India","operating","PHWR","PHWR-220", 202, 220,"2002-03-15","2011-01-20","2011-01-20","", 14.881, 74.440,"NPCIL","NPCIL","NPCIL",_S],
+    ["Kakrapar-2",     "Kakrapar",  "Unit 2","India","operating","PHWR","PHWR-220", 202, 220,"1984-12-01","1995-09-01","1995-09-01","", 21.228, 73.057,"NPCIL","NPCIL","DAE",_S],
+    ["Kudankulam-4",   "Kudankulam","Unit 4","India","under construction","VVER","VVER-1000",917,1000,"","","","",  8.169, 77.713,"NPCIL","NPCIL","Rosatom",_S],
+
+    # ── RUSSIA (completing fleet) ──────────────────────────────────────────────
+    ["Novovoronezh-3", "Novovoronezh","Unit 3","Russia","shutdown","VVER","VVER-440",  385, 417,"1967-07-01","1971-06-28","1971-12-31","2016-02-16", 51.288, 39.218,"Rosenergoatom","Rosatom","Rosatom",_S],
+    ["Novovoronezh-4", "Novovoronezh","Unit 4","Russia","shutdown","VVER","VVER-440",  385, 417,"1967-07-01","1972-12-28","1972-12-28","2017-09-29", 51.288, 39.218,"Rosenergoatom","Rosatom","Rosatom",_S],
+    ["Novovoronezh-5", "Novovoronezh","Unit 5","Russia","operating","VVER","VVER-1000",1000,1070,"1974-01-01","1980-05-08","1981-02-01","", 51.288, 39.218,"Rosenergoatom","Rosatom","Rosatom",_S],
+    ["Leningrad-2",    "Leningrad",   "Unit 2","Russia","operating","RBMK","RBMK-1000", 925, 925,"1970-06-01","1975-11-11","1976-02-11","", 59.856, 29.076,"Rosenergoatom","Rosatom","Rosatom",_S],
+    ["Leningrad-3",    "Leningrad",   "Unit 3","Russia","operating","RBMK","RBMK-1000", 925, 925,"1973-01-01","1979-06-07","1979-12-07","", 59.856, 29.076,"Rosenergoatom","Rosatom","Rosatom",_S],
+    ["Leningrad-4",    "Leningrad",   "Unit 4","Russia","operating","RBMK","RBMK-1000", 925, 925,"1975-02-01","1981-02-11","1981-08-11","", 59.856, 29.076,"Rosenergoatom","Rosatom","Rosatom",_S],
+    ["Balakovo-1",     "Balakovo",    "Unit 1","Russia","operating","VVER","VVER-1000",1000,1070,"1980-12-01","1985-12-23","1986-05-01","", 52.097, 47.937,"Rosenergoatom","Rosatom","Rosatom",_S],
+    ["Balakovo-2",     "Balakovo",    "Unit 2","Russia","operating","VVER","VVER-1000",1000,1070,"1981-08-01","1987-10-18","1988-01-18","", 52.097, 47.937,"Rosenergoatom","Rosatom","Rosatom",_S],
+    ["Balakovo-3",     "Balakovo",    "Unit 3","Russia","operating","VVER","VVER-1000",1000,1070,"1982-11-01","1988-12-08","1989-04-08","", 52.097, 47.937,"Rosenergoatom","Rosatom","Rosatom",_S],
+    ["Balakovo-4",     "Balakovo",    "Unit 4","Russia","operating","VVER","VVER-1000",1000,1070,"1984-04-01","1993-04-22","1994-04-22","", 52.097, 47.937,"Rosenergoatom","Rosatom","Rosatom",_S],
+    ["Rostov-1b",      "Rostov",      "Unit 1b","Russia","operating","VVER","VVER-1000",1011,1070,"1980-09-01","2001-03-26","2001-12-25","", 47.573, 42.267,"Rosenergoatom","Rosatom","Rosatom",_S],
+    ["Kursk-5b",       "Kursk II",    "Unit 5b","Russia","under construction","VVER","VVER-TOI",1255,1339,"2021-06-22","","","", 51.667, 35.610,"Rosenergoatom","Rosatom","Rosatom",_S],
+    ["Kursk-6",        "Kursk II",    "Unit 6","Russia","under construction","VVER","VVER-TOI",1255,1339,"2022-04-01","","","", 51.667, 35.610,"Rosenergoatom","Rosatom","Rosatom",_S],
+
+    # ── UNITED KINGDOM (completing fleet) ─────────────────────────────────────
+    ["Heysham-1A",     "Heysham-1",  "Unit A","United Kingdom","operating","GCR","AGR",  575, 620,"1970-12-01","1983-06-17","1983-07-01","", 54.032, -2.910,"EDF","EDF","NNC",_S],
+    ["Heysham-1B",     "Heysham-1",  "Unit B","United Kingdom","operating","GCR","AGR",  575, 620,"1970-12-01","1984-06-01","1984-06-01","", 54.032, -2.910,"EDF","EDF","NNC",_S],
+    ["Heysham-2B",     "Heysham-2",  "Unit B","United Kingdom","operating","GCR","AGR",  615, 660,"1980-08-01","1989-02-01","1989-02-01","", 54.032, -2.910,"EDF","EDF","GEC",_S],
+    ["Torness-B",      "Torness",    "Unit B","United Kingdom","operating","GCR","AGR",  615, 660,"1980-08-01","1989-02-21","1989-02-21","", 55.966, -2.437,"EDF","EDF","GEC",_S],
+    ["Wylfa-1",        "Wylfa",      "Unit 1","United Kingdom","shutdown","GCR","Magnox",490, 490,"1963-09-01","1971-11-01","1971-11-01","2012-12-30", 53.418, -4.473,"Magnox","Magnox","AEI/GEC",_S],
+
+    # ── CANADA (completing operating fleet) ────────────────────────────────────
+    ["Pickering-5",    "Pickering",  "Unit 5","Canada","operating","PHWR","CANDU-6",516, 540,"1974-11-01","1982-05-10","1983-05-10","", 43.810,-79.072,"OPG","OPG","AECL",_S],
+    ["Pickering-6",    "Pickering",  "Unit 6","Canada","operating","PHWR","CANDU-6",516, 540,"1975-10-01","1983-10-21","1984-02-01","", 43.810,-79.072,"OPG","OPG","AECL",_S],
+    ["Pickering-7",    "Pickering",  "Unit 7","Canada","operating","PHWR","CANDU-6",516, 540,"1976-01-01","1985-09-13","1986-01-13","", 43.810,-79.072,"OPG","OPG","AECL",_S],
+    ["Pickering-8",    "Pickering",  "Unit 8","Canada","operating","PHWR","CANDU-6",516, 540,"1976-09-01","1986-02-09","1986-02-09","", 43.810,-79.072,"OPG","OPG","AECL",_S],
+
+    # ── SWEDEN (completing fleet) ──────────────────────────────────────────────
+    ["Forsmark-2",     "Forsmark",  "Unit 2","Sweden","operating","BWR","BWR", 1120,1166,"1975-01-01","1981-07-07","1981-07-07","", 60.405, 18.170,"Vattenfall","Vattenfall","ASEA Atom",_S],
+    ["Ringhals-4",     "Ringhals",  "Unit 4","Sweden","operating","PWR","PWR", 1101,1137,"1973-10-01","1983-11-21","1983-11-21","", 57.257, 12.106,"Vattenfall","Ringhals","Westinghouse",_S],
+    ["Oskarshamn-3",   "Oskarshamn","Unit 3","Sweden","operating","BWR","BWR",  473, 492,"1980-05-01","1985-08-15","1985-08-15","", 57.415, 16.676,"OKG","OKG","ASEA Atom",_S],
+
+    # ── SPAIN (completing fleet) ───────────────────────────────────────────────
+    ["Asco-1",         "Asco",      "Unit 1","Spain","operating","PWR","PWR-3loop",1032,1082,"1974-05-16","1983-12-01","1984-08-10","", 40.883,  0.571,"Endesa","ANAV","Westinghouse",_S],
+    ["Asco-2",         "Asco",      "Unit 2","Spain","operating","PWR","PWR-3loop",1027,1082,"1975-03-07","1985-09-01","1986-03-31","", 40.883,  0.571,"Endesa","ANAV","Westinghouse",_S],
+    ["Trillo",         "Trillo",    "Unit 1","Spain","operating","PWR","PWR-KWU", 1003,1066,"1979-08-17","1988-05-17","1988-08-06","", 40.684, -2.593,"Unión Fenosa","CSN","KWU",_S],
+
+    # ── CZECH REPUBLIC (completing fleet) ─────────────────────────────────────
+    ["Dukovany-2",     "Dukovany","Unit 2","Czech Republic","operating","VVER","VVER-440",440,500,"1977-01-01","1985-12-09","1986-01-14","", 49.088, 16.147,"CEZ","CEZ","Rosatom",_S],
+    ["Dukovany-4",     "Dukovany","Unit 4","Czech Republic","operating","VVER","VVER-440",440,500,"1981-01-01","1987-07-19","1987-09-19","", 49.088, 16.147,"CEZ","CEZ","Rosatom",_S],
+
+    # ── SWITZERLAND (completing fleet) ────────────────────────────────────────
+    ["Beznau-2",       "Beznau",   "Unit 2","Switzerland","operating","PWR","PWR",  365, 380,"1968-08-01","1971-10-23","1972-03-23","", 47.523,  8.116,"Axpo","Axpo","Westinghouse",_S],
+    ["Mühleberg",      "Mühleberg","Unit 1","Switzerland","shutdown","BWR","BWR",   355, 373,"1967-03-01","1971-10-06","1972-11-06","2019-12-20", 46.997,  7.271,"BKW","BKW","GE",_S],
+
+    # ── BELGIUM (adding Doel 1-2 which have extended life) ────────────────────
+    ["Doel-1",         "Doel",    "Unit 1","Belgium","operating","PWR","PWR-2loop",  433, 454,"1969-07-01","1974-08-28","1975-02-15","", 51.325,  4.259,"Electrabel","Engie","Framatome",_S],
+    ["Doel-2",         "Doel",    "Unit 2","Belgium","operating","PWR","PWR-2loop",  433, 454,"1971-09-01","1975-08-21","1975-12-01","", 51.325,  4.259,"Electrabel","Engie","Framatome",_S],
+    ["Tihange-1",      "Tihange", "Unit 1","Belgium","operating","PWR","PWR-2loop",  962,1009,"1975-06-01","1975-10-07","1975-10-07","", 50.534,  5.271,"Electrabel","Engie","Framatome",_S],
+
+    # ── FINLAND (Olkiluoto 1-2 refurbishment context) ─────────────────────────
+    ["Olkiluoto-1r",   "Olkiluoto","Unit 1r","Finland","planned","BWR","BWR",       890, 930,"","","","", 61.235, 21.445,"TVO","TVO","ABB",_S],
+
+    # ── SOUTH AFRICA (additional context) ─────────────────────────────────────
+    ["Thyspunt",       "Thyspunt","Unit 1","South Africa","proposed","PWR","PWR",   1000,1000,"","","","", -33.970, 25.203,"Eskom","Eskom","TBD",_S],
+
+    # ── ROMANIA (Cernavoda UC) ─────────────────────────────────────────────────
+    ["Cernavoda-4",    "Cernavoda","Unit 4","Romania","planned","PHWR","CANDU-6",  650, 706,"","","","", 44.316, 28.058,"SNN","SNN","AECL",_S],
 ]
 
 # Country context table (GDP ~2023 USD, population ~2024)

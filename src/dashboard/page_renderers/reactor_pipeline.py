@@ -3,6 +3,7 @@ from __future__ import annotations
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from src.dashboard.page_renderers._methodology import section as _method
 
 STATUS_COLORS = {
     "Construction": "#f59e0b", "Planned": "#10b981",
@@ -93,4 +94,9 @@ def render(pipeline: pd.DataFrame) -> None:
         .rename(columns=DISPLAY_COLS)
         .sort_values("Maturity", ascending=False),
         use_container_width=True, hide_index=True,
+    )
+    _method(
+        data="reactor_pipeline.csv — UC/Planned/Proposed projects with scoring",
+        features="project_maturity_score (45% status stage + 25% tech maturity + 20% country experience + 10% GDP) · delay_risk_score (100 − maturity + large-unit penalty) · realization_probability (maturity/100)",
+        notes="No ML model — transparent heuristic scoring. Labels are auditable formulas, not statistical predictions."
     )

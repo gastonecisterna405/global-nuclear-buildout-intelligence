@@ -3,6 +3,7 @@ from __future__ import annotations
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from src.dashboard.page_renderers._methodology import section as _method
 
 DISPLAY_COLS = {
     "reactor_name": "Reactor", "status_group": "Status",
@@ -110,3 +111,8 @@ def render(
         )
     else:
         st.caption("No pipeline projects for this country in the current dataset.")
+    _method(
+        data="reactors_master.csv · country_nuclear_profile.csv (GDP, nuclear share, experience) · reactor_pipeline.csv",
+        features="operating/construction/planned capacity aggregated by status and technology for selected country · pipeline maturity_score · delay_risk_score · realization_probability",
+        notes="No model — filtered aggregation per selected country."
+    )

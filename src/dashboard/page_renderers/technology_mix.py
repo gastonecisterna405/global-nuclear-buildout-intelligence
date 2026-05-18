@@ -3,6 +3,7 @@ from __future__ import annotations
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from src.dashboard.page_renderers._methodology import section as _method
 
 
 def render(reactors: pd.DataFrame, taxonomy: pd.DataFrame) -> None:
@@ -22,3 +23,9 @@ def render(reactors: pd.DataFrame, taxonomy: pd.DataFrame) -> None:
         use_container_width=True,
     )
     st.dataframe(taxonomy, use_container_width=True)
+    _method(
+        data="reactors_master.csv (fleet) · reactor_pipeline.csv (pipeline) · technology_taxonomy.csv (maturity scores)",
+        features="technology_family · reactor_type_standardized · capacity_mwe by status group",
+        model="Technology maturity score: base_maturity + operating_units×1.2 + UC_units×1.8 · Trained Random Forest on taxonomy features to reproduce score (demo of sklearn pipeline pattern)",
+        notes="Maturity score combines public deployment status, unit counts, novelty and regulatory familiarity."
+    )

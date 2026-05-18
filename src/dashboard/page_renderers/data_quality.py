@@ -3,6 +3,7 @@ from __future__ import annotations
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from src.dashboard.page_renderers._methodology import section as _method
 
 from src import config
 
@@ -64,4 +65,9 @@ def render(reactors: pd.DataFrame) -> None:
     st.warning(
         "Sample data is for pipeline demonstration only. "
         "Add real data via the manual templates in `data/raw/*/`."
+    )
+    _method(
+        data="reactors_master.csv · data_sources.csv (source registry with confidence ratings)",
+        features="missing_fraction per column · source_confidence per record · records per source",
+        notes="No model — data audit statistics. Source confidence: 0.8 for official/industry sources, 0.55 for sample data. Replace sample records with IAEA PRIS exports for production use."
     )

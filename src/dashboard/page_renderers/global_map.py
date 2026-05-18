@@ -4,6 +4,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+from src.dashboard.page_renderers._methodology import section as _method
 
 STATUS_COLORS = {
     "Operating":    "#2563eb",
@@ -128,4 +129,9 @@ def render(reactors: pd.DataFrame) -> None:
         display.sort_values(["Status", "GWe"], ascending=[True, False]),
         use_container_width=True,
         hide_index=True,
+    )
+    _method(
+        data="reactors_master.csv — plant name, country, lat/lon, capacity_mwe, status_group, technology_family",
+        features="Reactors aggregated by plant site (plant_name + lat/lon) · total_capacity_mwe · primary status per site",
+        notes="No model — geographic aggregation and choropleth visualization."
     )

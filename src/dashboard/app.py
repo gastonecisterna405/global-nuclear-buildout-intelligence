@@ -70,30 +70,31 @@ if reactors.empty:
     st.stop()
 
 st.info(
-    "⚠️  **Sample data** — pipeline runs on a labeled 19-reactor demo dataset. "
-    "Numbers reflect the sample, not official statistics. "
-    "See *Data Quality & Source Coverage* for how to plug in real data.",
+    "**Curated sample dataset** — based on IAEA PRIS / WNA / GEM public records "
+    f"({len(reactors)} reactor units, {reactors.country.nunique()} countries). "
+    "Numbers are representative but not a source-of-record. "
+    "See *Data Quality* for how to substitute official exports.",
     icon=None,
 )
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
-st.sidebar.title("⚛️ Navigation")
+st.sidebar.title("Navigation")
 
 PAGES = [
-    "📊  Executive Overview",
-    "🗺️  Global Nuclear Map",
-    "🔍  Country Deep Dive",
-    "🏗️  Reactor Pipeline",
-    "⚗️  Technology Mix",
-    "🔬  SMR / Gen IV Watch",
-    "📈  Forecasting",
-    "⚠️  Project Risk Scoring",
-    "⚡  Electricity Scenarios",
-    "🌐  Country Clustering",
-    "📰  NLP / Policy Intelligence",
-    "🔎  Data Quality",
-    "📄  Executive Report",
-    "📦  Power BI Export",
+    "Executive Overview",
+    "Global Nuclear Map",
+    "Country Deep Dive",
+    "Reactor Pipeline",
+    "Technology Mix",
+    "SMR / Gen IV Watch",
+    "Forecasting",
+    "Project Risk Scoring",
+    "Electricity Scenarios",
+    "Country Clustering",
+    "NLP / Policy Intelligence",
+    "Data Quality",
+    "Executive Report",
+    "Power BI Export",
 ]
 page = st.sidebar.radio("", PAGES, label_visibility="collapsed")
 

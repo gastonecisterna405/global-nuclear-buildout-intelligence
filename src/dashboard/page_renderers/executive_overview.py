@@ -6,6 +6,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from src import config
+from src.dashboard.page_renderers._methodology import section as _method
 
 STATUS_COLORS = {
     "Operating":     "#2563eb",
@@ -120,3 +121,13 @@ def render(
             })
         )
         st.dataframe(top, use_container_width=True, hide_index=True)
+
+    _method(
+        data="reactors_master.csv (reactor units with status, capacity, technology) · "
+             "reactor_pipeline.csv (UC/planned/proposed projects) · "
+             "nuclear_capacity_scenarios.csv (scenario projections to 2050)",
+        features="status_group · capacity_mwe aggregated by country and status · "
+                 "realization_probability (from project scoring) · "
+                 "scenario TWh at year=2050",
+        notes="No model — descriptive statistics, aggregation, and scenario lookup.",
+    )

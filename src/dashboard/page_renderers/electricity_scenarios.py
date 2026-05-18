@@ -3,6 +3,7 @@ from __future__ import annotations
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from src.dashboard.page_renderers._methodology import section as _method
 
 
 def render(
@@ -37,3 +38,9 @@ def render(
         use_container_width=True,
     )
     st.dataframe(s, use_container_width=True)
+    _method(
+        data="nuclear_capacity_scenarios.csv (Conservative/Base/Accelerated scenarios × 3 years × 34 countries)",
+        features="capacity_gwe · realization_probability weighted by scenario adjustment factor · capacity_factor (user-controlled) · price_per_mwh (user-controlled)",
+        model="Scenario engine: TWh/yr = capacity_GW × capacity_factor × 8.76 × realization_adjustment. No ML model — deterministic scenario arithmetic.",
+        notes="Not a market forecast. Capacity factor, realization adjustment, and price are user-configurable sensitivity parameters."
+    )

@@ -3,6 +3,7 @@ from __future__ import annotations
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from src.dashboard.page_renderers._methodology import section as _method
 
 
 CLUSTER_COLORS = {
@@ -62,3 +63,9 @@ def render(clusters: pd.DataFrame) -> None:
         .rename(columns={"cluster_name": "Cluster", "country": "Countries"})
     )
     st.dataframe(summary, use_container_width=True, hide_index=True)
+    _method(
+        data="country_nuclear_profile.csv (34 country profiles)",
+        features="operating/construction/planned/proposed capacity · nuclear share % · GDP · electricity generation · population · average fleet age · advanced_reactor_activity_score · policy_signal_score (11 features)",
+        model="KMeans clustering (k=3, n_init=10) · PCA (2 components) for visualization. StandardScaler applied before both. Silhouette score used to select k.",
+        notes="Cluster names are interpretive labels assigned post-hoc. With 34 countries, clusters reflect structural differences in nuclear strategy."
+    )

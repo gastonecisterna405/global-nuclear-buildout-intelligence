@@ -3,6 +3,7 @@ from __future__ import annotations
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from src.dashboard.page_renderers._methodology import section as _method
 
 
 def render(taxonomy: pd.DataFrame) -> None:
@@ -76,4 +77,10 @@ def render(taxonomy: pd.DataFrame) -> None:
     st.dataframe(
         adv[show_cols].sort_values("maturity_score", ascending=False),
         use_container_width=True, hide_index=True,
+    )
+    _method(
+        data="technology_taxonomy.csv — 13 reactor types with maturity scores and deployment metadata",
+        features="known_operating_units · known_under_construction_units · base_maturity · smr_flag · geniv_flag · deployment_status · coolant · neutron_spectrum",
+        model="Maturity score: base_maturity + operating×1.2 + UC×1.8 (clipped 0–100)",
+        notes="Score reflects deployment evidence, not vendor claims. Low unit counts = real deployment gap."
     )
