@@ -20,6 +20,7 @@ from src.dashboard.page_renderers import (
     executive_overview,
     executive_report,
     forecasting,
+    full_eda,
     global_map,
     nlp_policy_intelligence,
     powerbi_export,
@@ -82,6 +83,7 @@ st.sidebar.title("Navigation")
 
 PAGES = [
     "Executive Overview",
+    "Full EDA",
     "Global Nuclear Map",
     "Country Deep Dive",
     "Reactor Pipeline",
@@ -138,6 +140,9 @@ c = countries[countries.country.isin(country_filter)] if not countries.empty els
 # ── Page routing ──────────────────────────────────────────────────────────────
 if "Executive Overview" in page:
     executive_overview.render(r, p, scenarios, scenario_filter)
+
+elif "Full EDA" in page:
+    full_eda.render(r, c, p, taxonomy)
 
 elif "Global Nuclear Map" in page:
     global_map.render(r)
