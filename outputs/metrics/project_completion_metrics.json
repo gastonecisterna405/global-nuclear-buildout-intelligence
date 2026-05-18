@@ -1,0 +1,49 @@
+{
+  "best_model": "gradient_boosting",
+  "models": {
+    "logistic_regression": {
+      "cv_f1": 0.768,
+      "train_f1": 0.789,
+      "precision": 0.846,
+      "recall": 0.738,
+      "roc_auc": 0.738,
+      "n_samples": 418,
+      "n_positive": 298,
+      "n_negative": 120,
+      "label_description": "1 = completed construction in \u226410 years (from real IAEA/WNA dates). 0 = took >10 years OR still under construction after \u22655 years. Labels are derived from observed facts, not scoring heuristics."
+    },
+    "random_forest": {
+      "cv_f1": 0.847,
+      "train_f1": 0.87,
+      "precision": 0.945,
+      "recall": 0.805,
+      "roc_auc": 0.92,
+      "n_samples": 418,
+      "n_positive": 298,
+      "n_negative": 120,
+      "label_description": "1 = completed construction in \u226410 years (from real IAEA/WNA dates). 0 = took >10 years OR still under construction after \u22655 years. Labels are derived from observed facts, not scoring heuristics."
+    },
+    "gradient_boosting": {
+      "cv_f1": 0.882,
+      "train_f1": 0.939,
+      "precision": 0.922,
+      "recall": 0.956,
+      "roc_auc": 0.958,
+      "n_samples": 418,
+      "n_positive": 298,
+      "n_negative": 120,
+      "label_description": "1 = completed construction in \u226410 years (from real IAEA/WNA dates). 0 = took >10 years OR still under construction after \u22655 years. Labels are derived from observed facts, not scoring heuristics."
+    },
+    "xgboost": {
+      "cv_f1": 0.84,
+      "train_f1": 0.905,
+      "precision": 0.955,
+      "recall": 0.859,
+      "roc_auc": 0.942,
+      "n_samples": 418,
+      "n_positive": 298,
+      "n_negative": 120,
+      "label_description": "1 = completed construction in \u226410 years (from real IAEA/WNA dates). 0 = took >10 years OR still under construction after \u22655 years. Labels are derived from observed facts, not scoring heuristics."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "best_model": "gradient_boosting",
+  "models": {
+    "ridge": {
+      "test_mae": 3.425,
+      "test_rmse": 5.217,
+      "test_r2": 0.908,
+      "baseline_mae": 14.669,
+      "skill_vs_mean": 0.767,
+      "train_rows": 1192,
+      "test_rows": 464,
+      "train_period": "\u22642010",
+      "test_period": ">2010",
+      "target": "nuclear_share_elec at t+5 years",
+      "horizon": "5 years"
+    },
+    "random_forest": {
+      "test_mae": 3.071,
+      "test_rmse": 5.107,
+      "test_r2": 0.912,
+      "baseline_mae": 14.669,
+      "skill_vs_mean": 0.791,
+      "train_rows": 1192,
+      "test_rows": 464,
+      "train_period": "\u22642010",
+      "test_period": ">2010",
+      "target": "nuclear_share_elec at t+5 years",
+      "horizon": "5 years"
+    },
+    "gradient_boosting": {
+      "test_mae": 2.779,
+      "test_rmse": 4.767,
+      "test_r2": 0.923,
+      "baseline_mae": 14.669,
+      "skill_vs_mean": 0.811,
+      "train_rows": 1192,
+      "test_rows": 464,
+      "train_period": "\u22642010",
+      "test_period": ">2010",
+      "target": "nuclear_share_elec at t+5 years",
+      "horizon": "5 years"
+    },
+    "xgboost": {
+      "test_mae": 2.821,
+      "test_rmse": 4.865,
+      "test_r2": 0.92,
+      "baseline_mae": 14.669,
+      "skill_vs_mean": 0.808,
+      "train_rows": 1192,
+      "test_rows": 464,
+      "train_period": "\u22642010",
+      "test_period": ">2010",
+      "target": "nuclear_share_elec at t+5 years",
+      "horizon": "5 years"
+    }
+  },
+  "target_description": "nuclear_share_elec (% of electricity from nuclear) at t+5 years. This is an independent future value \u2014 NOT derived from the features at time t. Train/test split is temporal to prevent leakage."
+}

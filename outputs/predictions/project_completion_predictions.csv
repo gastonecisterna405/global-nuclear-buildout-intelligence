@@ -1,0 +1,419 @@
+reactor_name,country,technology_family,capacity_mwe,start_decade,completed_on_time,predicted_on_time,prob_on_time,actual_build_years
+CAREM-25,Argentina,Small Modular Reactor,27.0,2010,0,0,0.04,
+Atucha-1,Argentina,Heavy Water Reactor,335.0,1960,1,1,0.93,6.061601642710472
+Atucha-2,Argentina,Heavy Water Reactor,693.0,1980,0,0,0.436,32.865160848733744
+Embalse,Argentina,Heavy Water Reactor,648.0,1970,0,0,0.294,10.001368925393566
+Metsamor-2,Armenia,Light Water Reactor,376.0,1970,1,1,0.905,4.8405201916495555
+Rooppur-1,Bangladesh,Light Water Reactor,1114.0,2010,0,0,0.242,
+Rooppur-2,Bangladesh,Light Water Reactor,1114.0,2010,0,0,0.242,
+Doel-1,Belgium,Light Water Reactor,433.0,1960,1,1,0.934,5.626283367556468
+Doel-2,Belgium,Light Water Reactor,433.0,1970,1,1,0.894,4.249144421629021
+Doel-3,Belgium,Light Water Reactor,1006.0,1970,1,1,0.919,7.748117727583847
+Doel-4,Belgium,Light Water Reactor,1037.0,1970,1,1,0.69,6.581793292265571
+Tihange-1,Belgium,Light Water Reactor,962.0,1970,1,1,0.935,0.35044490075290896
+Tihange-2,Belgium,Light Water Reactor,1008.0,1970,1,1,0.919,7.1649555099247095
+Tihange-3,Belgium,Light Water Reactor,1046.0,1970,1,1,0.838,6.833675564681725
+Angra-1,Brazil,Light Water Reactor,640.0,1970,0,1,0.601,13.976728268309378
+Angra-2,Brazil,Light Water Reactor,1350.0,1970,0,0,0.286,25.086926762491444
+Angra-3,Brazil,Light Water Reactor,1405.0,2010,0,0,0.063,
+Kozloduy-5,Bulgaria,Light Water Reactor,1000.0,1980,1,1,0.626,9.481177275838467
+Kozloduy-6,Bulgaria,Light Water Reactor,953.0,1980,0,0,0.432,11.748117727583846
+Bruce-3,Canada,Heavy Water Reactor,769.0,1960,0,0,0.383,10.67214236824093
+Bruce-4,Canada,Heavy Water Reactor,769.0,1960,0,0,0.383,11.633127994524298
+Bruce-5,Canada,Heavy Water Reactor,817.0,1970,1,1,0.864,6.74880219028063
+Bruce-6,Canada,Heavy Water Reactor,817.0,1970,1,1,0.864,6.036960985626283
+Bruce-7,Canada,Heavy Water Reactor,817.0,1970,1,1,0.864,6.9431895961670085
+Bruce-8,Canada,Heavy Water Reactor,817.0,1970,1,1,0.864,7.8056125941136205
+Darlington-1,Canada,Heavy Water Reactor,878.0,1980,0,1,0.875,11.62217659137577
+Darlington-2,Canada,Heavy Water Reactor,878.0,1980,1,1,0.875,9.103353867214237
+Darlington-3,Canada,Heavy Water Reactor,878.0,1980,1,1,0.875,8.454483230663929
+Darlington-4,Canada,Heavy Water Reactor,878.0,1980,1,1,0.875,7.953456536618754
+Pickering-5,Canada,Heavy Water Reactor,516.0,1970,1,1,0.729,8.5201916495551
+Pickering-6,Canada,Heavy Water Reactor,516.0,1970,1,1,0.729,8.336755646817249
+Pickering-7,Canada,Heavy Water Reactor,516.0,1970,0,1,0.729,10.03422313483915
+Pickering-8,Canada,Heavy Water Reactor,516.0,1970,1,1,0.729,9.440109514031485
+Changjiang-1,China,Light Water Reactor,1000.0,2010,1,1,0.955,5.535934291581109
+Changjiang-2,China,Light Water Reactor,1000.0,2010,1,1,0.955,5.763175906913073
+Changjiang-3,China,Light Water Reactor,1000.0,2020,0,0,0.188,
+Daya Bay-1,China,Light Water Reactor,944.0,1980,1,1,0.978,6.48870636550308
+Daya Bay-2,China,Light Water Reactor,944.0,1980,1,1,0.978,6.078028747433265
+Fangchenggang-1,China,Light Water Reactor,1000.0,2010,1,1,0.955,5.423682409308693
+Fangchenggang-2,China,Light Water Reactor,1000.0,2010,1,1,0.955,5.774127310061601
+Fangchenggang-3,China,Light Water Reactor,1000.0,2010,1,1,0.955,6.461327857631759
+Fangchenggang-4,China,Light Water Reactor,1000.0,2010,1,1,0.955,6.250513347022587
+Fuqing-1,China,Light Water Reactor,1000.0,2000,1,1,0.965,6.0013689253935665
+Fuqing-2,China,Light Water Reactor,1000.0,2000,1,1,0.965,6.297056810403833
+Fuqing-3,China,Light Water Reactor,1000.0,2010,1,1,0.955,5.776865160848733
+Fuqing-4,China,Light Water Reactor,1000.0,2010,1,1,0.955,4.832306639288158
+Fuqing-5,China,Light Water Reactor,1000.0,2010,1,1,0.955,6.401095140314853
+Fuqing-6,China,Light Water Reactor,1000.0,2010,1,1,0.955,6.2559890485968515
+Haiyang-1,China,Light Water Reactor,1157.0,2000,1,1,0.683,9.155373032169747
+Haiyang-2,China,Light Water Reactor,1157.0,2010,1,1,0.505,8.88432580424367
+Hongyanhe-1,China,Light Water Reactor,1061.0,2000,1,1,0.954,5.801505817932923
+Hongyanhe-2,China,Light Water Reactor,1061.0,2000,1,1,0.954,6.12457221081451
+Hongyanhe-3,China,Light Water Reactor,1061.0,2000,1,1,0.954,6.442162902121835
+Hongyanhe-4,China,Light Water Reactor,1061.0,2000,1,1,0.954,7.112936344969199
+Hongyanhe-5,China,Light Water Reactor,1061.0,2010,1,1,0.943,6.447638603696099
+Hongyanhe-6,China,Light Water Reactor,1061.0,2010,1,1,0.943,7.096509240246407
+Ling Ao-1,China,Light Water Reactor,990.0,1990,1,1,0.965,5.034907597535934
+Ling Ao-2,China,Light Water Reactor,990.0,1990,1,1,0.965,5.1854893908282
+Ningde-1,China,Light Water Reactor,1000.0,2000,1,1,0.965,5.155373032169747
+Ningde-2,China,Light Water Reactor,1000.0,2000,1,1,0.965,5.47296372347707
+Ningde-3,China,Light Water Reactor,1000.0,2010,1,1,0.955,5.418206707734429
+Ningde-4,China,Light Water Reactor,1000.0,2010,1,1,0.955,3.808350444900753
+Qinshan-2-1,China,Light Water Reactor,650.0,1990,1,1,0.775,5.867214236824093
+Qinshan-3-1,China,Heavy Water Reactor,677.0,1990,1,1,0.734,5.125256673511293
+Qinshan-3-2,China,Heavy Water Reactor,677.0,1990,1,1,0.734,5.765913757700205
+Qinshan-1,China,Light Water Reactor,300.0,1980,1,1,0.81,9.032169746748803
+Sanmen-1,China,Light Water Reactor,1157.0,2000,1,1,0.683,9.423682409308693
+Sanmen-2,China,Light Water Reactor,1157.0,2000,1,1,0.683,8.889801505817934
+Sanmen-2b,China,Light Water Reactor,1157.0,2010,0,1,0.505,
+Shidaowan-HTR,China,Gas-Cooled Reactor,200.0,2010,0,0,0.062,10.989733059548255
+Taishan-1,China,Light Water Reactor,1660.0,2000,1,1,0.9,9.125256673511293
+Taishan-2,China,Light Water Reactor,1660.0,2010,1,1,0.872,9.396303901437372
+Tianwan-1,China,Light Water Reactor,1060.0,2000,1,1,0.63,6.570841889117043
+Tianwan-2,China,Light Water Reactor,1060.0,2000,1,1,0.63,6.8199863107460645
+Tianwan-3,China,Light Water Reactor,1060.0,2010,1,1,0.641,5.136208076659822
+Tianwan-4,China,Light Water Reactor,1060.0,2010,1,1,0.641,5.234770704996578
+Tianwan-5,China,Light Water Reactor,1060.0,2010,1,1,0.641,4.700889801505818
+Tianwan-6,China,Light Water Reactor,1060.0,2010,1,1,0.641,4.695414099931554
+Tianwan-7,China,Light Water Reactor,1200.0,2020,0,0,0.047,
+Xudabao-1,China,Light Water Reactor,1060.0,2000,0,1,0.63,14.119096509240247
+Xudabao-2,China,Light Water Reactor,1060.0,2000,0,1,0.63,14.932238193018481
+Xudabao-3,China,Light Water Reactor,1200.0,2020,0,0,0.047,
+Yangjiang-1,China,Light Water Reactor,1086.0,2000,1,1,0.95,5.270362765229295
+Yangjiang-2,China,Light Water Reactor,1086.0,2000,1,1,0.95,6.0862422997946615
+Yangjiang-3,China,Light Water Reactor,1086.0,2010,1,1,0.935,5.127994524298426
+Yangjiang-4,China,Light Water Reactor,1086.0,2010,1,1,0.935,4.323066392881588
+Yangjiang-5,China,Light Water Reactor,1086.0,2010,1,1,0.935,4.837782340862423
+Yangjiang-6,China,Light Water Reactor,1086.0,2010,1,1,0.935,5.601642710472279
+Zhangzhou-1,China,Light Water Reactor,1126.0,2010,0,0,0.453,
+Zhangzhou-2,China,Light Water Reactor,1126.0,2020,0,0,0.069,
+Dukovany-1,Czech Republic,Light Water Reactor,440.0,1970,0,1,0.809,11.3347022587269
+Dukovany-2,Czech Republic,Light Water Reactor,440.0,1970,1,1,0.809,9.034907597535934
+Dukovany-3,Czech Republic,Light Water Reactor,440.0,1970,1,1,0.809,7.838466803559206
+Dukovany-4,Czech Republic,Light Water Reactor,440.0,1980,1,0,0.495,6.713210130047912
+Temelin-1,Czech Republic,Light Water Reactor,1000.0,1980,0,1,0.626,15.107460643394935
+Temelin-2,Czech Republic,Light Water Reactor,1000.0,1980,0,1,0.626,15.460643394934976
+Loviisa-1,Finland,Light Water Reactor,496.0,1970,1,1,0.883,6.023271731690623
+Loviisa-2,Finland,Light Water Reactor,496.0,1970,1,1,0.883,8.429842573579739
+Olkiluoto-1,Finland,Light Water Reactor,880.0,1970,1,1,0.867,3.6659822039698837
+Olkiluoto-2,Finland,Light Water Reactor,890.0,1970,1,1,0.867,6.6885694729637235
+Olkiluoto-3,Finland,Light Water Reactor,1600.0,2000,0,0,0.077,17.675564681724847
+Belleville-1,France,Light Water Reactor,1310.0,1980,1,1,0.975,8.098562628336756
+Belleville-2,France,Light Water Reactor,1310.0,1980,1,1,0.975,7.915126625598905
+Blayais-1,France,Light Water Reactor,910.0,1970,1,1,0.949,4.944558521560575
+Blayais-2,France,Light Water Reactor,910.0,1970,1,1,0.949,5.503080082135524
+Blayais-3,France,Light Water Reactor,910.0,1970,1,1,0.949,5.453798767967146
+Blayais-4,France,Light Water Reactor,910.0,1970,1,1,0.949,4.788501026694045
+Bugey-2,France,Light Water Reactor,880.0,1970,1,1,0.951,7.353867214236824
+Bugey-3,France,Light Water Reactor,880.0,1970,1,1,0.951,6.494182067077344
+Bugey-4,France,Light Water Reactor,880.0,1970,1,1,0.951,5.108829568788501
+Bugey-5,France,Light Water Reactor,880.0,1970,1,1,0.951,5.508555783709788
+Cattenom-1,France,Light Water Reactor,1300.0,1970,1,1,0.912,7.41409993155373
+Cattenom-2,France,Light Water Reactor,1300.0,1980,1,1,0.975,7.753593429158111
+Cattenom-3,France,Light Water Reactor,1300.0,1980,1,1,0.975,9.508555783709788
+Cattenom-4,France,Light Water Reactor,1300.0,1980,1,1,0.975,8.657084188911705
+Chinon-B1,France,Light Water Reactor,905.0,1970,1,1,0.951,7.082819986310746
+Chinon-B2,France,Light Water Reactor,905.0,1970,1,1,0.951,7.4195756331279945
+Chinon-B3,France,Light Water Reactor,905.0,1980,1,1,0.976,7.006160164271047
+Chinon-B4,France,Light Water Reactor,905.0,1980,1,1,0.976,7.162217659137577
+Chooz-B1,France,Light Water Reactor,1500.0,1980,0,0,0.079,16.205338809034906
+Chooz-B2,France,Light Water Reactor,1500.0,1980,0,0,0.079,14.82819986310746
+Civaux-1,France,Light Water Reactor,1495.0,1980,0,0,0.079,13.27583846680356
+Civaux-2,France,Light Water Reactor,1495.0,1990,0,0,0.079,11.06091718001369
+Cruas-1,France,Light Water Reactor,915.0,1970,1,1,0.949,5.670088980150582
+Cruas-2,France,Light Water Reactor,915.0,1970,1,1,0.949,5.4428473648186175
+Cruas-4,France,Light Water Reactor,915.0,1970,1,1,0.949,5.02943189596167
+Dampierre-1,France,Light Water Reactor,890.0,1970,1,1,0.951,5.642710472279261
+Dampierre-2,France,Light Water Reactor,890.0,1970,1,1,0.951,5.530458590006845
+Dampierre-3,France,Light Water Reactor,890.0,1970,1,1,0.951,5.653661875427789
+Dampierre-4,France,Light Water Reactor,890.0,1970,1,1,0.951,5.880903490759754
+Fessenheim-1,France,Light Water Reactor,880.0,1970,1,1,0.951,6.581793292265571
+Flamanville-1,France,Light Water Reactor,1330.0,1970,1,1,0.912,7.008898015058179
+Flamanville-2,France,Light Water Reactor,1330.0,1980,1,1,0.975,5.508555783709788
+Flamanville-3,France,Light Water Reactor,1630.0,2000,0,0,0.077,17.08145106091718
+Golfech-1,France,Light Water Reactor,1310.0,1980,1,1,0.975,8.353182751540041
+Golfech-2,France,Light Water Reactor,1310.0,1980,1,1,0.975,9.878165639972622
+Gravelines-1,France,Light Water Reactor,910.0,1970,1,1,0.949,5.815195071868583
+Gravelines-2,France,Light Water Reactor,910.0,1970,1,1,0.949,5.368925393566051
+Gravelines-3,France,Light Water Reactor,910.0,1970,1,1,0.949,5.530458590006845
+Gravelines-4,France,Light Water Reactor,910.0,1970,1,1,0.949,5.541409993155373
+Gravelines-5,France,Light Water Reactor,910.0,1970,1,1,0.949,5.661875427789186
+Gravelines-6,France,Light Water Reactor,910.0,1970,1,1,0.949,5.984941820670773
+Nogent-1,France,Light Water Reactor,1310.0,1980,1,1,0.975,6.809034907597536
+Nogent-2,France,Light Water Reactor,1310.0,1980,1,1,0.975,7.364818617385352
+Paluel-1,France,Light Water Reactor,1330.0,1970,1,1,0.912,8.295687885010267
+Paluel-2,France,Light Water Reactor,1330.0,1970,1,1,0.912,8.0
+Paluel-3,France,Light Water Reactor,1330.0,1970,1,1,0.912,7.000684462696783
+Paluel-4,France,Light Water Reactor,1330.0,1980,1,1,0.975,6.329911019849418
+Penly-1,France,Light Water Reactor,1330.0,1980,1,1,0.975,8.268309377138946
+Penly-2,France,Light Water Reactor,1330.0,1980,1,1,0.975,8.854209445585216
+Saint-Alban-1,France,Light Water Reactor,1335.0,1970,1,1,0.912,6.496919917864476
+Saint-Alban-2,France,Light Water Reactor,1335.0,1980,1,1,0.975,6.997946611909651
+Saint-Laurent-B1,France,Light Water Reactor,915.0,1970,1,1,0.949,7.2498288843258045
+Saint-Laurent-B2,France,Light Water Reactor,915.0,1970,1,1,0.949,6.663928815879535
+Tricastin-1,France,Light Water Reactor,915.0,1970,1,1,0.949,6.083504449007529
+Tricastin-2,France,Light Water Reactor,915.0,1970,1,1,0.949,5.363449691991787
+Tricastin-3,France,Light Water Reactor,915.0,1970,1,1,0.949,5.618069815195072
+Tricastin-4,France,Light Water Reactor,915.0,1970,1,1,0.949,5.691991786447638
+Emsland,Germany,Light Water Reactor,1329.0,1980,1,1,0.975,5.856262833675565
+Isar-2,Germany,Light Water Reactor,1365.0,1980,1,1,0.776,5.566050650239562
+Paks-1,Hungary,Light Water Reactor,471.0,1970,1,1,0.809,8.999315537303216
+Paks-2,Hungary,Light Water Reactor,471.0,1970,0,1,0.809,10.288843258042437
+Paks-3,Hungary,Light Water Reactor,471.0,1970,1,1,0.809,7.0746064339493495
+Paks-4,Hungary,Light Water Reactor,471.0,1980,1,0,0.495,5.292265571526352
+Kaiga-1,India,Heavy Water Reactor,202.0,1980,0,0,0.253,11.208761122518823
+Kaiga-2,India,Heavy Water Reactor,202.0,1980,0,0,0.253,10.288843258042437
+Kaiga-3,India,Heavy Water Reactor,202.0,2000,1,1,0.887,4.974674880219028
+Kaiga-4,India,Heavy Water Reactor,202.0,2000,1,1,0.887,8.851471594798083
+Kakrapar-1,India,Heavy Water Reactor,202.0,1980,1,0,0.253,8.427104722792608
+Kakrapar-2,India,Heavy Water Reactor,202.0,1980,0,0,0.253,10.74880219028063
+Kakrapar-3,India,Heavy Water Reactor,640.0,2010,0,0,0.137,12.522929500342231
+Kakrapar-4,India,Heavy Water Reactor,640.0,2010,0,0,0.137,
+PFBR,India,Fast Reactor,500.0,2000,0,0,0.199,
+Kudankulam-1,India,Light Water Reactor,917.0,2000,0,0,0.49,11.75359342915811
+Kudankulam-2,India,Light Water Reactor,917.0,2000,0,0,0.49,14.740588637919233
+Madras-1,India,Heavy Water Reactor,170.0,1970,0,0,0.111,13.987679671457906
+Madras-2,India,Heavy Water Reactor,170.0,1970,0,0,0.111,13.467488021902806
+Narora-1,India,Heavy Water Reactor,202.0,1970,0,0,0.236,15.162217659137577
+Narora-2,India,Heavy Water Reactor,202.0,1970,0,0,0.236,16.49828884325804
+Rajasthan-1,India,Heavy Water Reactor,90.0,1960,1,1,0.876,8.375085557837098
+Rajasthan-3,India,Heavy Water Reactor,202.0,1990,0,0,0.172,10.329911019849419
+Rajasthan-4,India,Heavy Water Reactor,202.0,1990,0,0,0.172,10.22861054072553
+Rajasthan-5,India,Heavy Water Reactor,202.0,2000,1,1,0.887,7.427789185489391
+Rajasthan-6,India,Heavy Water Reactor,202.0,2000,1,1,0.887,8.082135523613964
+Rajasthan-7,India,Heavy Water Reactor,640.0,2010,0,0,0.137,
+Rajasthan-8,India,Heavy Water Reactor,640.0,2010,0,0,0.137,
+Tarapur-1,India,Light Water Reactor,150.0,1960,1,1,0.932,5.073237508555784
+Tarapur-2,India,Light Water Reactor,150.0,1960,1,1,0.932,5.040383299110198
+Tarapur-3,India,Heavy Water Reactor,490.0,2000,1,1,0.746,6.403832991101985
+Tarapur-4,India,Heavy Water Reactor,490.0,2000,1,1,0.746,5.47296372347707
+Fukushima-I-1,Japan,Light Water Reactor,439.0,1960,1,1,0.93,3.4989733059548254
+Genkai-3,Japan,Light Water Reactor,1127.0,1980,1,1,0.632,9.626283367556468
+Genkai-4,Japan,Light Water Reactor,1127.0,1980,1,1,0.632,8.980150581793293
+Ikata-3,Japan,Light Water Reactor,846.0,1980,1,1,0.976,9.245722108145106
+Mihama-3,Japan,Light Water Reactor,826.0,1970,1,1,0.951,4.0
+Onagawa-2,Japan,Light Water Reactor,796.0,1980,1,1,0.878,5.982203969883641
+Sendai-1,Japan,Light Water Reactor,846.0,1970,1,1,0.951,4.739219712525667
+Sendai-2,Japan,Light Water Reactor,846.0,1980,1,1,0.976,4.82135523613963
+Takahama-1,Japan,Light Water Reactor,826.0,1970,1,1,0.951,2.869267624914442
+Takahama-2,Japan,Light Water Reactor,826.0,1970,1,1,0.951,2.2012320328542097
+Takahama-3,Japan,Light Water Reactor,870.0,1980,1,1,0.976,4.043805612594114
+Takahama-4,Japan,Light Water Reactor,870.0,1980,1,1,0.976,3.592060232717317
+Laguna Verde-1,Mexico,Light Water Reactor,680.0,1970,0,0,0.457,13.82340862422998
+Laguna Verde-2,Mexico,Light Water Reactor,674.0,1970,0,0,0.337,17.856262833675565
+Borssele-1,Netherlands,Light Water Reactor,515.0,1960,1,1,0.942,4.3203285420944555
+Chashma-1,Pakistan,Light Water Reactor,300.0,1990,1,1,0.714,7.085557837097878
+Chashma-2,Pakistan,Light Water Reactor,300.0,1990,0,1,0.714,15.044490075290897
+Chashma-3,Pakistan,Light Water Reactor,300.0,2010,1,1,0.967,5.587953456536619
+Chashma-4,Pakistan,Light Water Reactor,300.0,2010,1,1,0.967,5.757700205338809
+Karachi-2,Pakistan,Light Water Reactor,1100.0,2010,1,1,0.935,5.752224503764545
+Karachi-3,Pakistan,Light Water Reactor,1100.0,2010,1,1,0.935,5.971252566735113
+Cernavoda-1,Romania,Heavy Water Reactor,650.0,1980,0,0,0.315,14.42299794661191
+Cernavoda-2,Romania,Heavy Water Reactor,650.0,1980,0,0,0.315,24.35318275154004
+Akademik-1,Russia,Light Water Reactor,35.0,2000,0,0,0.145,11.118412046543463
+Balakovo-1,Russia,Light Water Reactor,1000.0,1980,1,1,0.626,5.412731006160164
+Balakovo-2,Russia,Light Water Reactor,1000.0,1980,1,1,0.626,6.464065708418891
+Balakovo-3,Russia,Light Water Reactor,1000.0,1980,1,1,0.626,6.433949349760438
+Balakovo-4,Russia,Light Water Reactor,1000.0,1980,0,1,0.626,10.056125941136209
+Beloyarsk-3,Russia,Fast Reactor,560.0,1980,1,1,0.919,0.999315537303217
+Beloyarsk-4,Russia,Fast Reactor,789.0,2000,0,0,0.153,10.288843258042437
+Kalinin-1,Russia,Light Water Reactor,1000.0,1970,1,1,0.838,8.265571526351813
+Kalinin-2,Russia,Light Water Reactor,1000.0,1980,1,1,0.626,5.08145106091718
+Kalinin-3,Russia,Light Water Reactor,1000.0,1980,0,1,0.626,20.210814510609172
+Kalinin-4,Russia,Light Water Reactor,1000.0,1980,0,1,0.626,26.028747433264886
+Kola-1,Russia,Light Water Reactor,440.0,1970,1,1,0.809,3.6440793976728267
+Kola-2,Russia,Light Water Reactor,440.0,1970,1,1,0.809,4.774811772758385
+Kola-3,Russia,Light Water Reactor,411.0,1970,1,1,0.779,4.919917864476386
+Kola-4,Russia,Light Water Reactor,411.0,1970,1,1,0.779,8.112251882272416
+Kursk-5,Russia,Light Water Reactor,1255.0,2020,0,0,0.023,
+Kursk-5b,Russia,Light Water Reactor,1255.0,2020,0,0,0.023,
+Kursk-3,Russia,Other/Unclassified,925.0,1970,1,1,0.945,6.0013689253935665
+Kursk-4,Russia,Other/Unclassified,925.0,1980,1,1,0.951,2.858316221765914
+Leningrad-1,Russia,Other/Unclassified,925.0,1970,1,1,0.945,4.670773442847365
+Leningrad-2,Russia,Other/Unclassified,925.0,1970,1,1,0.945,5.6974674880219025
+Leningrad-3,Russia,Other/Unclassified,925.0,1970,1,1,0.945,6.929500342231348
+Leningrad-4,Russia,Other/Unclassified,925.0,1970,1,1,0.945,6.524298425735798
+Leningrad-5,Russia,Light Water Reactor,1114.0,2000,1,0,0.342,9.95482546201232
+Leningrad-6,Russia,Light Water Reactor,1114.0,2010,0,0,0.242,11.501711156741958
+Novovoronezh-3,Russia,Light Water Reactor,385.0,1960,1,1,0.975,4.501026694045175
+Novovoronezh-4,Russia,Light Water Reactor,385.0,1960,1,1,0.975,5.494866529774128
+Novovoronezh-5,Russia,Light Water Reactor,1000.0,1970,1,1,0.838,7.085557837097878
+Novovoronezh-6,Russia,Light Water Reactor,1114.0,2000,1,0,0.342,8.555783709787816
+Novovoronezh-7,Russia,Light Water Reactor,1114.0,2000,0,0,0.342,10.543463381245722
+Rostov-1,Russia,Light Water Reactor,1011.0,1990,0,0,0.423,11.315537303216974
+Rostov-1b,Russia,Light Water Reactor,1011.0,1980,0,0,0.423,21.31416837782341
+Rostov-2,Russia,Light Water Reactor,1011.0,1990,0,0,0.423,20.295687885010267
+Rostov-3,Russia,Light Water Reactor,1011.0,2000,1,1,0.635,6.0041067761806985
+Rostov-4,Russia,Light Water Reactor,1011.0,2000,1,1,0.635,8.454483230663929
+Smolensk-1,Russia,Other/Unclassified,925.0,1970,1,1,0.945,8.106776180698152
+Smolensk-2,Russia,Other/Unclassified,925.0,1970,1,1,0.945,9.163586584531142
+Smolensk-3,Russia,Other/Unclassified,925.0,1980,1,1,0.951,7.044490075290897
+Bohunice-3,Slovakia,Light Water Reactor,408.0,1970,1,1,0.905,8.205338809034908
+Mochovce-1,Slovakia,Light Water Reactor,411.0,1980,0,0,0.436,16.076659822039698
+Mochovce-2,Slovakia,Light Water Reactor,411.0,1980,0,0,0.436,15.293634496919918
+Mochovce-3,Slovakia,Light Water Reactor,471.0,1980,0,0,0.495,36.082135523613964
+Mochovce-4,Slovakia,Light Water Reactor,471.0,1980,0,0,0.495,
+Hanbit-1,South Korea,Light Water Reactor,950.0,1980,1,1,0.978,5.232032854209446
+Hanbit-2,South Korea,Light Water Reactor,950.0,1980,1,1,0.978,5.522245037645448
+Hanbit-3,South Korea,Light Water Reactor,995.0,1980,1,1,0.965,5.021218343600274
+Hanbit-4,South Korea,Light Water Reactor,995.0,1990,1,1,0.965,5.6125941136208075
+Hanbit-5,South Korea,Light Water Reactor,995.0,1990,1,1,0.965,3.893223819301848
+Hanbit-6,South Korea,Light Water Reactor,995.0,1990,1,1,0.965,5.092402464065708
+Hanul-1,South Korea,Light Water Reactor,950.0,1980,1,1,0.978,5.916495550992471
+Hanul-2,South Korea,Light Water Reactor,950.0,1980,1,1,0.978,5.752224503764545
+Hanul-3,South Korea,Light Water Reactor,995.0,1990,1,1,0.965,5.401779603011636
+Hanul-4,South Korea,Light Water Reactor,995.0,1990,1,1,0.965,6.16290212183436
+Hanul-5,South Korea,Light Water Reactor,995.0,1990,1,1,0.965,4.139630390143737
+Hanul-6,South Korea,Light Water Reactor,995.0,2000,1,1,0.965,4.6242299794661195
+Koeberg-1,South Africa,Light Water Reactor,900.0,1970,1,1,0.951,8.054757015742641
+Koeberg-2,South Africa,Light Water Reactor,900.0,1970,1,1,0.951,9.357973990417522
+Kori-1,South Korea,Light Water Reactor,587.0,1970,1,1,0.941,6.52703627652293
+Kori-2,South Korea,Light Water Reactor,640.0,1970,1,1,0.601,5.585215605749487
+Kori-3,South Korea,Light Water Reactor,950.0,1970,1,1,0.955,6.247775496235455
+Kori-4,South Korea,Light Water Reactor,950.0,1980,1,1,0.978,5.574264202600959
+Shin Hanul-1,South Korea,Light Water Reactor,1340.0,2010,1,0,0.385,9.91375770020534
+Shin Hanul-2,South Korea,Light Water Reactor,1340.0,2010,0,0,0.385,11.23066392881588
+Shin Kori-1,South Korea,Light Water Reactor,995.0,2000,1,1,0.965,4.70362765229295
+Shin Kori-2,South Korea,Light Water Reactor,995.0,2000,1,1,0.965,5.125256673511293
+Shin Kori-3,South Korea,Light Water Reactor,1340.0,2000,1,1,0.55,8.177960301163587
+Shin Kori-4,South Korea,Light Water Reactor,1340.0,2000,0,1,0.55,10.026009582477755
+Shin Kori-5,South Korea,Light Water Reactor,1340.0,2010,0,0,0.385,
+Shin Kori-6,South Korea,Light Water Reactor,1340.0,2010,0,0,0.385,
+Wolsong-1,South Korea,Heavy Water Reactor,679.0,1970,1,1,0.687,5.555099247091033
+Wolsong-2,South Korea,Heavy Water Reactor,700.0,1990,1,1,0.794,4.829568788501026
+Wolsong-3,South Korea,Heavy Water Reactor,700.0,1990,1,1,0.794,3.79192334017796
+Wolsong-4,South Korea,Heavy Water Reactor,700.0,1990,1,1,0.794,3.6632443531827517
+Almaraz-1,Spain,Light Water Reactor,1049.0,1970,1,1,0.838,9.826146475017111
+Almaraz-2,Spain,Light Water Reactor,1044.0,1970,0,1,0.69,10.913073237508556
+Asco-1,Spain,Light Water Reactor,1032.0,1970,0,1,0.69,10.236824093086927
+Asco-2,Spain,Light Water Reactor,1027.0,1970,0,1,0.69,11.066392881587953
+Cofrentes,Spain,Light Water Reactor,1064.0,1970,1,1,0.725,9.574264202600958
+Trillo,Spain,Light Water Reactor,1003.0,1970,1,1,0.919,8.971937029431896
+Vandellos-2,Spain,Light Water Reactor,1045.0,1980,1,1,0.953,7.266255989048597
+Forsmark-1,Sweden,Light Water Reactor,984.0,1970,0,0,0.491,11.526351813826146
+Forsmark-2,Sweden,Light Water Reactor,1120.0,1970,1,0,0.292,6.513347022587269
+Forsmark-3,Sweden,Light Water Reactor,1167.0,1970,1,0,0.398,6.628336755646817
+Oskarshamn-3,Sweden,Light Water Reactor,473.0,1980,1,1,0.783,5.28952772073922
+Ringhals-3,Sweden,Light Water Reactor,1063.0,1970,1,1,0.838,9.015742642026009
+Ringhals-4,Sweden,Light Water Reactor,1101.0,1970,0,0,0.299,10.13826146475017
+Beznau-1,Switzerland,Light Water Reactor,365.0,1960,1,1,0.964,4.271047227926078
+Beznau-2,Switzerland,Light Water Reactor,365.0,1960,1,1,0.964,3.6413415468856947
+Gosgen,Switzerland,Light Water Reactor,970.0,1970,1,1,0.935,6.417522245037645
+Leibstadt,Switzerland,Light Water Reactor,1220.0,1970,0,0,0.223,10.954140999315538
+Mühleberg,Switzerland,Light Water Reactor,355.0,1960,1,1,0.963,5.686516084873374
+Chinshan-1,Taiwan,Light Water Reactor,604.0,1970,1,1,0.842,6.940451745379876
+Kuosheng-1,Taiwan,Light Water Reactor,951.0,1970,1,1,0.879,3.9890485968514717
+Maanshan-1,Taiwan,Light Water Reactor,890.0,1970,1,1,0.951,5.820670773442847
+Maanshan-2,Taiwan,Light Water Reactor,890.0,1970,1,1,0.951,5.462012320328542
+Akkuyu-1,Turkey,Light Water Reactor,1114.0,2010,0,0,0.242,
+Akkuyu-2,Turkey,Light Water Reactor,1114.0,2020,0,0,0.032,
+Akkuyu-3,Turkey,Light Water Reactor,1114.0,2020,0,0,0.032,
+Barakah-1,UAE,Light Water Reactor,1345.0,2010,1,1,0.649,8.71731690622861
+Barakah-2,UAE,Light Water Reactor,1345.0,2010,1,1,0.649,8.936344969199178
+Barakah-3,UAE,Light Water Reactor,1345.0,2010,1,1,0.649,9.05407255304586
+Barakah-4,UAE,Light Water Reactor,1345.0,2010,0,1,0.649,
+Khmelnitsky-1,Ukraine,Light Water Reactor,950.0,1980,1,1,0.745,6.138261464750171
+Khmelnitsky-2,Ukraine,Light Water Reactor,950.0,1980,0,1,0.745,21.598904859685145
+Rivne-1,Ukraine,Light Water Reactor,382.0,1970,1,1,0.905,8.39151266255989
+Rivne-2,Ukraine,Light Water Reactor,382.0,1970,1,1,0.905,8.39151266255989
+Rivne-3,Ukraine,Light Water Reactor,950.0,1980,1,1,0.745,7.745379876796714
+Rivne-4,Ukraine,Light Water Reactor,950.0,1980,0,1,0.745,17.845311430527037
+South Ukraine-1,Ukraine,Light Water Reactor,950.0,1970,1,1,0.907,6.16290212183436
+South Ukraine-2,Ukraine,Light Water Reactor,950.0,1980,1,1,0.745,3.761806981519507
+South Ukraine-3,Ukraine,Light Water Reactor,950.0,1980,1,1,0.745,4.03832991101985
+Zaporizhzhia-1,Ukraine,Light Water Reactor,950.0,1980,1,1,0.745,4.692676249144422
+Zaporizhzhia-2,Ukraine,Light Water Reactor,950.0,1980,1,1,0.745,4.084873374401095
+Zaporizhzhia-3,Ukraine,Light Water Reactor,950.0,1980,1,1,0.745,4.678986995208761
+Zaporizhzhia-4,Ukraine,Light Water Reactor,950.0,1980,1,1,0.745,5.037645448323066
+Zaporizhzhia-5,Ukraine,Light Water Reactor,950.0,1980,1,1,0.745,3.9616700889801506
+Zaporizhzhia-6,Ukraine,Light Water Reactor,950.0,1980,1,1,0.745,7.211498973305955
+Arkansas-1,United States,Light Water Reactor,850.0,1960,1,1,0.953,6.2149212867898695
+Arkansas-2,United States,Light Water Reactor,929.0,1960,0,1,0.951,11.482546201232033
+Beaver Valley-1,United States,Light Water Reactor,900.0,1970,1,1,0.951,6.26694045174538
+Beaver Valley-2,United States,Light Water Reactor,906.0,1970,0,1,0.949,13.541409993155373
+Braidwood-1,United States,Light Water Reactor,1194.0,1970,0,0,0.373,12.993839835728952
+Braidwood-2,United States,Light Water Reactor,1218.0,1970,0,0,0.223,13.212867898699521
+Browns Ferry-1,United States,Light Water Reactor,1210.0,1960,1,1,0.76,6.885694729637235
+Browns Ferry-3,United States,Light Water Reactor,1210.0,1960,1,1,0.76,8.6652977412731
+Brunswick-1,United States,Light Water Reactor,938.0,1970,1,1,0.879,7.107460643394935
+Brunswick-2,United States,Light Water Reactor,938.0,1970,1,1,0.879,5.735797399041752
+Byron-1,United States,Light Water Reactor,1164.0,1970,0,0,0.381,10.042436687200547
+Byron-2,United States,Light Water Reactor,1136.0,1970,0,0,0.217,11.917864476386036
+Callaway,United States,Light Water Reactor,1236.0,1970,1,0,0.223,8.71731690622861
+Catawba-1,United States,Light Water Reactor,1148.0,1970,0,0,0.217,10.491444216290212
+Catawba-2,United States,Light Water Reactor,1148.0,1970,0,0,0.217,11.630390143737166
+Clinton,United States,Light Water Reactor,1078.0,1970,0,1,0.53,12.147843942505133
+Comanche Peak-1,United States,Light Water Reactor,1218.0,1970,0,0,0.223,15.649555099247092
+Comanche Peak-2,United States,Light Water Reactor,1218.0,1970,0,0,0.223,18.622861054072555
+Cooper,United States,Light Water Reactor,769.0,1960,1,1,0.895,6.080766598220397
+Davis-Besse,United States,Light Water Reactor,894.0,1970,1,1,0.951,7.912388774811773
+DC Cook-1,United States,Light Water Reactor,1054.0,1960,1,1,0.865,6.422997946611909
+DC Cook-2,United States,Light Water Reactor,1077.0,1960,1,1,0.865,9.267624914442163
+Diablo Canyon-1,United States,Light Water Reactor,1122.0,1960,0,0,0.345,17.0403832991102
+Diablo Canyon-2,United States,Light Water Reactor,1118.0,1970,0,0,0.299,15.2580424366872
+Dresden-2,United States,Light Water Reactor,882.0,1960,1,1,0.962,4.4106776180698155
+Dresden-3,United States,Light Water Reactor,882.0,1960,1,1,0.962,5.089664613278576
+Fermi-2,United States,Light Water Reactor,1173.0,1970,0,0,0.374,15.323750855578371
+James FitzPatrick,United States,Light Water Reactor,854.0,1970,1,1,0.867,5.1827515400410675
+Grand Gulf-1,United States,Light Water Reactor,1497.0,1970,0,0,0.042,10.822724161533197
+Robinson,United States,Light Water Reactor,740.0,1960,1,1,0.906,4.3641341546885695
+Heysham-1A,United Kingdom,Other/Unclassified,575.0,1970,0,0,0.403,12.580424366872005
+Heysham-1B,United Kingdom,Other/Unclassified,575.0,1970,0,0,0.403,13.500342231348391
+Heysham-2A,United Kingdom,Other/Unclassified,615.0,1980,1,1,0.848,8.6652977412731
+Heysham-2B,United Kingdom,Other/Unclassified,615.0,1980,1,1,0.848,8.503764544832306
+Hinkley Point C-1,United Kingdom,Light Water Reactor,1630.0,2010,0,0,0.059,
+Hinkley Point C-2,United Kingdom,Light Water Reactor,1630.0,2010,0,0,0.059,
+Hope Creek,United States,Light Water Reactor,1270.0,1970,0,0,0.223,12.134154688569472
+Indian Point-3,United States,Light Water Reactor,1025.0,1960,1,1,0.827,6.828199863107461
+LaSalle-1,United States,Light Water Reactor,1137.0,1970,0,0,0.211,10.30800821355236
+LaSalle-2,United States,Light Water Reactor,1137.0,1970,0,0,0.211,11.107460643394935
+Limerick-1,United States,Light Water Reactor,1134.0,1970,0,0,0.211,11.62217659137577
+Limerick-2,United States,Light Water Reactor,1134.0,1970,0,0,0.211,15.5564681724846
+McGuire-1,United States,Light Water Reactor,1178.0,1970,1,0,0.373,8.829568788501026
+McGuire-2,United States,Light Water Reactor,1178.0,1970,0,0,0.373,11.077344284736482
+Millstone-2,United States,Light Water Reactor,884.0,1970,1,1,0.951,6.151950718685832
+Millstone-3,United States,Light Water Reactor,1247.0,1970,0,0,0.223,11.704312114989733
+Monticello,United States,Light Water Reactor,614.0,1960,1,1,0.962,4.030116358658453
+Nine Mile Point-1,United States,Light Water Reactor,621.0,1960,1,1,0.962,4.914442162902122
+Nine Mile Point-2,United States,Light Water Reactor,1299.0,1970,0,0,0.301,12.862422997946611
+North Anna-1,United States,Light Water Reactor,978.0,1970,1,1,0.935,7.29637234770705
+North Anna-2,United States,Light Water Reactor,978.0,1970,1,1,0.935,9.820670773442847
+Oconee-1,United States,Light Water Reactor,900.0,1960,1,1,0.953,5.702943189596167
+Oconee-2,United States,Light Water Reactor,900.0,1960,1,1,0.953,6.855578370978781
+Oconee-3,United States,Light Water Reactor,900.0,1960,1,1,0.953,7.123887748117728
+Palo Verde-1,United States,Light Water Reactor,1311.0,1970,1,1,0.912,9.678302532511978
+Palo Verde-2,United States,Light Water Reactor,1311.0,1970,1,1,0.912,8.320328542094456
+Palo Verde-3,United States,Light Water Reactor,1311.0,1970,1,1,0.912,8.186173853524982
+Peach Bottom-2,United States,Light Water Reactor,1339.0,1960,1,1,0.982,6.425735797399041
+Peach Bottom-3,United States,Light Water Reactor,1339.0,1960,1,1,0.982,6.242299794661191
+Point Beach-1,United States,Light Water Reactor,617.0,1960,1,1,0.963,3.4250513347022586
+Point Beach-2,United States,Light Water Reactor,617.0,1960,1,1,0.963,4.188911704312115
+Prairie Island-1,United States,Light Water Reactor,522.0,1960,1,1,0.942,4.80766598220397
+Prairie Island-2,United States,Light Water Reactor,522.0,1960,1,1,0.942,6.48870636550308
+Quad Cities-1,United States,Light Water Reactor,908.0,1960,1,1,0.96,5.004791238877481
+Quad Cities-2,United States,Light Water Reactor,908.0,1960,1,1,0.96,5.062286105407256
+River Bend,United States,Light Water Reactor,974.0,1970,1,1,0.829,9.760438056125942
+Salem-1,United States,Light Water Reactor,1174.0,1960,1,0,0.424,8.761122518822724
+Salem-2,United States,Light Water Reactor,1174.0,1960,0,0,0.424,13.048596851471595
+Seabrook,United States,Light Water Reactor,1246.0,1970,0,0,0.223,14.116358658453114
+Shearon Harris,United States,Light Water Reactor,934.0,1970,1,1,0.955,9.259411362080767
+Sizewell-B,United Kingdom,Light Water Reactor,1198.0,1980,1,1,0.706,6.576317590691307
+St. Lucie-1,United States,Light Water Reactor,839.0,1970,1,1,0.951,6.4750171115674195
+St. Lucie-2,United States,Light Water Reactor,839.0,1970,1,1,0.951,6.6036960985626285
+Surry-1,United States,Light Water Reactor,842.0,1960,1,1,0.953,4.492813141683778
+Surry-2,United States,Light Water Reactor,842.0,1960,1,1,0.953,4.848733744010952
+Susquehanna-1,United States,Light Water Reactor,1299.0,1970,1,0,0.301,9.596167008898014
+Susquehanna-2,United States,Light Water Reactor,1299.0,1970,0,0,0.301,11.279945242984258
+Three Mile Island-1,United States,Light Water Reactor,869.0,1960,1,1,0.953,6.291581108829569
+Torness-A,United Kingdom,Other/Unclassified,615.0,1980,1,1,0.848,7.808350444900753
+Torness-B,United Kingdom,Other/Unclassified,615.0,1980,1,1,0.848,8.558521560574949
+Turkey Point-3,United States,Light Water Reactor,760.0,1960,1,1,0.906,5.634496919917864
+Vogtle-1,United States,Light Water Reactor,1217.0,1970,0,0,0.223,10.746064339493497
+Vogtle-2,United States,Light Water Reactor,1213.0,1970,0,0,0.373,12.799452429842573
+Vogtle-3,United States,Light Water Reactor,1117.0,2000,0,0,0.481,14.38466803559206
+Vogtle-4,United States,Light Water Reactor,1117.0,2010,0,0,0.294,10.442162902121835
+Waterford-3,United States,Light Water Reactor,1227.0,1970,0,0,0.223,10.861054072553046
+Wolf Creek,United States,Light Water Reactor,1215.0,1970,1,0,0.373,8.342231348391513
+Wylfa-1,United Kingdom,Other/Unclassified,490.0,1960,1,1,0.84,8.167008898015059
