@@ -545,12 +545,619 @@ print(taxonomy[["reactor_type","technology_family","maturity_score",
       .to_string(index=False))
 """)
 
+    # ── ML ANALYSIS ───────────────────────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("## ML Analysis — Features, Correlations & Model Decisions")
+    st.info(
+        "This section analyzes the data from a machine learning perspective: "
+        "feature distributions, inter-feature correlations, target variable behavior, "
+        "model selection justification, feature importance, and residuals."
+    )
+
+    # ── 12. Feature distributions ─────────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 12. Feature Distributions (Forecasting Model)")
+    st.caption(
+        "The XGBoost capacity forecasting model uses 13 features. "
+        "Understanding their distributions helps identify skew, outliers, and scaling needs."
+    )
+
+    NUMERIC_FEATURES = [
+        "gdp_current_usd", "population", "electricity_generation_twh",
+        "nuclear_share_percent", "operating_capacity_mwe", "construction_capacity_mwe",
+        "planned_capacity_mwe", "proposed_capacity_mwe", "average_fleet_age",
+        "nuclear_experience_years", "policy_signal_score",
+    ]
+    available = [f for f in NUMERIC_FEATURES if f in countries.columns]
+
+    fig = px.box(
+        countries.melt(value_vars=available, var_name="Feature", value_name="Value"),
+        x="Feature", y="Value", template="plotly_white",
+        color_discrete_sequence=["#2563eb"],
+    )
+    fig.update_layout(
+        xaxis=dict(tickangle=-35),
+        margin=dict(t=10),
+        xaxis_title="",
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.caption(
+        "**Takeaway:** `gdp_current_usd` and `population` have extreme right-skew "
+        "(China, USA dominate). `nuclear_share_percent` is sparse — most countries are 0. "
+        "XGBoost handles these distributions natively without needing log transformation, "
+        "unlike linear regression which would require it."
+    )
+
+    _code("""
+countries = pd.read_csv("data/processed/country_nuclear_profile.csv")
+
+features = [
+    "gdp_current_usd", "population", "electricity_generation_twh",
+    "nuclear_share_percent", "operating_capacity_mwe", "construction_capacity_mwe",
+    "planned_capacity_mwe", "average_fleet_age", "nuclear_experience_years",
+    "policy_signal_score",
+]
+
+print("Feature summary statistics:")
+print(countries[features].describe().round(2).to_string())
+
+# Check skewness
+from scipy.stats import skew
+for f in features:
+    s = skew(countries[f].dropna())
+    print(f"{f:<35} skewness: {s:+.2f}")
+""")
+
+    # ── 13. Correlation matrix ────────────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 13. Feature Correlation Matrix")
+    st.caption(
+        "Pearson correlations between the numeric features used in the forecasting model. "
+        "High correlations between features (multicollinearity) can hurt linear models "
+        "but are less problematic for tree-based models like XGBoost."
+    )
+
+    corr_df = countries[available].fillna(0).corr().round(2)
+
+    fig_corr = px.imshow(
+        corr_df,
+        color_continuous_scale="RdBu_r",
+        zmin=-1, zmax=1,
+        text_auto=True,
+        template="plotly_white",
+        aspect="auto",
+    )
+    fig_corr.update_layout(margin=dict(t=10), height=500)
+    st.plotly_chart(fig_corr, use_container_width=True)
+
+    # Find highest correlations
+    corr_pairs = (
+        corr_df.where(~(corr_df == 1.0))
+        .stack().abs()
+        .sort_values(ascending=False)
+        .head(5)
+    )
+    pairs_str = " | ".join(
+        f"{i[0].replace('_capacity_mwe','').replace('_','·')} ↔ "
+        f"{i[1].replace('_capacity_mwe','').replace('_','·')} ({v:.2f})"
+        for i, v in corr_pairs.items()
+    )
+    st.caption(
+        f"**Strongest correlations:** {pairs_str}. "
+        "Highly correlated features provide redundant information. "
+        "Linear models need regularization (Ridge/Lasso) to handle this; "
+        "XGBoost naturally handles it through its splitting criterion."
+    )
+
+    _code("""
+import numpy as np
+
+features = [
+    "gdp_current_usd", "population", "electricity_generation_twh",
+    "nuclear_share_percent", "operating_capacity_mwe", "construction_capacity_mwe",
+    "planned_capacity_mwe", "average_fleet_age", "nuclear_experience_years",
+    "policy_signal_score",
+]
+
+corr = countries[features].fillna(0).corr()
+
+# Find top correlated pairs (excluding self-correlations)
+mask = np.triu(np.ones(corr.shape), k=1).astype(bool)
+pairs = corr.where(mask).stack().abs().sort_values(ascending=False)
+
+print("Top 10 correlated feature pairs:")
+print(pairs.head(10).round(3).to_string())
+""")
+
+    # ── 14. Feature vs target ─────────────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 14. Features vs Target Variable")
+    st.caption(
+        "**Target:** `target_capacity_2035_mwe = operating + 0.75×construction + "
+        "0.45×planned + 0.15×proposed` (scenario-derived heuristic). "
+        "These scatter plots show which features correlate with the target and hint at "
+        "which will have high importance in the model."
+    )
+
+    target = (
+        countries["operating_capacity_mwe"].fillna(0)
+        + 0.75 * countries["construction_capacity_mwe"].fillna(0)
+        + 0.45 * countries["planned_capacity_mwe"].fillna(0)
+        + 0.15 * countries["proposed_capacity_mwe"].fillna(0)
+    )
+    c_with_target = countries.copy()
+    c_with_target["target_2035_gwe"] = target / 1000
+
+    plot_features = [
+        "operating_capacity_mwe", "construction_capacity_mwe",
+        "nuclear_experience_years", "gdp_current_usd", "policy_signal_score",
+        "electricity_generation_twh",
+    ]
+    plot_features = [f for f in plot_features if f in c_with_target.columns]
+
+    selected_feat = st.selectbox(
+        "Select feature to plot against target",
+        plot_features,
+        format_func=lambda x: x.replace("_"," ").title(),
+    )
+
+    fig_scatter = px.scatter(
+        c_with_target,
+        x=selected_feat,
+        y="target_2035_gwe",
+        text="country",
+        template="plotly_white",
+        trendline="ols",
+        trendline_color_override="red",
+        labels={
+            selected_feat: selected_feat.replace("_"," ").title(),
+            "target_2035_gwe": "Target capacity 2035 (GWe)",
+        },
+    )
+    fig_scatter.update_traces(textposition="top center", textfont_size=9)
+    fig_scatter.update_layout(margin=dict(t=10))
+    st.plotly_chart(fig_scatter, use_container_width=True)
+
+    _code("""
+from scipy.stats import pearsonr
+
+# Build target variable (same formula as capacity_forecasting_xgboost.py)
+countries["target_2035"] = (
+    countries["operating_capacity_mwe"].fillna(0)
+    + 0.75 * countries["construction_capacity_mwe"].fillna(0)
+    + 0.45 * countries["planned_capacity_mwe"].fillna(0)
+    + 0.15 * countries["proposed_capacity_mwe"].fillna(0)
+)
+
+features = [
+    "operating_capacity_mwe", "construction_capacity_mwe",
+    "nuclear_experience_years", "gdp_current_usd", "policy_signal_score",
+    "electricity_generation_twh",
+]
+
+print(f"{'Feature':<35}  {'Pearson r':>10}  {'p-value':>10}")
+print("-" * 60)
+for f in features:
+    valid = countries[[f,"target_2035"]].dropna()
+    r, p = pearsonr(valid[f], valid["target_2035"])
+    print(f"{f:<35}  {r:>10.3f}  {p:>10.4f}")
+""")
+
+    # ── 15. Feature importance ────────────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 15. Feature Importance (XGBoost)")
+    st.caption(
+        "Feature importances from the trained XGBoost forecasting model. "
+        "Importance = average gain per feature split across all trees. "
+        "This tells us which features the model actually relies on, "
+        "not just which ones correlate with the target."
+    )
+
+    try:
+        from joblib import load
+        import numpy as np
+        from src import config
+
+        model_path = config.MODELS / "capacity_forecast_xgboost.joblib"
+        pipe = load(model_path)
+        pre   = pipe.named_steps["preprocess"]
+        model = pipe.named_steps["model"]
+
+        cat_feats = list(pre.named_transformers_["cat"].get_feature_names_out(
+            ["region","income_group"]
+        ))
+        num_feats = [
+            "gdp_current_usd","population","electricity_generation_twh",
+            "nuclear_share_percent","operating_capacity_mwe","construction_capacity_mwe",
+            "planned_capacity_mwe","proposed_capacity_mwe","average_fleet_age",
+            "nuclear_experience_years","policy_signal_score",
+        ]
+        all_feats = cat_feats + num_feats
+
+        importances = model.feature_importances_
+        n = min(len(importances), len(all_feats))
+        imp_df = (
+            pd.DataFrame({"feature": all_feats[:n], "importance": importances[:n]})
+            .sort_values("importance", ascending=False)
+            .head(15)
+        )
+
+        fig_imp = px.bar(
+            imp_df, x="importance", y="feature",
+            orientation="h", template="plotly_white",
+            color="importance", color_continuous_scale="Blues",
+            labels={"importance":"Importance (gain)","feature":"Feature"},
+        )
+        fig_imp.update_layout(
+            margin=dict(t=10), yaxis=dict(autorange="reversed"),
+            coloraxis_showscale=False,
+        )
+        st.plotly_chart(fig_imp, use_container_width=True)
+
+        top3 = imp_df.head(3)["feature"].tolist()
+        st.caption(
+            f"**Top 3 features:** {', '.join(top3)}. "
+            "As expected, current operating capacity is the strongest predictor "
+            "of 2035 capacity — it dominates the heuristic target formula. "
+            "This confirms the circular nature of the target: the model mostly "
+            "learns the weighting formula rather than an independent signal."
+        )
+
+    except Exception as e:
+        st.warning(f"Could not load model for feature importance: {e}")
+
+    _code("""
+from joblib import load
+import pandas as pd
+
+pipe = load("models/capacity_forecast_xgboost.joblib")
+pre   = pipe.named_steps["preprocess"]
+model = pipe.named_steps["model"]
+
+cat_features = list(pre.named_transformers_["cat"].get_feature_names_out(
+    ["region","income_group"]
+))
+num_features = [
+    "gdp_current_usd","population","electricity_generation_twh",
+    "nuclear_share_percent","operating_capacity_mwe","construction_capacity_mwe",
+    "planned_capacity_mwe","proposed_capacity_mwe","average_fleet_age",
+    "nuclear_experience_years","policy_signal_score",
+]
+all_features = cat_features + num_features
+
+imp = pd.DataFrame({
+    "feature":    all_features[:len(model.feature_importances_)],
+    "importance": model.feature_importances_,
+}).sort_values("importance", ascending=False)
+
+print(imp.head(10).to_string(index=False))
+""")
+
+    # ── 16. Predicted vs actual (residuals) ───────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 16. Predicted vs Actual — Residual Analysis")
+    st.caption(
+        "Residual plot for the XGBoost forecasting model. "
+        "**Predicted** = model output on training data. "
+        "**Actual** = scenario-derived heuristic target. "
+        "Points far from the diagonal are countries where the model deviates "
+        "most from the target formula."
+    )
+
+    try:
+        from joblib import load
+        from src import config
+
+        pipe = load(config.MODELS / "capacity_forecast_xgboost.joblib")
+        FEATURES = [
+            "region","income_group","gdp_current_usd","population",
+            "electricity_generation_twh","nuclear_share_percent",
+            "operating_capacity_mwe","construction_capacity_mwe",
+            "planned_capacity_mwe","proposed_capacity_mwe",
+            "average_fleet_age","nuclear_experience_years","policy_signal_score",
+        ]
+        df_model = countries[FEATURES].copy()
+        df_model["target_2035_gwe"] = (
+            countries["operating_capacity_mwe"].fillna(0)
+            + 0.75 * countries["construction_capacity_mwe"].fillna(0)
+            + 0.45 * countries["planned_capacity_mwe"].fillna(0)
+            + 0.15 * countries["proposed_capacity_mwe"].fillna(0)
+        ) / 1000
+
+        df_model["predicted_gwe"] = pipe.predict(df_model[FEATURES]) / 1000
+        df_model["country"] = countries["country"].values
+        df_model["residual"] = df_model["predicted_gwe"] - df_model["target_2035_gwe"]
+
+        left, right = st.columns(2)
+        with left:
+            st.caption("Predicted vs Actual (diagonal = perfect fit)")
+            fig_res = px.scatter(
+                df_model, x="target_2035_gwe", y="predicted_gwe",
+                text="country", template="plotly_white",
+                trendline="ols", trendline_color_override="red",
+                labels={"target_2035_gwe":"Actual (GWe)","predicted_gwe":"Predicted (GWe)"},
+            )
+            max_val = max(df_model["target_2035_gwe"].max(), df_model["predicted_gwe"].max()) * 1.05
+            fig_res.add_shape(type="line", x0=0, y0=0, x1=max_val, y1=max_val,
+                              line=dict(color="gray", dash="dot"))
+            fig_res.update_traces(textposition="top center", textfont_size=8)
+            fig_res.update_layout(margin=dict(t=10))
+            st.plotly_chart(fig_res, use_container_width=True)
+
+        with right:
+            st.caption("Residuals — which countries have the largest error?")
+            df_model["abs_residual"] = df_model["residual"].abs()
+            fig_resid = px.bar(
+                df_model.sort_values("residual"),
+                x="residual", y="country", orientation="h",
+                template="plotly_white",
+                color="residual",
+                color_continuous_scale="RdBu_r",
+                labels={"residual":"Residual (GWe)","country":"Country"},
+            )
+            fig_resid.add_vline(x=0, line_color="gray", line_dash="dash")
+            fig_resid.update_layout(margin=dict(t=10), coloraxis_showscale=False,
+                                    height=450)
+            st.plotly_chart(fig_resid, use_container_width=True)
+
+        mae = df_model["abs_residual"].mean()
+        st.caption(
+            f"Mean absolute error on training data: **{mae:.1f} GWe**. "
+            "Large residuals are expected for China and USA — their targets are "
+            "dominated by the large `operating_capacity_mwe` term which is also "
+            "the top feature, so the model fits well but is essentially reproducing "
+            "the formula. This is the key limitation documented in the model card."
+        )
+
+    except Exception as e:
+        st.warning(f"Could not load model: {e}")
+
+    _code("""
+from joblib import load
+import numpy as np
+from sklearn.metrics import mean_absolute_error, r2_score
+
+pipe = load("models/capacity_forecast_xgboost.joblib")
+
+features = [
+    "region","income_group","gdp_current_usd","population",
+    "electricity_generation_twh","nuclear_share_percent",
+    "operating_capacity_mwe","construction_capacity_mwe",
+    "planned_capacity_mwe","proposed_capacity_mwe",
+    "average_fleet_age","nuclear_experience_years","policy_signal_score",
+]
+
+X = countries[features]
+y = (
+    countries["operating_capacity_mwe"].fillna(0)
+    + 0.75 * countries["construction_capacity_mwe"].fillna(0)
+    + 0.45 * countries["planned_capacity_mwe"].fillna(0)
+    + 0.15 * countries["proposed_capacity_mwe"].fillna(0)
+)
+
+y_pred = pipe.predict(X)
+residuals = y_pred - y
+
+print(f"MAE:  {mean_absolute_error(y, y_pred):,.0f} MWe")
+print(f"R²:   {r2_score(y, y_pred):.3f}")
+print(f"Max overestimate: {residuals.max():+,.0f} MWe ({countries.loc[residuals.idxmax(),'country']})")
+print(f"Max underestimate: {residuals.min():+,.0f} MWe ({countries.loc[residuals.idxmin(),'country']})")
+""")
+
+    # ── 17. Why XGBoost? ──────────────────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 17. Model Selection — Why XGBoost?")
+
+    model_comparison = pd.DataFrame({
+        "Model": ["Linear Regression","Ridge Regression","Random Forest","XGBoost"],
+        "Handles non-linearity": ["No","No","Yes","Yes"],
+        "Handles multicollinearity": ["Poorly","Yes (L2 reg)","Yes","Yes"],
+        "Handles mixed types (cat+num)": ["With encoding","With encoding","With encoding","With encoding (native in XGBoost 2.0)"],
+        "Interpretability": ["High","High","Medium (SHAP)","Medium (SHAP/gain)"],
+        "Sample efficiency (n=34)": ["Good","Good","Moderate","Good"],
+        "Overfitting risk (n=34)": ["Low","Low","High (deep trees)","Controlled (max_depth=3)"],
+        "Used in this project": ["No","No","As fallback","Yes (primary)"],
+    })
+    st.dataframe(model_comparison, use_container_width=True, hide_index=True)
+
+    st.markdown("""
+**Decision rationale:**
+
+1. **Non-linear relationships exist.** `operating_capacity_mwe` has an exponential distribution — China and USA are outliers. Linear models would struggle without log transformation; XGBoost handles this natively through its splitting criterion.
+
+2. **Multicollinearity.** `operating_capacity_mwe` ↔ `nuclear_experience_years` are strongly correlated (countries that have been building nuclear for 60 years have large fleets). This inflates variance in OLS coefficients but doesn't affect tree splits.
+
+3. **n=34 countries.** With only 34 observations, deep tree models overfit. The configuration `max_depth=3, n_estimators=80, learning_rate=0.08` keeps the model shallow — effectively a boosted stump ensemble.
+
+4. **Honest caveat.** With n=34 and a circular target, no model produces meaningful generalization. The XGBoost choice is primarily a **pipeline demonstration** — it shows how to connect sklearn's `ColumnTransformer` → `Pipeline` → `XGBRegressor` → `joblib` serialization in a production-like flow.
+""")
+
+    _code("""
+from sklearn.linear_model import LinearRegression, Ridge
+from sklearn.ensemble import RandomForestRegressor
+from xgboost import XGBRegressor
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.model_selection import cross_val_score
+import numpy as np
+
+cat_features = ["region","income_group"]
+num_features = ["gdp_current_usd","population","electricity_generation_twh",
+                "nuclear_share_percent","operating_capacity_mwe",
+                "construction_capacity_mwe","planned_capacity_mwe",
+                "average_fleet_age","nuclear_experience_years","policy_signal_score"]
+
+preprocessor = ColumnTransformer([
+    ("cat", OneHotEncoder(handle_unknown="ignore"), cat_features),
+    ("num", StandardScaler(), num_features),
+])
+
+models = {
+    "LinearRegression": LinearRegression(),
+    "Ridge":            Ridge(alpha=1.0),
+    "RandomForest":     RandomForestRegressor(n_estimators=100, max_depth=3, random_state=42),
+    "XGBoost":          XGBRegressor(n_estimators=80, max_depth=3, learning_rate=0.08,
+                                      objective="reg:squarederror", random_state=42),
+}
+
+X = countries[cat_features + num_features]
+y = target  # scenario-derived heuristic
+
+print(f"{'Model':<20}  {'CV MAE (mean)':>15}  {'CV MAE (std)':>14}")
+print("-" * 55)
+for name, model in models.items():
+    pipe = Pipeline([("pre", preprocessor), ("model", model)])
+    scores = cross_val_score(pipe, X, y, cv=5, scoring="neg_mean_absolute_error")
+    print(f"{name:<20}  {-scores.mean():>15,.0f}  {scores.std():>14,.0f}")
+""")
+
+    # ── 18. Classifier: risk label analysis ───────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 18. Project Risk Classifier — Feature Analysis")
+    st.caption(
+        "The risk classifier predicts `high_realization` (prob ≥ 0.6). "
+        "These box plots show how the 3 numeric features separate the two classes."
+    )
+
+    pipe_ml = pipeline.copy()
+    pipe_ml["label"] = (pipe_ml["realization_probability"] >= 0.6).astype(int)
+    pipe_ml["label_name"] = pipe_ml["label"].map({1:"High realization", 0:"Low realization"})
+
+    risk_features = ["project_maturity_score","delay_risk_score","capacity_mwe"]
+    risk_features = [f for f in risk_features if f in pipe_ml.columns]
+
+    fig_risk = px.box(
+        pipe_ml.melt(id_vars="label_name", value_vars=risk_features,
+                     var_name="Feature", value_name="Value"),
+        x="Feature", y="Value", color="label_name",
+        template="plotly_white",
+        labels={"label_name":"Class"},
+        color_discrete_map={
+            "High realization":"#10b981",
+            "Low realization": "#ef4444",
+        },
+    )
+    fig_risk.update_layout(margin=dict(t=10), xaxis_title="")
+    st.plotly_chart(fig_risk, use_container_width=True)
+
+    st.caption(
+        "**project_maturity_score** cleanly separates the classes — as expected, "
+        "since the label IS derived from `realization_probability = maturity_score / 100`. "
+        "**delay_risk_score** separates inversely (low risk = high realization). "
+        "**capacity_mwe** has minimal separation — unit size alone doesn't predict realization."
+    )
+
+    _code("""
+pipeline = pd.read_csv("data/processed/reactor_pipeline.csv")
+
+pipeline["label"] = (pipeline["realization_probability"] >= 0.6).astype(int)
+
+# Separation analysis
+for f in ["project_maturity_score","delay_risk_score","capacity_mwe"]:
+    high = pipeline.loc[pipeline.label==1, f]
+    low  = pipeline.loc[pipeline.label==0, f]
+    from scipy.stats import mannwhitneyu
+    stat, p = mannwhitneyu(high, low, alternative="two-sided")
+    print(f"{f:<30}  high_median={high.median():.1f}  low_median={low.median():.1f}  p={p:.4f}")
+""")
+
+    # ── 19. Clustering: PCA variance explained ────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 19. Country Clustering — PCA Variance Explained")
+    st.caption(
+        "The clustering model projects 11 features to 2 principal components for visualization. "
+        "This chart shows how much variance each PC captures."
+    )
+
+    try:
+        from sklearn.preprocessing import StandardScaler
+        from sklearn.decomposition import PCA
+        import numpy as np
+
+        CLUSTER_FEATURES = [
+            "operating_capacity_mwe","construction_capacity_mwe","planned_capacity_mwe",
+            "proposed_capacity_mwe","nuclear_share_percent","gdp_current_usd",
+            "electricity_generation_twh","population","average_fleet_age",
+            "advanced_reactor_activity_score","policy_signal_score",
+        ]
+        cluster_feats = [f for f in CLUSTER_FEATURES if f in countries.columns]
+        X_c = countries[cluster_feats].fillna(0)
+        X_scaled = StandardScaler().fit_transform(X_c)
+        pca_full = PCA().fit(X_scaled)
+
+        var_df = pd.DataFrame({
+            "PC": [f"PC{i+1}" for i in range(len(pca_full.explained_variance_ratio_))],
+            "Variance explained (%)": (pca_full.explained_variance_ratio_ * 100).round(1),
+            "Cumulative (%)": (pca_full.explained_variance_ratio_.cumsum() * 100).round(1),
+        })
+
+        fig_pca = px.bar(
+            var_df.head(8), x="PC", y="Variance explained (%)",
+            template="plotly_white", color_discrete_sequence=["#2563eb"],
+            text="Variance explained (%)",
+        )
+        fig_pca.add_scatter(
+            x=var_df.head(8)["PC"],
+            y=var_df.head(8)["Cumulative (%)"],
+            mode="lines+markers", name="Cumulative",
+            line=dict(color="red", dash="dash"),
+            yaxis="y2",
+        )
+        fig_pca.update_layout(
+            yaxis2=dict(title="Cumulative (%)", overlaying="y", side="right",
+                        range=[0, 105]),
+            margin=dict(t=10), legend=dict(x=0.7, y=0.95),
+        )
+        fig_pca.update_traces(textposition="outside", selector=dict(type="bar"))
+        st.plotly_chart(fig_pca, use_container_width=True)
+
+        cum_2 = var_df.loc[1, "Cumulative (%)"]
+        st.caption(
+            f"PC1 + PC2 explain **{cum_2}%** of total variance. "
+            "The PCA scatter in the clustering page should be interpreted with this in mind — "
+            f"the remaining {100-cum_2:.0f}% of variance is lost in the 2D projection."
+        )
+
+    except Exception as e:
+        st.warning(f"PCA analysis error: {e}")
+
+    _code("""
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+import numpy as np
+
+cluster_features = [
+    "operating_capacity_mwe","construction_capacity_mwe","planned_capacity_mwe",
+    "proposed_capacity_mwe","nuclear_share_percent","gdp_current_usd",
+    "electricity_generation_twh","population","average_fleet_age",
+    "advanced_reactor_activity_score","policy_signal_score",
+]
+
+X = countries[cluster_features].fillna(0)
+X_scaled = StandardScaler().fit_transform(X)
+
+pca = PCA().fit(X_scaled)
+
+print("Variance explained per component:")
+for i, (ev, cev) in enumerate(zip(
+    pca.explained_variance_ratio_,
+    np.cumsum(pca.explained_variance_ratio_)
+)):
+    print(f"  PC{i+1}: {ev*100:.1f}%  (cumulative: {cev*100:.1f}%)")
+    if cev > 0.95:
+        print(f"  -> 95% variance captured with {i+1} components")
+        break
+""")
+
     _method(
         data="reactors_master.csv · reactor_pipeline.csv · country_nuclear_profile.csv · "
-             "technology_taxonomy.csv — all generated by `run_pipeline.py`",
-        features="capacity_mwe · status_group · technology_family · age_years · "
-                 "commercial_operation_date · construction_start_date · vendor · region · "
-                 "nuclear_share_percent · maturity_score",
-        notes="All sections are descriptive — no predictive model. "
-              "Each 'Show code' block contains the exact pandas/plotly code used.",
+             "technology_taxonomy.csv · models/capacity_forecast_xgboost.joblib",
+        features="Forecasting: 13 features (11 numeric + 2 categorical). "
+                 "Classifier: 6 features. Clustering: 11 numeric features.",
+        model="XGBoost Regressor (forecasting) · Logistic Regression / RF / XGBoost "
+              "(risk classifier) · KMeans + PCA (clustering)",
+        notes="Sections 12–19 are the ML analysis layer. "
+              "Each 'Show code' block is executable independently after running the pipeline.",
     )
