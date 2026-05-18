@@ -1,0 +1,35 @@
+country,region,income_group,gdp_current_usd,gdp_per_capita,population,electricity_generation_twh,nuclear_share_fraction,nuclear_experience_years,historical_completed_reactors
+Argentina,Latin America,Upper middle income,646075000000,13935,46200000,145,0.07,50,3
+Armenia,Eurasia,Upper middle income,19518000000,6474,3000000,7,0.28,44,1
+Belgium,Europe,High income,584697000000,50114,11600000,85,0.47,68,7
+Brazil,Latin America,Upper middle income,2173666000000,10109,216000000,690,0.02,42,2
+Bulgaria,Europe,Upper middle income,89580000000,13326,6500000,45,0.35,44,2
+Canada,North America,High income,2140086000000,53372,40000000,600,0.15,60,19
+China,Asia,Upper middle income,17794782000000,12614,1410000000,9450,0.05,41,65
+Czech Republic,Europe,High income,340459000000,31820,10900000,85,0.37,36,6
+Egypt,Africa,Lower middle income,395926000000,3698,110000000,210,0.0,0,0
+Finland,Europe,High income,300588000000,53654,5600000,90,0.3,50,5
+France,Europe,High income,3030904000000,44460,68100000,485,0.65,68,56
+Germany,Europe,High income,4082000000000,48718,84300000,545,0.0,62,0
+India,Asia,Lower middle income,3549919000000,2485,1428000000,1900,0.03,30,22
+Japan,Asia,High income,4212945000000,33834,124500000,980,0.08,50,33
+Mexico,Latin America,Upper middle income,1365000000000,10624,130000000,310,0.04,34,2
+Netherlands,Europe,High income,999000000000,57768,17900000,115,0.04,55,1
+Pakistan,Asia,Lower middle income,338000000000,1394,236000000,160,0.05,30,6
+Poland,Europe,High income,811229000000,22112,36800000,175,0.0,0,0
+Romania,Europe,Upper middle income,348000000000,17862,19000000,65,0.19,30,2
+Russia,Eurasia,Upper middle income,2021420000000,13817,143800000,1170,0.2,44,37
+Slovakia,Europe,High income,132000000000,24192,5500000,30,0.57,36,5
+South Africa,Africa,Upper middle income,380000000000,6193,60400000,235,0.06,44,2
+South Korea,Asia,High income,1712793000000,33147,51700000,590,0.28,46,26
+Spain,Europe,High income,1582000000000,32788,48400000,250,0.2,50,7
+Sweden,Europe,High income,581000000000,55360,10500000,140,0.3,50,6
+Switzerland,Europe,High income,905000000000,103199,8700000,65,0.33,55,4
+Turkey,Europe,Upper middle income,1108022000000,12985,85300000,335,0.0,0,0
+UAE,Middle East,High income,504173000000,51426,9800000,160,0.2,4,4
+Ukraine,Eurasia,Lower middle income,173000000000,4500,37000000,150,0.55,36,15
+United Kingdom,Europe,High income,3340032000000,48913,68300000,315,0.14,68,9
+United States,North America,High income,27360935000000,81695,334900000,4300,0.18,55,93
+Bangladesh,Asia,Lower middle income,437415000000,2688,171000000,95,0.0,0,0
+Hungary,Europe,High income,185000000000,18728,9700000,43,0.48,40,4
+Taiwan,Asia,High income,751000000000,32000,23400000,235,0.12,50,3

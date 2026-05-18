@@ -1,0 +1,7 @@
+reactor_type,technology_family,maturity_score
+SFR,Fast Reactor,49.2
+HTGR,Gas-Cooled Reactor,43.2
+LFR,Fast Reactor,25.0
+MSR,Molten Salt Reactor,22.0
+Microreactor,Microreactor,20.0
+Thorium concepts,Thorium Fuel Cycle,18.0

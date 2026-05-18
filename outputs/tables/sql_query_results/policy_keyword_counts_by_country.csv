@@ -1,0 +1,101 @@
+country,topic,count
+Argentina,Decarbonization,0
+Argentina,Delay Risk,0
+Argentina,Energy Security,0
+Argentina,Fast Reactor,0
+Argentina,Financing,0
+Argentina,Gen IV,0
+Argentina,Industrial Heat,0
+Argentina,Molten Salt,0
+Argentina,SMR,1
+Argentina,Thorium,0
+Canada,Decarbonization,1
+Canada,Delay Risk,1
+Canada,Energy Security,1
+Canada,Fast Reactor,0
+Canada,Financing,0
+Canada,Gen IV,0
+Canada,Industrial Heat,0
+Canada,Molten Salt,0
+Canada,SMR,1
+Canada,Thorium,0
+China,Decarbonization,0
+China,Delay Risk,0
+China,Energy Security,1
+China,Fast Reactor,1
+China,Financing,0
+China,Gen IV,1
+China,Industrial Heat,0
+China,Molten Salt,0
+China,SMR,0
+China,Thorium,0
+France,Decarbonization,1
+France,Delay Risk,1
+France,Energy Security,0
+France,Fast Reactor,0
+France,Financing,0
+France,Gen IV,0
+France,Industrial Heat,0
+France,Molten Salt,0
+France,SMR,0
+France,Thorium,0
+India,Decarbonization,0
+India,Delay Risk,0
+India,Energy Security,0
+India,Fast Reactor,0
+India,Financing,0
+India,Gen IV,0
+India,Industrial Heat,0
+India,Molten Salt,0
+India,SMR,0
+India,Thorium,1
+Poland,Decarbonization,0
+Poland,Delay Risk,1
+Poland,Energy Security,1
+Poland,Fast Reactor,0
+Poland,Financing,1
+Poland,Gen IV,0
+Poland,Industrial Heat,0
+Poland,Molten Salt,0
+Poland,SMR,0
+Poland,Thorium,0
+Russia,Decarbonization,0
+Russia,Delay Risk,0
+Russia,Energy Security,0
+Russia,Fast Reactor,1
+Russia,Financing,0
+Russia,Gen IV,1
+Russia,Industrial Heat,0
+Russia,Molten Salt,0
+Russia,SMR,0
+Russia,Thorium,0
+South Korea,Decarbonization,0
+South Korea,Delay Risk,0
+South Korea,Energy Security,0
+South Korea,Fast Reactor,0
+South Korea,Financing,0
+South Korea,Gen IV,0
+South Korea,Industrial Heat,1
+South Korea,Molten Salt,0
+South Korea,SMR,1
+South Korea,Thorium,0
+United Kingdom,Decarbonization,1
+United Kingdom,Delay Risk,1
+United Kingdom,Energy Security,1
+United Kingdom,Fast Reactor,0
+United Kingdom,Financing,0
+United Kingdom,Gen IV,0
+United Kingdom,Industrial Heat,0
+United Kingdom,Molten Salt,0
+United Kingdom,SMR,1
+United Kingdom,Thorium,0
+United States,Decarbonization,1
+United States,Delay Risk,1
+United States,Energy Security,0
+United States,Fast Reactor,0
+United States,Financing,0
+United States,Gen IV,1
+United States,Industrial Heat,1
+United States,Molten Salt,0
+United States,SMR,1
+United States,Thorium,0

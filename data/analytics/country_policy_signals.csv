@@ -1,0 +1,11 @@
+country,Decarbonization,Delay Risk,Energy Security,Fast Reactor,Financing,Gen IV,Industrial Heat,Molten Salt,SMR,Thorium
+Argentina,0,0,0,0,0,0,0,0,1,0
+Canada,1,1,1,0,0,0,0,0,1,0
+China,0,0,1,1,0,1,0,0,0,0
+France,1,1,0,0,0,0,0,0,0,0
+India,0,0,0,0,0,0,0,0,0,1
+Poland,0,1,1,0,1,0,0,0,0,0
+Russia,0,0,0,1,0,1,0,0,0,0
+South Korea,0,0,0,0,0,0,1,0,1,0
+United Kingdom,1,1,1,0,0,0,0,0,1,0
+United States,1,1,0,0,0,1,1,0,1,0

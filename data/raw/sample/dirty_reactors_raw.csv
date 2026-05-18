@@ -1,0 +1,445 @@
+reactor_name,plant_name,unit_name,country,status,reactor_type,design_name,net_capacity_mwe,gross_capacity_mwe,construction_start_date,grid_connection_date,commercial_operation_date,shutdown_date,latitude,longitude,owner,operator,vendor,source_name
+Atucha-1,Atucha,Unit 1,Argentina,operating,PHWR,PHWR-357,335,362,1968-06-01,1974-03-19,1974-06-24,,-33.967,-59.205,NASA,NA-SA,Siemens/CNEA,IAEA-PRIS/WNA-sample
+Atucha-2,Atucha,Unit 2,Argentina,operating,PHWR,PHWR-745,693,745,1981-07-14,2014-06-02,2014-05-26,,-33.967,-59.205,NASA,NA-SA,CNEA/INVAP,IAEA-PRIS/WNA-sample
+Embalse,Embalse,Unit 1,Argentina,operating,PHWR,CANDU-6,648,683,1974-04-01,1983-11-15,1984-04-01,,-32.236,-64.438,NASA,NA-SA,AECL,IAEA-PRIS/WNA-sample
+CAREM-25,Atucha,CAREM,Argentina,Under-Construction ,SMR-LWR,CAREM,27,30,2014-02-08,,,,-33.967,-59.205,CNEA,CNEA,CNEA,IAEA-PRIS/WNA-sample
+Metsamor-2,Metsamor,Unit 2,Armenia,operating,VVER,VVER-440,376,408,1975-07-01,1980-01-05,1980-05-03,,40.18,44.149,ANPP,ANPP,AtomEnergoProject,IAEA-PRIS/WNA-sample
+Doel-3,Doel,Unit 3,Belgium,operating,PWR,PWR-3loop,1006,1056,1975-01-01,1982-06-24,1982-10-01,,51.325,4.259,Electrabel,Engie,Framatome,IAEA-PRIS/WNA-sample
+Doel-4,Doel,Unit 4,Belgium,operating,PWR,PWR-3loop,1037,1084,1978-12-01,1985-04-09,1985-07-01,,51.325,4.259,Electrabel,Engie,Framatome,IAEA-PRIS/WNA-sample
+Tihange-2,Tihange,Unit 2,Belgium,operating,PWR,PWR-3loop,1008,1055,1976-04-01,1982-10-13,1983-06-01,,50.534,5.271,Electrabel,Engie,Framatome,IAEA-PRIS/WNA-sample
+Tihange-3,Tihange,Unit 3,Belgium,operating,PWR,PWR-3loop,1046,1089,1978-11-01,1985-06-28,1985-09-01,,50.534,5.271,Electrabel,Engie,Framatome,IAEA-PRIS/WNA-sample
+Angra-1,Angra,Unit 1,Brazil,operating,PWR,PWR,640,657,1971-05-01,1982-03-01,1985-04-22,,-23.008,-44.458,Eletronuclear,Eletronuclear,Westinghouse,IAEA-PRIS/WNA-sample
+Angra-2,Angra,Unit 2,Brazil,operating,PWR,PWR,1350,1400,1976-01-01,2000-07-21,2001-02-01,,-23.008,-44.458,Eletronuclear,Eletronuclear,Siemens/KWU,IAEA-PRIS/WNA-sample
+Angra-3,Angra,Unit 3,Brazil,planned,PWR,PWR,1405,1450,2010-06-01,,,,-23.008,-44.458,Eletronuclear,Eletronuclear,Siemens/Areva,IAEA-PRIS/WNA-sample
+Kozloduy-5,Kozloduy,Unit 5,Bulgaria,operating,VVER,VVER-1000,,1000,1980-07-01,1988-11-23,1989-12-24,,43.797,23.786,Kozloduy NPP,Kozloduy NPP,Rosatom,IAEA-PRIS/WNA-sample
+Kozloduy-6,Kozloduy,Unit 6,Bulgaria,operating,VVER,VVER-1000,953,1000,1982-04-01,1993-08-30,1993-12-30,,43.797,23.786,Kozloduy NPP,Kozloduy NPP,Rosatom,IAEA-PRIS/WNA-sample
+Belene-1,Belene,Unit 1,Bulgaria,proposed,VVER,VVER-1000,1000,1060,,,,,43.626,25.169,BEH,BEH,Rosatom,IAEA-PRIS/WNA-sample
+Bruce-3,Bruce,Unit 3,Canada,operating,PHWR,CANDU-6,769,817,1967-06-01,1977-02-01,1978-02-01,,44.326,-81.593,Bruce Power,Bruce Power,AECL,IAEA-PRIS/WNA-sample
+Bruce-4,Bruce,Unit 4,Canada,operating,PHWR,CANDU-6,769,817,1967-06-01,1978-12-15,1979-01-18,,44.326,-81.593,Bruce Power,Bruce Power,AECL,IAEA-PRIS/WNA-sample
+Bruce-5,Bruce,Unit 5,Canada,operating,PHWR,CANDU-6,817,872,1978-06-01,1984-12-29,1985-03-01,,44.326,-81.593,Bruce Power,Bruce Power,AECL,IAEA-PRIS/WNA-sample
+Bruce-6,Bruce,Unit 6,Canada,operating,PHWR,CANDU-6,817,872,1978-09-01,1984-09-14,1984-09-14,,44.326,-81.593,Bruce Power,Bruce Power,AECL,IAEA-PRIS/WNA-sample
+Bruce-7,Bruce,Unit 7,Canada,operating,PHWR,CANDU-6,817,872,1979-05-01,1986-04-10,1986-04-10,,44.326,-81.593,Bruce Power,Bruce Power,AECL,IAEA-PRIS/WNA-sample
+Bruce-8,Bruce,Unit 8,Canada,operating,PHWR,CANDU-6,817,872,1979-08-01,1987-05-22,1987-05-22,,44.326,-81.593,Bruce Power,Bruce Power,AECL,IAEA-PRIS/WNA-sample
+Darlington-1,Darlington,Unit 1,Canada,operating,PHWR,CANDU-6,878,935,1981-04-01,1990-11-14,1992-11-14,,43.872,-78.719,OPG,OPG,AECL,IAEA-PRIS/WNA-sample
+Darlington-2,Darlington,Unit 2,Canada,operating,PHWR,CANDU-6,878,935,1981-09-01,1990-01-09,1990-10-09,,43.872,-78.719,OPG,OPG,AECL,IAEA-PRIS/WNA-sample
+Darlington-3,Darlington,Unit 3,Canada,operating,PHWR,CANDU-6,878,935,1984-09-01,1992-02-01,1993-02-14,,43.872,-78.719,OPG,OPG,AECL,IAEA-PRIS/WNA-sample
+Darlington-4,Darlington,Unit 4,Canada,operating,PHWR,CANDU-6,878,935,1985-07-01,1993-06-14,1993-06-14,,43.872,-78.719,OPG,OPG,AECL,IAEA-PRIS/WNA-sample
+Darlington-SMR-1,Darlington,BWRX-300,Canada,planned,SMR-LWR,BWRX-300,300,300,,,,,43.872,-78.719,OPG,OPG,GE Hitachi,IAEA-PRIS/WNA-sample
+Daya Bay-1,Daya Bay,Unit 1,China,operating,PWR,M310,944,984,1987-08-07,1993-08-31,1994-02-01,,22.598,114.538,CGNPC,CGN,Framatome,IAEA-PRIS/WNA-sample
+Daya Bay-2,Daya Bay,Unit 2,China,operating,PWR,M310,944,984,1988-04-07,1994-02-07,1994-05-06,,22.598,114.538,CGNPC,CGN,Framatome,IAEA-PRIS/WNA-sample
+Ling Ao-1,Ling Ao,Unit 1,China,operating,PWR,CPR-1000,990,1036,1997-05-15,2002-05-28,2002-05-28,,22.598,114.538,CGNPC,CGN,Framatome,IAEA-PRIS/WNA-sample
+Ling Ao-2,Ling Ao,Unit 2,China,operating,PWR,CPR-1000,990,1036,1997-11-01,2003-01-08,2003-01-08,,22.598,114.538,CGNPC,CGN,Framatome,IAEA-PRIS/WNA-sample
+Qinshan-1,Qinshan,Unit 1,China,operating,PWR,CNP-300,300,320,1985-03-20,1991-12-15,1994-04-01,,30.437,120.954,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Qinshan-2-1,Qinshan II,Unit 1,China,operating,PWR,CNP-600,650,688,1996-06-02,2002-02-06,2002-04-15,,30.437,120.954,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Sanmen-1,Sanmen,Unit 1,China,operating,PWR,AP1000,1157,1250,2009-04-19,2018-06-30,2018-09-21,,29.101,121.641,CNNC,CNNC,Westinghouse,IAEA-PRIS/WNA-sample
+Sanmen-2,Sanmen,Unit 2,China,operating,PWR,AP1000,1157,1250,2009-12-15,2018-08-17,2018-11-05,,29.101,121.641,CNNC,CNNC,Westinghouse,IAEA-PRIS/WNA-sample
+Haiyang-1,Haiyang,Unit 1,China,operating,PWR,AP1000,1157,1250,2009-09-26,2018-10-22,2018-11-22,,36.776,121.461,SPNC,SPNC,Westinghouse,IAEA-PRIS/WNA-sample
+Haiyang-2,Haiyang,Unit 2,China,operating,PWR,AP1000,1157,1250,2010-06-20,2019-01-09,2019-05-09,,36.776,121.461,SPNC,SPNC,Westinghouse,IAEA-PRIS/WNA-sample
+Taishan-1,Taishan,Unit 1,China,operating,PWR,EPR,1660,1750,2009-10-28,2018-06-29,2018-12-13,,21.918,112.981,TNPJVC,CGN,Framatome,IAEA-PRIS/WNA-sample
+Taishan-2,Taishan,Unit 2,China,operating,PWR,EPR,1660,1750,2010-04-15,2019-06-23,2019-09-07,,21.918,112.981,TNPJVC,CGN,Framatome,IAEA-PRIS/WNA-sample
+Tianwan-1,Tianwan,Unit 1,China,operating,VVER,VVER-1000,1060,1126,2000-10-20,2006-05-12,2007-05-17,,34.692,119.455,JNPC,JNPC,Rosatom,IAEA-PRIS/WNA-sample
+Tianwan-2,Tianwan,Unit 2,China,operating,VVER,VVER-1000,1060,1126,2000-10-20,2007-08-16,2007-08-16,,34.692,119.455,JNPC,JNPC,Rosatom,IAEA-PRIS/WNA-sample
+Tianwan-3,Tianwan,Unit 3,China,operating,VVER,VVER-1000,1060,1126,2012-12-27,2018-02-15,2018-02-15,,34.692,119.455,JNPC,JNPC,Rosatom,IAEA-PRIS/WNA-sample
+Tianwan-4,Tianwan,Unit 4,China,operating,VVER,VVER-1000,1060,1126,2013-09-27,2018-12-22,2018-12-22,,34.692,119.455,JNPC,JNPC,Rosatom,IAEA-PRIS/WNA-sample
+Yangjiang-1,Yangjiang,Unit 1,China,operating,PWR,CPR-1000,1086,1140,2008-12-16,2013-12-27,2014-03-25,,21.705,111.606,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Yangjiang-5,Yangjiang,Unit 5,China,operating,PWR,ACPR-1000,1086,1140,2013-09-18,2018-07-21,2018-07-21,,21.705,111.606,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Hongyanhe-1,Hongyanhe,Unit 1,China,operating,PWR,CPR-1000,1061,1119,2007-08-18,2013-02-17,2013-06-06,,39.794,121.474,CGNPC/CNOOC,CGN,CGN,IAEA-PRIS/WNA-sample
+Hongyanhe-5,Hongyanhe,Unit 5,China,operating,PWR,ACPR-1000,1061,1119,2015-03-29,2021-07-24,2021-09-08,,39.794,121.474,CGNPC/CNOOC,CGN,CGN,IAEA-PRIS/WNA-sample
+Fangchenggang-3,Fangchenggang,Unit 3,China,operating,PWR,HPR-1000,1000,1080,2015-12-24,2022-03-24,2022-06-10,,21.483,108.14,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Zhangzhou-1,Zhangzhou,Unit 1,China,under construction,PWR,HPR-1000,1126,1212,2019-10-16,,,,24.1,117.855,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Zhangzhou-2,Zhangzhou,Unit 2,China,under construction,PWR,HPR-1000,1126,1212,2020-09-04,,,,24.1,117.855,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Tianwan-7,Tianwan,Unit 7,China,under construction,VVER,VVER-1200,1200,1250,2021-05-19,,,,34.692,119.455,JNPC,JNPC,Rosatom,IAEA-PRIS/WNA-sample
+Xudabao-3,Xudabao,Unit 3,China,under construction,VVER,VVER-1200,1200,1250,2021-07-19,,,,40.588,120.285,CGNPC,CGN,Rosatom,IAEA-PRIS/WNA-sample
+Sanmen-3,Sanmen,Unit 3,China,under construction,PWR,AP1000,1157,1250,2022-07-21,,,,29.101,121.641,CNNC,CNNC,Westinghouse,IAEA-PRIS/WNA-sample
+Dukovany-1,Dukovany,Unit 1,Czech Republic,operating,VVER,VVER-440,440,500,1974-01-01,1985-03-22,1985-05-03,,49.088,16.147,CEZ,CEZ,Rosatom,IAEA-PRIS/WNA-sample
+Dukovany-3,Dukovany,Unit 3,Czech Republic,operating,VVER,VVER-440,440,500,1979-03-01,1986-12-17,1987-01-01,,49.088,16.147,CEZ,CEZ,Rosatom,IAEA-PRIS/WNA-sample
+Temelin-1,Temelin,Unit 1,Czech Republic,operating,VVER,VVER-1000,1000,1078,1987-11-01,2002-06-10,2002-12-10,,49.071,14.374,CEZ,CEZ,Rosatom,IAEA-PRIS/WNA-sample
+Temelin-2,Temelin,Unit 2,Czech Republic,operating,VVER,VVER-1000,1000,1078,1987-11-01,2002-12-18,2003-04-18,,49.071,14.374,CEZ,CEZ,Rosatom,IAEA-PRIS/WNA-sample
+El Dabaa-1,El Dabaa,Unit 1,Egypt,under construction,VVER,VVER-1200,1114,1200,2022-07-20,,,,31.041,28.497,NPPA,NPPA,Rosatom,IAEA-PRIS/WNA-sample
+El Dabaa-2,El Dabaa,Unit 2,Egypt,under construction,VVER,VVER-1200,1114,1200,2022-11-19,,,,31.041,28.497,NPPA,NPPA,Rosatom,IAEA-PRIS/WNA-sample
+El Dabaa-3,El Dabaa,Unit 3,Egypt,planned,VVER,VVER-1200,1114,1200,,,,,31.041,28.497,NPPA,NPPA,Rosatom,IAEA-PRIS/WNA-sample
+Loviisa-1,Loviisa,Unit 1,Finland,operating,VVER,VVER-440,496,535,1971-05-01,1977-02-09,1977-05-09,,60.404,26.37,Fortum,Fortum,IVO/Rosatom,IAEA-PRIS/WNA-sample
+Loviisa-2,Loviisa,Unit 2,Finland,operating,VVER,VVER-440,496,535,1972-08-01,1980-01-05,1981-01-05,,60.404,26.37,Fortum,Fortum,IVO/Rosatom,IAEA-PRIS/WNA-sample
+Olkiluoto-1,Olkiluoto,Unit 1,Finland,operating,BWR,BWR,880,910,1976-02-01,1978-09-02,1979-10-02,,61.235,21.445,TVO,TVO,ABB Atom,IAEA-PRIS/WNA-sample
+Olkiluoto-2,Olkiluoto,Unit 2,Finland,operating,BWR,BWR,890,920,1975-11-01,1980-02-10,1982-07-10,,61.235,21.445,TVO,TVO,ABB Atom,IAEA-PRIS/WNA-sample
+Olkiluoto-3,Olkiluoto,Unit 3,Finland,operating,PWR,EPR,1600,1720,2005-08-12,2022-03-12,2023-04-16,,61.235,21.445,TVO,TVO,Framatome,IAEA-PRIS/WNA-sample
+Civaux-1,Civaux,Unit 1,France,operating,PWR,N4,1495,1561,1988-10-15,1997-12-24,2002-01-24,,46.457,0.652,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Civaux-2,Civaux,Unit 2,France,operating,PWR,N4,1495,1561,1991-04-01,1999-12-23,2002-04-23,,46.457,0.652,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Cattenom-1,Cattenom,Unit 1,France,operating,PWR,P4,1300,1362,1979-11-01,1986-11-13,1987-04-01,,49.402,6.22,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Paluel-1,Paluel,Unit 1,France,operating,PWR,P4,1330,1382,1977-08-15,1985-06-10,1985-12-01,,49.855,-0.634,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Flamanville-1,Flamanville,Unit 1,France,operating,PWR,P4,1330,1382,1979-12-01,1985-12-04,1986-12-04,,49.536,-1.882,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Flamanville-3,Flamanville,Unit 3,France,operating,PWR,EPR,1630,1750,2007-12-03,2024-12-21,2025-01-01,,49.536,-1.882,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Bugey-4,Bugey,Unit 4,France,operating,PWR,CP1,880,937,1974-06-01,1979-03-11,1979-07-11,,45.797,5.272,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Blayais-1,Blayais,Unit 1,France,operating,PWR,CP1,910,951,1977-01-01,1981-06-12,1981-12-12,,45.255,-0.691,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Gravelines-1,Gravelines,Unit 1,France,operating,PWR,CP1,910,951,1975-02-01,1980-03-13,1980-11-25,,51.015,2.136,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Tricastin-1,Tricastin,Unit 1,France,operating,PWR,CP1,915,955,1974-11-01,1980-05-31,1980-12-01,,44.33,4.732,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Kakrapar-1,Kakrapar,Unit 1,India,operating,PHWR,PHWR-220,202,220,1984-12-01,1992-09-03,1993-05-06,,21.228,73.057,NPCIL,NPCIL,DAE,IAEA-PRIS/WNA-sample
+Kakrapar-3,Kakrapar,Unit 3,India,operating,PHWR,PHWR-700,640,700,2010-11-22,2022-07-10,2023-06-01,,21.228,73.057,NPCIL,NPCIL,DAE,IAEA-PRIS/WNA-sample
+Rajasthan-5,Rawatbhata,Unit 5,India,operating,PHWR,PHWR-220,202,220,2002-09-01,2009-12-04,2010-02-04,,24.874,75.583,NPCIL,NPCIL,NPCIL,IAEA-PRIS/WNA-sample
+Rajasthan-7,Rawatbhata,Unit 7,India,under construction,PHWR,PHWR-700,640,700,2011-09-18,,,,24.874,75.583,NPCIL,NPCIL,NPCIL,IAEA-PRIS/WNA-sample
+Kudankulam-1,Kudankulam,Unit 1,India,operating,VVER,VVER-1000,917,1000,2002-03-31,2013-10-22,2013-12-31,,8.169,77.713,NPCIL,NPCIL,Rosatom,IAEA-PRIS/WNA-sample
+Kudankulam-2,Kudankulam,Unit 2,India,operating,VVER,VVER-1000,917,1000,2002-07-04,2016-08-29,2017-03-31,,8.169,77.713,NPCIL,NPCIL,Rosatom,IAEA-PRIS/WNA-sample
+Kudankulam-3,Kudankulam,Unit 3,India,under construction,VVER,VVER-1000,917,1000,,,,,8.169,77.713,NPCIL,NPCIL,Rosatom,IAEA-PRIS/WNA-sample
+PFBR,Kalpakkam,PFBR,India,under construction,SFR,PFBR,500,500,2004-10-23,,,,12.552,80.17,BHAVINI,BHAVINI,BHAVINI,IAEA-PRIS/WNA-sample
+Mihama-3,Mihama,Unit 3,Japan,operating,PWR,PWR,826,896,1972-12-01,1976-02-25,1976-12-01,,35.704,135.962,KEPCO,KEPCO,Westinghouse,IAEA-PRIS/WNA-sample
+Takahama-3,Takahama,Unit 3,Japan,operating,PWR,PWR,870,912,1981-01-01,1985-01-17,1985-01-17,,35.524,135.508,KEPCO,KEPCO,Westinghouse,IAEA-PRIS/WNA-sample
+Takahama-4,Takahama,Unit 4,Japan,operating,PWR,PWR,870,912,1981-11-01,1985-06-05,1985-06-05,,35.524,135.508,KEPCO,KEPCO,Westinghouse,IAEA-PRIS/WNA-sample
+Ikata-3,Ikata,Unit 3,Japan,operating,PWR,PWR,846,890,1985-09-16,1994-03-22,1994-12-15,,33.489,132.32,Shikoku,Shikoku,Mitsubishi,IAEA-PRIS/WNA-sample
+Sendai-1,Sendai,Unit 1,Japan,operating,PWR,PWR,846,890,1979-11-01,1984-07-28,1984-07-28,,31.833,130.185,Kyushu,Kyushu,Mitsubishi,IAEA-PRIS/WNA-sample
+Onagawa-2,Onagawa,Unit 2,Japan,operating,BWR,BWR,796,825,1989-08-03,1994-12-23,1995-07-28,,38.402,141.5,Tohoku,Tohoku,Toshiba,IAEA-PRIS/WNA-sample
+Laguna Verde-1,Laguna Verde,Unit 1,Mexico,operating,BWR,BWR-5,680,750,1976-10-01,1988-07-29,1990-07-29,,19.72,-96.397,CFE,CFE,GE,IAEA-PRIS/WNA-sample
+Laguna Verde-2,Laguna Verde,Unit 2,Mexico,operating,BWR,BWR-5,674,750,1977-06-01,1994-11-10,1995-04-10,,19.72,-96.397,CFE,CFE,GE,IAEA-PRIS/WNA-sample
+Borssele-1,Borssele,Unit 1,Netherlands,operating,PWR,PWR,515,540,1969-07-01,1973-03-26,1973-10-26,,51.413,3.723,EPZ,EPZ,KWU,IAEA-PRIS/WNA-sample
+Karachi-2,Karachi,Unit 2,Pakistan,operating,PWR,HPR-1000,1100,1161,2015-08-20,2021-03-21,2021-05-21,,25.014,66.784,PAEC,PAEC,CNNC,IAEA-PRIS/WNA-sample
+Karachi-3,Karachi,Unit 3,Pakistan,operating,PWR,HPR-1000,1100,1161,2016-05-31,2022-03-21,2022-05-21,,25.014,66.784,PAEC,PAEC,CNNC,IAEA-PRIS/WNA-sample
+Chashma-1,Chashma,Unit 1,Pakistan,operating,PWR,CNP-300,300,325,1993-08-01,1999-09-13,2000-09-01,,32.393,71.463,PAEC,PAEC,CNNC,IAEA-PRIS/WNA-sample
+Chashma-2,Chashma,Unit 2,Pakistan,operating,PWR,CNP-300,300,325,1996-05-01,2011-03-18,2011-05-18,,32.393,71.463,PAEC,PAEC,CNNC,IAEA-PRIS/WNA-sample
+Cernavoda-1,Cernavoda,Unit 1,Romania,operating,PHWR,CANDU-6,650,706,1982-07-01,1996-04-11,1996-12-02,,44.316,28.058,SNN,SNN,AECL,IAEA-PRIS/WNA-sample
+Cernavoda-2,Cernavoda,Unit 2,Romania,operating,PHWR,CANDU-6,650,706,1983-07-01,2007-08-07,2007-11-07,,44.316,28.058,SNN,SNN,AECL,IAEA-PRIS/WNA-sample
+Cernavoda-3,Cernavoda,Unit 3,Romania,planned,PHWR,CANDU-6,650,706,,,,,44.316,28.058,SNN,SNN,AECL,IAEA-PRIS/WNA-sample
+Novovoronezh-6,Novovoronezh,Unit 6,Russia,operating,VVER,VVER-1200,1114,1200,2008-07-17,2016-12-05,2017-02-05,,51.288,39.218,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Novovoronezh-7,Novovoronezh,Unit 7,Russia,operating,VVER,VVER-1200,1114,1200,2008-07-17,2018-11-01,2019-02-01,,51.288,39.218,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Leningrad-5,Leningrad,Unit 5,Russia,operating,VVER,VVER-1200,1114,1200,2008-10-25,2018-10-09,2018-10-09,,59.856,29.076,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Leningrad-6,Leningrad,Unit 6,Russia,operating,VVER,VVER-1200,1114,1200,2010-04-22,2021-03-22,2021-10-22,,59.856,29.076,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Rostov-1,Rostov,Unit 1,Russia,operating,VVER,VVER-1000,1011,1070,1990-09-01,2001-03-26,2001-12-25,,47.573,42.267,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Rostov-3,Rostov,Unit 3,Russia,operating,VVER,VVER-1000,1011,1070,2009-09-15,2014-12-27,2015-09-17,,47.573,42.267,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Beloyarsk-4,Beloyarsk,Unit 4,Russia,operating,SFR,BN-800,789,880,2006-07-18,2015-12-10,2016-10-31,,56.842,61.322,Rosenergoatom,Rosatom,OKBM,IAEA-PRIS/WNA-sample
+Kursk-5,Kursk II,Unit 5,Russia,under construction,VVER,VVER-TOI,1255,1339,2021-06-22,,,,51.667,35.61,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Mochovce-1,Mochovce,Unit 1,Slovakia,operating,VVER,VVER-440,411,440,1983-10-01,1998-06-29,1999-10-29,,48.413,18.534,SE,SE,Rosatom,IAEA-PRIS/WNA-sample
+Mochovce-2,Mochovce,Unit 2,Slovakia,operating,VVER,VVER-440,411,440,1985-01-01,2000-04-18,2000-04-18,,48.413,18.534,SE,SE,Rosatom,IAEA-PRIS/WNA-sample
+Mochovce-3,Mochovce,Unit 3,Slovakia,operating,VVER,VVER-440,471,505,1987-01-01,2022-10-31,2023-01-31,,48.413,18.534,SE,SE,Rosatom,IAEA-PRIS/WNA-sample
+Mochovce-4,Mochovce,Unit 4,Slovakia,under construction,VVER,VVER-440,471,505,1987-01-01,,,,48.413,18.534,SE,SE,Rosatom,IAEA-PRIS/WNA-sample
+Bohunice-3,Bohunice,Unit 3,Slovakia,operating,VVER,VVER-440,408,440,1976-12-01,1984-11-28,1985-02-14,,48.493,17.671,SE,SE,Rosatom,IAEA-PRIS/WNA-sample
+Koeberg-1,Koeberg,Unit 1,South Africa,operating,PWR,PWR-3loop,900,970,1976-07-01,1984-04-04,1984-07-21,,-33.659,18.432,Eskom,Eskom,Framatome,IAEA-PRIS/WNA-sample
+Koeberg-2,Koeberg,Unit 2,South Africa,operating,PWR,PWR-3loop,900,970,1976-07-01,1985-07-09,1985-11-09,,-33.659,18.432,Eskom,Eskom,Framatome,IAEA-PRIS/WNA-sample
+Kori-1,Kori,Unit 1,South Korea,shutdown,PWR,PWR,587,609,1972-01-18,1978-04-29,1978-07-29,2017-06-19,35.321,129.294,KHNP,KHNP,Westinghouse,IAEA-PRIS/WNA-sample
+Kori-2,Kori,Unit 2,South Korea,operating,PWR,OPR-1000,640,650,1977-12-23,1983-04-09,1983-07-25,,35.321,129.294,KHNP,KHNP,Westinghouse,IAEA-PRIS/WNA-sample
+Shin Kori-4,Shin Kori,Unit 4,South Korea,operating,PWR,APR1400,1340,1455,2009-08-19,2019-08-29,2019-08-29,,35.321,129.294,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Hanbit-1,Hanbit,Unit 1,South Korea,operating,PWR,OPR-1000,950,1000,1981-06-01,1986-08-25,1986-08-25,,35.413,126.425,KHNP,KHNP,Westinghouse,IAEA-PRIS/WNA-sample
+Hanul-1,Hanul,Unit 1,South Korea,operating,PWR,OPR-1000,950,1000,1983-01-26,1988-12-26,1988-12-26,,37.094,129.381,KHNP,KHNP,Westinghouse,IAEA-PRIS/WNA-sample
+Shin Hanul-1,Shin Hanul,Unit 1,South Korea,operating,PWR,APR1400,1340,1455,2012-07-10,2022-06-09,2022-06-09,,37.094,129.381,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Shin Hanul-2,Shin Hanul,Unit 2,South Korea,operating,PWR,APR1400,1340,1455,2012-09-28,2023-12-22,2023-12-22,,37.094,129.381,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Wolsong-1,Wolsong,Unit 1,South Korea,shutdown,PHWR,CANDU-6,679,700,1977-10-01,1982-11-21,1983-04-22,2019-12-24,35.712,129.476,KHNP,KHNP,AECL,IAEA-PRIS/WNA-sample
+Wolsong-2,Wolsong,Unit 2,South Korea,operating,PHWR,CANDU-6,700,728,1992-09-01,1997-01-01,1997-07-01,,35.712,129.476,KHNP,KHNP,AECL,IAEA-PRIS/WNA-sample
+Almaraz-1,Almaraz,Unit 1,Spain,operating,PWR,PWR-3loop,1049,1100,1973-07-03,1981-09-01,1983-05-01,,39.806,-5.698,Iberdrola,Almaraz NPP,Westinghouse,IAEA-PRIS/WNA-sample
+Almaraz-2,Almaraz,Unit 2,Spain,operating,PWR,PWR-3loop,1044,1100,1973-07-03,1983-06-01,1984-06-01,,39.806,-5.698,Iberdrola,Almaraz NPP,Westinghouse,IAEA-PRIS/WNA-sample
+Vandellos-2,Vandellos,Unit 2,Spain,operating,PWR,PWR-3loop,1045,1100,1980-12-01,1987-09-01,1988-03-08,,40.922,0.882,Iberdrola,ANAV,Westinghouse,IAEA-PRIS/WNA-sample
+Cofrentes,Cofrentes,Unit 1,Spain,operating,BWR,BWR-6,1064,1118,1975-08-14,1984-03-11,1985-03-11,,39.244,-1.068,Iberdrola,Iberdrola,GE,IAEA-PRIS/WNA-sample
+Forsmark-1,Forsmark,Unit 1,Sweden,operating,BWR,BWR,984,1020,1973-06-01,1980-04-10,1984-12-10,,60.405,18.17,Vattenfall,Vattenfall,ASEA Atom,IAEA-PRIS/WNA-sample
+Forsmark-3,Forsmark,Unit 3,Sweden,operating,BWR,BWR,1167,1200,1979-01-01,1985-08-18,1985-08-18,,60.405,18.17,Vattenfall,Vattenfall,ASEA Atom,IAEA-PRIS/WNA-sample
+Ringhals-3,Ringhals,Unit 3,Sweden,operating,PWR,PWR,1063,1099,1972-09-01,1981-05-07,1981-09-07,,57.257,12.106,Vattenfall,Ringhals,Westinghouse,IAEA-PRIS/WNA-sample
+Beznau-1,Beznau,Unit 1,Switzerland,operating,PWR,PWR,365,380,1965-09-01,1969-09-17,1969-12-09,,47.523,8.116,Axpo,Axpo,Westinghouse,IAEA-PRIS/WNA-sample
+Leibstadt,Leibstadt,Unit 1,Switzerland,operating,BWR,BWR,1220,1285,1974-01-01,1984-09-28,1984-12-15,,47.603,8.181,KKL,KKL,GE,IAEA-PRIS/WNA-sample
+Gosgen,Gosgen,Unit 1,Switzerland,operating,PWR,PWR,970,1020,1973-06-01,1979-09-12,1979-11-01,,47.367,7.961,KKG,KKG,KWU,IAEA-PRIS/WNA-sample
+Akkuyu-1,Akkuyu,Unit 1,Turkey,under construction,VVER,VVER-1200,1114,1200,2018-04-03,,,,36.144,33.541,Akkuyu Nuclear,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Akkuyu-2,Akkuyu,Unit 2,Turkey,under construction,VVER,VVER-1200,1114,1200,2020-04-08,,,,36.144,33.541,Akkuyu Nuclear,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Akkuyu-3,Akkuyu,Unit 3,Turkey,under construction,VVER,VVER-1200,1114,1200,2021-03-10,,,,36.144,33.541,Akkuyu Nuclear,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Akkuyu-4,Akkuyu,Unit 4,Turkey,under construction,VVER,VVER-1200,1114,1200,2022-07-21,,,,36.144,33.541,Akkuyu Nuclear,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Barakah-1,Barakah,Unit 1,UAE,operating,PWR,APR1400,1345,1400,2012-07-18,2020-08-19,2021-04-06,,23.968,52.227,ENEC,Nawah,KEPCO,IAEA-PRIS/WNA-sample
+Barakah-2,Barakah,Unit 2,UAE,operating,PWR,APR1400,1345,1400,2013-04-16,2021-09-14,2022-03-24,,23.968,52.227,ENEC,Nawah,KEPCO,IAEA-PRIS/WNA-sample
+Barakah-3,Barakah,Unit 3,UAE,operating,PWR,APR1400,1345,1400,2014-09-24,2023-02-24,2023-10-14,,23.968,52.227,ENEC,Nawah,KEPCO,IAEA-PRIS/WNA-sample
+Barakah-4,Barakah,Unit 4,UAE,under construction,PWR,APR1400,1345,1400,2015-09-02,,,,23.968,52.227,ENEC,Nawah,KEPCO,IAEA-PRIS/WNA-sample
+Khmelnitsky-1,Khmelnitsky,Unit 1,Ukraine,operating,VVER,VVER-1000,950,1000,1981-11-01,1987-12-22,1987-12-22,,50.3,26.648,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+Rivne-3,Rivne,Unit 3,Ukraine,operating,VVER,VVER-1000,950,1000,1980-02-22,1986-12-21,1987-11-21,,51.325,25.892,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+South Ukraine-1,South Ukraine,Unit 1,Ukraine,operating,VVER,VVER-1000,950,1000,1977-11-01,1982-10-27,1983-12-31,,47.839,31.216,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+Zaporizhzhia-1,Zaporizhzhia,Unit 1,Ukraine,operating,VVER,VVER-1000,950,1000,1981-04-01,1985-12-10,1985-12-10,,47.506,34.585,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+Zaporizhzhia-5,Zaporizhzhia,Unit 5,Ukraine,operating,VVER,VVER-1000,950,1000,1985-11-01,1989-10-18,1989-10-18,,47.506,34.585,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+Heysham-2A,Heysham-2,Unit A,United Kingdom,operating,GCR,AGR,615,660,1980-08-01,1988-03-01,1989-04-01,,54.032,-2.91,EDF,EDF,GEC,IAEA-PRIS/WNA-sample
+Torness-A,Torness,Unit A,United Kingdom,operating,GCR,AGR,615,660,1980-08-01,1988-05-23,1988-05-23,,55.966,-2.437,EDF,EDF,GEC,IAEA-PRIS/WNA-sample
+Sizewell-B,Sizewell,Unit B,United Kingdom,operating,PWR,PWR,1198,1258,1988-07-18,1995-02-14,1995-02-14,,52.213,1.618,EDF,EDF,Westinghouse,IAEA-PRIS/WNA-sample
+Hinkley Point C-1,Hinkley Point C,Unit 1,United Kingdom,under construction,PWR,EPR,1630,1720,2018-12-11,,,,51.205,-3.143,EDF/CGN,EDF,Framatome,IAEA-PRIS/WNA-sample
+Hinkley Point C-2,Hinkley Point C,Unit 2,United Kingdom,under construction,PWR,EPR,1630,1720,2019-12-11,,,,51.205,-3.143,EDF/CGN,EDF,Framatome,IAEA-PRIS/WNA-sample
+Wylfa Newydd-1,Wylfa Newydd,Unit 1,United Kingdom,proposed,PWR,ABWR,1380,1455,,,,,53.418,-4.473,Horizon,Hitachi,Hitachi,IAEA-PRIS/WNA-sample
+Palo Verde-1,Palo Verde,Unit 1,United States,operating,PWR,System 80,1311,1412,1976-05-25,1985-11-26,1986-01-28,,33.388,-112.862,APS,APS,CE,IAEA-PRIS/WNA-sample
+Palo Verde-2,Palo Verde,Unit 2,United States,operating,PWR,System 80,1311,1412,1978-05-25,1986-04-19,1986-09-19,,33.388,-112.862,APS,APS,CE,IAEA-PRIS/WNA-sample
+Palo Verde-3,Palo Verde,Unit 3,United States,operating,PWR,System 80,1311,1412,1979-11-01,1987-11-26,1988-01-08,,33.388,-112.862,APS,APS,CE,IAEA-PRIS/WNA-sample
+Browns Ferry-1,Browns Ferry,Unit 1,United States,operating,BWR,BWR-4,1210,1251,1967-09-12,1973-08-01,1974-08-01,,34.704,-87.119,TVA,TVA,GE,IAEA-PRIS/WNA-sample
+Browns Ferry-3,Browns Ferry,Unit 3,United States,operating,BWR,BWR-4,1210,1251,1968-07-01,1977-03-01,1977-03-01,,34.704,-87.119,TVA,TVA,GE,IAEA-PRIS/WNA-sample
+Grand Gulf-1,Grand Gulf,Unit 1,United States,operating,BWR,BWR-6,1497,1533,1974-09-04,1984-07-01,1985-07-01,,32.008,-91.051,Entergy,Entergy,GE,IAEA-PRIS/WNA-sample
+Peach Bottom-2,Peach Bottom,Unit 2,United States,operating,BWR,BWR-4,1339,1373,1968-01-31,1974-03-01,1974-07-05,,39.759,-76.269,Exelon,Exelon,GE,IAEA-PRIS/WNA-sample
+Peach Bottom-3,Peach Bottom,Unit 3,United States,operating,BWR,BWR-4,1339,1373,1968-09-25,1974-07-26,1974-12-23,,39.759,-76.269,Exelon,Exelon,GE,IAEA-PRIS/WNA-sample
+Vogtle-1,Vogtle,Unit 1,United States,operating,PWR,PWR,1217,1281,1976-08-01,1987-03-27,1987-05-01,,33.143,-81.762,Georgia Power,Southern Nuclear,Westinghouse,IAEA-PRIS/WNA-sample
+Vogtle-3,Vogtle,Unit 3,United States,operating,PWR,AP1000,1117,1250,2009-03-12,2023-04-01,2023-07-31,,33.143,-81.762,Georgia Power,Southern Nuclear,Westinghouse,IAEA-PRIS/WNA-sample
+Vogtle-4,Vogtle,Unit 4,United States,operating,PWR,AP1000,1117,1250,2013-11-19,2024-03-01,2024-04-29,,33.143,-81.762,Georgia Power,Southern Nuclear,Westinghouse,IAEA-PRIS/WNA-sample
+Turkey Point-3,Turkey Point,Unit 3,United States,operating,PWR,PWR,760,800,1967-04-27,1972-11-14,1972-12-14,,25.433,-80.332,FPL,FPL,Westinghouse,IAEA-PRIS/WNA-sample
+Diablo Canyon-1,Diablo Canyon,Unit 1,United States,operating,PWR,PWR,1122,1151,1968-04-22,1984-11-28,1985-05-07,,35.211,-120.854,PG&E,PG&E,Westinghouse,IAEA-PRIS/WNA-sample
+Diablo Canyon-2,Diablo Canyon,Unit 2,United States,operating,PWR,PWR,1118,1162,1970-12-09,1985-08-26,1986-03-13,,35.211,-120.854,PG&E,PG&E,Westinghouse,IAEA-PRIS/WNA-sample
+Natrium-1,Kemmerer,Unit 1,United States,proposed,SFR,Natrium,345,345,,,,,41.792,-110.538,TerraPower,TerraPower,TerraPower/GEH,IAEA-PRIS/WNA-sample
+CP-1,Carbon Free,Unit 1,United States,proposed,SMR-LWR,BWRX-300,300,300,,,,,33.0,-83.0,Southern,Southern,GE Hitachi,IAEA-PRIS/WNA-sample
+Rooppur-1,Rooppur,Unit 1,Bangladesh,under construction,VVER,VVER-1200,1114,1200,2017-11-30,,,,24.065,89.047,BAEC,BAEC,Rosatom,IAEA-PRIS/WNA-sample
+Rooppur-2,Rooppur,Unit 2,Bangladesh,under construction,VVER,VVER-1200,1114,1200,2018-07-14,,,,24.065,89.047,BAEC,BAEC,Rosatom,IAEA-PRIS/WNA-sample
+Lubiatowo-1,Lubiatowo-Kopalino,Unit 1,Poland,planned,PWR,AP1000,1117,1250,,,,,54.783,17.85,PEJ,PEJ,Westinghouse,IAEA-PRIS/WNA-sample
+Lubiatowo-2,Lubiatowo-Kopalino,Unit 2,Poland,planned,PWR,AP1000,1117,1250,,,,,54.783,17.85,PEJ,PEJ,Westinghouse,IAEA-PRIS/WNA-sample
+Emsland,Emsland,Unit 1,Germany,shutdown,PWR,PWR-Konvoi,1329,1400,1982-08-12,1988-04-14,1988-06-20,2023-04-15,52.47,7.323,PreussenElektra,PreussenElektra,KWU,IAEA-PRIS/WNA-sample
+Isar-2,Isar,Unit 2,Germany,shutdown,PWR,PWR-Konvoi,1365,1475,1982-09-15,1988-01-22,1988-04-09,2023-04-15,48.603,12.295,PreussenElektra,PreussenElektra,KWU,IAEA-PRIS/WNA-sample
+Blayais-2,Blayais,Unit 2,France,operating,PWR,CP2,910,951,1977-08-01,1982-07-17,1983-02-01,,45.255,-0.691,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Blayais-3,Blayais,Unit 3,France,operating,PWR,CP2,910,951,1978-06-01,1983-07-14,1983-11-14,,45.255,-0.691,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Blayais-4,Blayais,Unit 4,France,operating,PWR,CP2,910,951,1979-01-01,1983-10-16,1983-10-16,,45.255,-0.691,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Bugey-2,Bugey,Unit 2,France,operating,PWR,CP1,880,937,1971-11-01,1978-05-10,1979-03-10,,45.797,5.272,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Bugey-3,Bugey,Unit 3,France,operating,PWR,CP1,880,937,1972-09-01,1978-09-01,1979-03-01,,45.797,5.272,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Bugey-5,Bugey,Unit 5,France,operating,PWR,CP1,880,937,1974-07-01,1979-07-03,1980-01-03,,45.797,5.272,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Chinon-B1,Chinon,Unit B1,France,operating,PWR,CP2,905,954,1977-01-01,1982-11-30,1984-02-01,,47.239,0.178,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Chinon-B2,Chinon,Unit B2,France,operating,PWR,CP2,905,954,1977-03-01,1983-11-14,1984-08-01,,47.239,0.178,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Chinon-B3,Chinon,Unit B3,France,operating,PWR,P4,905,954,1980-03-01,1987-02-20,1987-03-04,,47.239,0.178,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Chinon-B4,Chinon,Unit B4,France,operating,PWR,P4,905,954,1981-02-01,1988-03-14,1988-04-01,,47.239,0.178,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Chooz-B1,Chooz,Unit B1,France,operating,PWR,N4,1500,1561,1984-03-01,1996-08-30,2000-05-15,,49.903,4.789,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Chooz-B2,Chooz,Unit B2,France,operating,PWR,N4,1500,1561,1985-12-01,1997-04-10,2000-09-29,,49.903,4.789,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Cruas-1,Cruas,Unit 1,France,operating,PWR,P4,915,956,1978-08-01,1983-04-28,1984-04-02,,44.637,4.759,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Cruas-2,Cruas,Unit 2,France,operating,PWR,P4,915,956,1978-11-01,1984-09-06,1984-04-11,,44.637,4.759,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Cruas-4,Cruas,Unit 4,France,operating,PWR,P4,915,956,1979-11-01,1984-10-27,1984-11-11,,44.637,4.759,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Dampierre-1,Dampierre,Unit 1,France,operating,PWR,CP2,890,937,1975-02-01,1980-09-23,1980-09-23,,47.733,2.518,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Dampierre-2,Dampierre,Unit 2,France,operating,PWR,CP2,890,937,1975-08-01,1981-02-10,1981-02-10,,47.733,2.518,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Dampierre-3,Dampierre,Unit 3,France,operating,PWR,CP2,890,937,1975-10-01,1981-01-30,1981-05-27,,47.733,2.518,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Dampierre-4,Dampierre,Unit 4,France,operating,PWR,CP2,890,937,1976-01-01,1981-08-18,1981-11-18,,47.733,2.518,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Golfech-1,Golfech,Unit 1,France,operating,PWR,P4,1310,1362,1982-10-01,1990-06-07,1991-02-07,,44.107,0.842,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Golfech-2,Golfech,Unit 2,France,operating,PWR,P4,1310,1362,1984-08-01,1994-01-18,1994-06-18,,44.107,0.842,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Gravelines-2,Gravelines,Unit 2,France,operating,PWR,CP2,910,951,1975-08-01,1980-12-13,1980-12-13,,51.015,2.136,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Gravelines-3,Gravelines,Unit 3,France,operating,PWR,CP2,910,951,1975-12-01,1981-06-12,1981-06-12,,51.015,2.136,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Gravelines-4,Gravelines,Unit 4,France,operating,PWR,CP2,910,951,1976-04-01,1981-10-16,1981-10-16,,51.015,2.136,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Gravelines-5,Gravelines,Unit 5,France,operating,PWR,CP2,910,951,1979-06-01,1984-08-28,1985-01-28,,51.015,2.136,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Gravelines-6,Gravelines,Unit 6,France,operating,PWR,CP2,910,951,1979-11-01,1985-10-26,1985-10-26,,51.015,2.136,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Nogent-1,Nogent,Unit 1,France,operating,PWR,P4,1310,1362,1981-05-01,1987-10-21,1988-02-21,,48.517,3.517,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Nogent-2,Nogent,Unit 2,France,operating,PWR,P4,1310,1362,1982-01-01,1988-09-14,1989-05-14,,48.517,3.517,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Paluel-2,Paluel,Unit 2,France,operating,PWR,P4,1330,1382,1977-12-01,1984-12-14,1985-12-01,,49.855,-0.634,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Paluel-3,Paluel,Unit 3,France,operating,PWR,P4,1330,1382,1979-02-01,1985-09-30,1986-02-01,,49.855,-0.634,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Paluel-4,Paluel,Unit 4,France,operating,PWR,P4,1330,1382,1980-02-01,1986-01-25,1986-06-01,,49.855,-0.634,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Penly-1,Penly,Unit 1,France,operating,PWR,P4,1330,1382,1982-09-01,1990-04-08,1990-12-08,,49.975,1.213,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Penly-2,Penly,Unit 2,France,operating,PWR,P4,1330,1382,1984-01-01,1992-01-08,1992-11-08,,49.975,1.213,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Saint-Alban-1,Saint-Alban,Unit 1,France,operating,PWR,P4,1335,1382,1979-11-01,1985-05-16,1986-05-01,,45.404,4.831,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Saint-Alban-2,Saint-Alban,Unit 2,France,operating,PWR,P4,1335,1382,1980-07-01,1986-07-02,1987-07-01,,45.404,4.831,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Saint-Laurent-B1,Saint-Laurent,Unit B1,France,operating,PWR,CP2,915,956,1976-05-01,1981-08-21,1983-08-01,,47.725,1.573,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Saint-Laurent-B2,Saint-Laurent,Unit B2,France,operating,PWR,CP2,915,956,1976-10-01,1981-06-01,1983-06-01,,47.725,1.573,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Belleville-1,Belleville,Unit 1,France,operating,PWR,P4,1310,1362,1980-05-01,1987-06-14,1988-06-06,,47.506,2.874,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Belleville-2,Belleville,Unit 2,France,operating,PWR,P4,1310,1362,1980-08-01,1988-01-06,1988-07-01,,47.506,2.874,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Tricastin-2,Tricastin,Unit 2,France,operating,PWR,CP1,915,956,1975-03-01,1980-07-01,1980-07-11,,44.33,4.732,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Tricastin-3,Tricastin,Unit 3,France,operating,PWR,CP1,915,956,1975-07-01,1981-02-10,1981-02-11,,44.33,4.732,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Tricastin-4,Tricastin,Unit 4,France,operating,PWR,CP1,915,956,1975-11-01,1981-06-11,1981-07-11,,44.33,4.732,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Fessenheim-1,Fessenheim,Unit 1,France,shutdown,PWR,CP1,880,920,1971-09-01,1977-04-06,1978-04-01,2020-02-22,47.903,7.564,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Flamanville-2,Flamanville,Unit 2,France,operating,PWR,P4,1330,1382,1982-01-01,1986-07-06,1987-07-06,,49.536,-1.882,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Cattenom-2,Cattenom,Unit 2,France,operating,PWR,P4,1300,1362,1980-05-01,1987-09-17,1988-02-01,,49.402,6.22,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Cattenom-3,Cattenom,Unit 3,France,operating,PWR,P4,1300,1362,1982-01-01,1990-07-06,1991-07-06,,49.402,6.22,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Cattenom-4,Cattenom,Unit 4,France,operating,PWR,P4,1300,1362,1983-06-01,1991-05-27,1992-01-27,,49.402,6.22,EDF,EDF,Framatome,IAEA-PRIS/WNA-sample
+Braidwood-1,Braidwood,Unit 1,United States,operating,PWR,PWR,1194,1245,1975-08-01,1988-07-29,1988-07-29,,41.238,-88.231,Exelon,Exelon,Westinghouse,IAEA-PRIS/WNA-sample
+Braidwood-2,Braidwood,Unit 2,United States,operating,PWR,PWR,1218,1264,1975-08-01,1988-10-17,1988-10-17,,41.238,-88.231,Exelon,Exelon,Westinghouse,IAEA-PRIS/WNA-sample
+Byron-1,Byron,Unit 1,United States,operating,PWR,PWR,1164,1207,1975-09-01,1985-09-16,1985-09-16,,42.079,-89.278,Exelon,Exelon,Westinghouse,IAEA-PRIS/WNA-sample
+Byron-2,Byron,Unit 2,United States,operating,PWR,PWR,1136,1183,1975-09-01,1987-08-02,1987-08-02,,42.079,-89.278,Exelon,Exelon,Westinghouse,IAEA-PRIS/WNA-sample
+Callaway,Callaway,Unit 1,United States,operating,PWR,PWR,1236,1296,1976-04-01,1984-10-24,1984-12-19,,38.767,-91.783,Ameren,Ameren,Westinghouse,IAEA-PRIS/WNA-sample
+Catawba-1,Catawba,Unit 1,United States,operating,PWR,PWR,1148,1205,1975-01-01,1985-06-12,1985-06-29,,35.072,-81.071,Duke Energy,Duke Energy,Westinghouse,IAEA-PRIS/WNA-sample
+Catawba-2,Catawba,Unit 2,United States,operating,PWR,PWR,1148,1205,1975-01-01,1986-03-11,1986-08-19,,35.072,-81.071,Duke Energy,Duke Energy,Westinghouse,IAEA-PRIS/WNA-sample
+Clinton,Clinton,Unit 1,United States,operating,BWR,BWR-6,1078,1109,1975-10-01,1987-04-01,1987-11-24,,40.318,-88.831,Exelon,Exelon,GE,IAEA-PRIS/WNA-sample
+Comanche Peak-1,Comanche Peak,Unit 1,United States,operating,PWR,PWR,1218,1264,1974-12-19,1990-04-17,1990-08-13,,32.298,-97.785,Luminant,Vistra,Westinghouse,IAEA-PRIS/WNA-sample
+Comanche Peak-2,Comanche Peak,Unit 2,United States,operating,PWR,PWR,1218,1264,1974-12-19,1993-04-16,1993-08-03,,32.298,-97.785,Luminant,Vistra,Westinghouse,IAEA-PRIS/WNA-sample
+Cooper,Cooper,Unit 1,United States,operating,BWR,BWR-4,769,801,1968-06-01,1974-05-24,1974-07-01,,40.362,-95.644,NPPD,NPPD,GE,IAEA-PRIS/WNA-sample
+Davis-Besse,Davis-Besse,Unit 1,United States,operating,PWR,CE-900,894,924,1970-09-01,1977-08-28,1978-07-31,,41.598,-83.086,Energy Harbor,Energy Harbor,B&W,IAEA-PRIS/WNA-sample
+DC Cook-1,DC Cook,Unit 1,United States,operating,PWR,PWR,1054,1081,1969-03-25,1975-02-27,1975-08-27,,41.976,-86.562,Indiana Michigan,AESC,Westinghouse,IAEA-PRIS/WNA-sample
+DC Cook-2,DC Cook,Unit 2,United States,operating,PWR,PWR,1077,1122,1969-03-25,1977-03-23,1978-07-01,,41.976,-86.562,Indiana Michigan,AESC,Westinghouse,IAEA-PRIS/WNA-sample
+Dresden-2,Dresden,Unit 2,United States,operating,BWR,BWR-3,882,912,1966-01-10,1970-04-09,1970-06-09,,41.388,-88.27,Exelon,Exelon,GE,IAEA-PRIS/WNA-sample
+Dresden-3,Dresden,Unit 3,United States,operating,BWR,BWR-3,882,912,1966-10-14,1971-07-16,1971-11-16,,41.388,-88.27,Exelon,Exelon,GE,IAEA-PRIS/WNA-sample
+Fermi-2,Fermi,Unit 2,United States,operating,BWR,BWR-4,1173,1220,1972-09-26,1985-10-05,1988-01-23,,41.961,-83.261,DTE Energy,DTE,GE,IAEA-PRIS/WNA-sample
+Hope Creek,Hope Creek,Unit 1,United States,operating,BWR,BWR-4,1270,1355,1974-11-01,1986-08-20,1986-12-20,,39.464,-75.535,PSEG,PSEG,GE,IAEA-PRIS/WNA-sample
+Indian Point-3,Indian Point,Unit 3,United States,shutdown,PWR,PWR,1025,1074,1969-11-01,1976-08-30,1976-08-30,2021-04-30,41.27,-73.953,Entergy,Entergy,Westinghouse,IAEA-PRIS/WNA-sample
+James FitzPatrick,FitzPatrick,Unit 1,United States,operating,BWR,BWR-4,854,900,1970-05-22,1974-10-17,1975-07-28,,43.521,-76.406,Exelon,Exelon,GE,IAEA-PRIS/WNA-sample
+LaSalle-1,LaSalle,Unit 1,United States,operating,BWR,BWR-5,1137,1195,1973-09-10,1982-09-16,1984-01-01,,41.244,-88.67,Exelon,Exelon,GE,IAEA-PRIS/WNA-sample
+LaSalle-2,LaSalle,Unit 2,United States,operating,BWR,BWR-5,1137,1195,1973-09-10,1984-03-13,1984-10-19,,41.244,-88.67,Exelon,Exelon,GE,IAEA-PRIS/WNA-sample
+Limerick-1,Limerick,Unit 1,United States,operating,BWR,BWR-4,1134,1188,1974-06-19,1985-09-01,1986-02-01,,40.225,-75.589,Exelon,Exelon,GE,IAEA-PRIS/WNA-sample
+Limerick-2,Limerick,Unit 2,United States,operating,BWR,BWR-4,1134,1188,1974-06-19,1989-08-08,1990-01-08,,40.225,-75.589,Exelon,Exelon,GE,IAEA-PRIS/WNA-sample
+McGuire-1,McGuire,Unit 1,United States,operating,PWR,PWR,1178,1231,1973-02-01,1981-09-12,1981-12-01,,35.432,-80.943,Duke Energy,Duke Energy,Westinghouse,IAEA-PRIS/WNA-sample
+McGuire-2,McGuire,Unit 2,United States,operating,PWR,PWR,1178,1231,1973-02-01,1983-05-05,1984-03-01,,35.432,-80.943,Duke Energy,Duke Energy,Westinghouse,IAEA-PRIS/WNA-sample
+Millstone-2,Millstone,Unit 2,United States,operating,PWR,CE-900,884,920,1970-11-01,1975-10-26,1976-12-26,,41.31,-72.168,Dominion,Dominion,CE,IAEA-PRIS/WNA-sample
+Millstone-3,Millstone,Unit 3,United States,operating,PWR,PWR,1247,1299,1974-08-09,1986-04-23,1986-04-23,,41.31,-72.168,Dominion,Dominion,Westinghouse,IAEA-PRIS/WNA-sample
+Monticello,Monticello,Unit 1,United States,operating,BWR,BWR-3,614,672,1967-06-19,1970-12-30,1971-06-30,,45.334,-93.846,Xcel Energy,Xcel,GE,IAEA-PRIS/WNA-sample
+Nine Mile Point-1,Nine Mile Point,Unit 1,United States,operating,BWR,BWR-2,621,640,1965-01-01,1969-11-01,1969-12-01,,43.523,-76.406,Constellation,Constellation,GE,IAEA-PRIS/WNA-sample
+Nine Mile Point-2,Nine Mile Point,Unit 2,United States,operating,BWR,BWR-5,1299,1330,1975-06-01,1987-12-08,1988-04-11,,43.523,-76.406,Constellation,Constellation,GE,IAEA-PRIS/WNA-sample
+North Anna-1,North Anna,Unit 1,United States,operating,PWR,PWR,978,1020,1971-02-18,1978-04-06,1978-06-06,,38.063,-77.792,Dominion,Dominion,Westinghouse,IAEA-PRIS/WNA-sample
+North Anna-2,North Anna,Unit 2,United States,operating,PWR,PWR,978,1020,1971-02-18,1980-08-21,1980-12-14,,38.063,-77.792,Dominion,Dominion,Westinghouse,IAEA-PRIS/WNA-sample
+Oconee-1,Oconee,Unit 1,United States,operating,PWR,B&W,900,936,1967-11-01,1973-05-06,1973-07-15,,34.792,-82.899,Duke Energy,Duke Energy,B&W,IAEA-PRIS/WNA-sample
+Oconee-2,Oconee,Unit 2,United States,operating,PWR,B&W,900,936,1967-11-01,1974-09-09,1974-09-09,,34.792,-82.899,Duke Energy,Duke Energy,B&W,IAEA-PRIS/WNA-sample
+Oconee-3,Oconee,Unit 3,United States,operating,PWR,B&W,900,936,1967-11-01,1974-12-05,1974-12-16,,34.792,-82.899,Duke Energy,Duke Energy,B&W,IAEA-PRIS/WNA-sample
+Point Beach-1,Point Beach,Unit 1,United States,operating,PWR,PWR,617,640,1967-07-19,1970-11-21,1970-12-21,,44.283,-87.538,NextEra,NextEra,Westinghouse,IAEA-PRIS/WNA-sample
+Point Beach-2,Point Beach,Unit 2,United States,operating,PWR,PWR,617,640,1968-07-25,1972-08-02,1972-10-02,,44.283,-87.538,NextEra,NextEra,Westinghouse,IAEA-PRIS/WNA-sample
+Prairie Island-1,Prairie Island,Unit 1,United States,operating,PWR,PWR,522,550,1969-06-25,1973-12-16,1974-04-16,,44.617,-92.643,Xcel Energy,Xcel,Westinghouse,IAEA-PRIS/WNA-sample
+Prairie Island-2,Prairie Island,Unit 2,United States,operating,PWR,PWR,522,550,1969-06-25,1974-12-21,1975-12-21,,44.617,-92.643,Xcel Energy,Xcel,Westinghouse,IAEA-PRIS/WNA-sample
+Quad Cities-1,Quad Cities,Unit 1,United States,operating,BWR,BWR-3,908,938,1967-02-16,1972-02-18,1972-02-18,,41.727,-90.67,Exelon,Exelon,GE,IAEA-PRIS/WNA-sample
+Quad Cities-2,Quad Cities,Unit 2,United States,operating,BWR,BWR-3,908,938,1967-02-16,1972-03-10,1972-03-10,,41.727,-90.67,Exelon,Exelon,GE,IAEA-PRIS/WNA-sample
+River Bend,River Bend,Unit 1,United States,operating,BWR,BWR-6,974,1000,1977-03-25,1985-11-03,1986-12-28,,30.757,-91.335,Entergy,Entergy,GE,IAEA-PRIS/WNA-sample
+Salem-1,Salem,Unit 1,United States,operating,PWR,PWR,1174,1199,1968-09-25,1977-04-01,1977-06-30,,39.465,-75.536,PSEG,PSEG,Westinghouse,IAEA-PRIS/WNA-sample
+Salem-2,Salem,Unit 2,United States,operating,PWR,PWR,1174,1199,1968-09-25,1981-08-13,1981-10-13,,39.465,-75.536,PSEG,PSEG,Westinghouse,IAEA-PRIS/WNA-sample
+Seabrook,Seabrook,Unit 1,United States,operating,PWR,PWR,1246,1295,1976-07-07,1990-08-19,1990-08-19,,42.896,-70.849,NextEra,NextEra,Westinghouse,IAEA-PRIS/WNA-sample
+St. Lucie-1,St. Lucie,Unit 1,United States,operating,PWR,CE-900,839,878,1970-07-01,1976-07-19,1976-12-21,,27.349,-80.246,FPL,NextEra,CE,IAEA-PRIS/WNA-sample
+St. Lucie-2,St. Lucie,Unit 2,United States,operating,PWR,CE-900,839,878,1977-01-01,1983-06-10,1983-08-10,,27.349,-80.246,FPL,NextEra,CE,IAEA-PRIS/WNA-sample
+Surry-1,Surry,Unit 1,United States,operating,PWR,PWR,842,874,1968-06-25,1972-07-12,1972-12-22,,37.166,-76.699,Dominion,Dominion,Westinghouse,IAEA-PRIS/WNA-sample
+Surry-2,Surry,Unit 2,United States,operating,PWR,PWR,842,874,1968-06-25,1973-03-14,1973-05-01,,37.166,-76.699,Dominion,Dominion,Westinghouse,IAEA-PRIS/WNA-sample
+Susquehanna-1,Susquehanna,Unit 1,United States,operating,BWR,BWR-4,1299,1342,1973-11-02,1983-06-08,1983-06-08,,41.095,-76.148,PPL,Talen Energy,GE,IAEA-PRIS/WNA-sample
+Susquehanna-2,Susquehanna,Unit 2,United States,operating,BWR,BWR-4,1299,1342,1973-11-02,1984-06-12,1985-02-12,,41.095,-76.148,PPL,Talen Energy,GE,IAEA-PRIS/WNA-sample
+Three Mile Island-1,Three Mile Island,Unit 1,United States,operating,PWR,B&W,869,905,1968-05-18,1974-09-02,1974-09-02,,40.153,-76.725,Constellation,Constellation,B&W,IAEA-PRIS/WNA-sample
+Vogtle-2,Vogtle,Unit 2,United States,operating,PWR,PWR,1213,1279,1976-08-01,1989-05-20,1989-05-20,,33.143,-81.762,Georgia Power,Southern Nuclear,Westinghouse,IAEA-PRIS/WNA-sample
+Waterford-3,Waterford,Unit 3,United States,operating,PWR,CE-900,1227,1260,1974-11-14,1985-03-24,1985-09-24,,29.999,-90.471,Entergy,Entergy,CE,IAEA-PRIS/WNA-sample
+Wolf Creek,Wolf Creek,Unit 1,United States,operating,PWR,PWR,1215,1236,1977-05-01,1985-06-25,1985-09-03,,38.237,-96.067,WCNOC,WCNOC,Westinghouse,IAEA-PRIS/WNA-sample
+Shearon Harris,Shearon Harris,Unit 1,United States,operating,PWR,PWR,934,965,1978-01-27,1987-01-20,1987-05-02,,35.633,-79.098,Duke Energy,Duke Energy,Westinghouse,IAEA-PRIS/WNA-sample
+Robinson,H. B. Robinson,Unit 2,United States,operating,PWR,PWR,740,762,1967-04-27,1971-03-07,1971-09-07,,34.398,-80.157,Duke Energy,Duke Energy,Westinghouse,IAEA-PRIS/WNA-sample
+Brunswick-1,Brunswick,Unit 1,United States,operating,BWR,BWR-4,938,975,1970-02-07,1977-03-18,1977-03-18,,33.958,-78.007,Duke Energy,Duke Energy,GE,IAEA-PRIS/WNA-sample
+Brunswick-2,Brunswick,Unit 2,United States,operating,BWR,BWR-4,938,975,1970-02-07,1975-11-03,1975-11-03,,33.958,-78.007,Duke Energy,Duke Energy,GE,IAEA-PRIS/WNA-sample
+Beaver Valley-1,Beaver Valley,Unit 1,United States,operating,PWR,PWR,900,939,1970-06-26,1976-06-23,1976-10-01,,40.623,-80.432,Energy Harbor,Energy Harbor,Westinghouse,IAEA-PRIS/WNA-sample
+Beaver Valley-2,Beaver Valley,Unit 2,United States,operating,PWR,PWR,906,945,1974-05-03,1987-05-17,1987-11-17,,40.623,-80.432,Energy Harbor,Energy Harbor,Westinghouse,IAEA-PRIS/WNA-sample
+Arkansas-1,Arkansas Nuclear One,Unit 1,United States,operating,PWR,B&W,850,876,1968-10-01,1974-04-22,1974-12-19,,35.31,-93.23,Entergy,Entergy,B&W,IAEA-PRIS/WNA-sample
+Arkansas-2,Arkansas Nuclear One,Unit 2,United States,operating,PWR,CE-900,929,959,1968-10-01,1978-09-06,1980-03-26,,35.31,-93.23,Entergy,Entergy,CE,IAEA-PRIS/WNA-sample
+Beloyarsk-3,Beloyarsk,Unit 3,Russia,operating,SFR,BN-600,560,600,1980-04-01,1980-04-08,1981-04-01,,56.842,61.322,Rosenergoatom,Rosatom,OKBM,IAEA-PRIS/WNA-sample
+Kalinin-1,Kalinin,Unit 1,Russia,operating,VVER,VVER-1000,1000,1070,1977-02-01,1984-05-09,1985-05-09,,57.909,36.734,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Kalinin-2,Kalinin,Unit 2,Russia,operating,VVER,VVER-1000,1000,1070,1982-02-01,1986-03-03,1987-03-03,,57.909,36.734,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Kalinin-3,Kalinin,Unit 3,Russia,operating,VVER,VVER-1000,1000,1070,1985-09-01,2004-10-17,2005-11-17,,57.909,36.734,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Kalinin-4,Kalinin,Unit 4,Russia,operating,VVER,VVER-1000,1000,1070,1986-09-01,2011-09-11,2012-09-11,,57.909,36.734,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Kola-1,Kola,Unit 1,Russia,operating,VVER,VVER-440,440,504,1970-05-01,1973-06-22,1973-12-22,,67.462,32.479,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Kola-2,Kola,Unit 2,Russia,operating,VVER,VVER-440,440,504,1970-05-01,1974-11-29,1975-02-08,,67.462,32.479,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Kola-3,Kola,Unit 3,Russia,operating,VVER,VVER-440,411,443,1977-04-01,1982-01-24,1982-03-03,,67.462,32.479,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Kola-4,Kola,Unit 4,Russia,operating,VVER,VVER-440,411,443,1976-08-01,1984-08-08,1984-09-11,,67.462,32.479,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Rostov-2,Rostov,Unit 2,Russia,operating,VVER,VVER-1000,1011,1070,1990-09-01,2010-03-18,2010-12-18,,47.573,42.267,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Rostov-4,Rostov,Unit 4,Russia,operating,VVER,VVER-1000,1011,1070,2009-09-15,2017-09-28,2018-02-28,,47.573,42.267,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Smolensk-1,Smolensk,Unit 1,Russia,operating,RBMK,RBMK-1000,925,925,1975-08-01,1982-12-09,1983-09-09,,54.152,33.233,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Smolensk-2,Smolensk,Unit 2,Russia,operating,RBMK,RBMK-1000,925,925,1976-06-01,1985-05-31,1985-07-31,,54.152,33.233,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Smolensk-3,Smolensk,Unit 3,Russia,operating,RBMK,RBMK-1000,925,925,1983-01-01,1989-12-17,1990-01-17,,54.152,33.233,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Kursk-3,Kursk,Unit 3,Russia,operating,RBMK,RBMK-1000,925,925,1978-10-01,1983-10-01,1984-10-01,,51.667,35.61,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Kursk-4,Kursk,Unit 4,Russia,operating,RBMK,RBMK-1000,925,925,1983-02-01,1985-07-11,1985-12-11,,51.667,35.61,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Akademik-1,Akademik Lomonosov,Unit 1,Russia,operating,PWR,KLT-40S,35,40,2009-04-09,2019-05-22,2020-05-22,,66.978,170.686,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Leningrad-1,Leningrad,Unit 1,Russia,shutdown,RBMK,RBMK-1000,925,925,1970-03-01,1973-11-01,1974-11-01,2019-12-19,59.856,29.076,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Kori-3,Kori,Unit 3,South Korea,operating,PWR,OPR-1000,950,995,1979-10-01,1985-09-30,1985-12-30,,35.321,129.294,KHNP,KHNP,Framatome,IAEA-PRIS/WNA-sample
+Kori-4,Kori,Unit 4,South Korea,operating,PWR,OPR-1000,950,995,1980-10-01,1986-04-29,1986-04-29,,35.321,129.294,KHNP,KHNP,Framatome,IAEA-PRIS/WNA-sample
+Shin Kori-1,Shin Kori,Unit 1,South Korea,operating,PWR,OPR-1000,995,1050,2006-06-16,2011-02-28,2011-02-28,,35.321,129.294,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Shin Kori-2,Shin Kori,Unit 2,South Korea,operating,PWR,OPR-1000,995,1050,2007-06-05,2012-07-20,2012-07-20,,35.321,129.294,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Shin Kori-3,Shin Kori,Unit 3,South Korea,operating,PWR,APR1400,1340,1455,2008-10-16,2016-01-20,2016-12-20,,35.321,129.294,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Shin Kori-5,Shin Kori,Unit 5,South Korea,under construction,PWR,APR1400,1340,1455,2017-04-09,,,,35.321,129.294,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Shin Kori-6,Shin Kori,Unit 6,South Korea,under construction,PWR,APR1400,1340,1455,2018-09-20,,,,35.321,129.294,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Hanbit-2,Hanbit,Unit 2,South Korea,operating,PWR,OPR-1000,950,1000,1981-12-01,1987-06-10,1987-06-10,,35.413,126.425,KHNP,KHNP,Westinghouse,IAEA-PRIS/WNA-sample
+Hanbit-3,Hanbit,Unit 3,South Korea,operating,PWR,OPR-1000,995,1050,1989-12-23,1994-12-31,1994-12-31,,35.413,126.425,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Hanbit-4,Hanbit,Unit 4,South Korea,operating,PWR,OPR-1000,995,1050,1990-05-22,1996-01-01,1996-01-01,,35.413,126.425,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Hanbit-5,Hanbit,Unit 5,South Korea,operating,PWR,OPR-1000,995,1050,1997-06-29,2001-05-21,2001-05-21,,35.413,126.425,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Hanbit-6,Hanbit,Unit 6,South Korea,operating,PWR,OPR-1000,995,1050,1997-11-20,2002-12-24,2002-12-24,,35.413,126.425,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Hanul-2,Hanul,Unit 2,South Korea,operating,PWR,OPR-1000,950,1000,1983-12-01,1989-09-01,1989-09-01,,37.094,129.381,KHNP,KHNP,Westinghouse,IAEA-PRIS/WNA-sample
+Hanul-3,Hanul,Unit 3,South Korea,operating,PWR,OPR-1000,995,1050,1993-03-17,1998-08-11,1998-08-11,,37.094,129.381,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Hanul-4,Hanul,Unit 4,South Korea,operating,PWR,OPR-1000,995,1050,1993-11-01,1999-12-31,1999-12-31,,37.094,129.381,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Hanul-5,Hanul,Unit 5,South Korea,operating,PWR,OPR-1000,995,1050,1999-11-01,2003-12-22,2003-12-22,,37.094,129.381,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Hanul-6,Hanul,Unit 6,South Korea,operating,PWR,OPR-1000,995,1050,2000-09-06,2005-04-22,2005-04-22,,37.094,129.381,KHNP,KHNP,KHNP,IAEA-PRIS/WNA-sample
+Wolsong-3,Wolsong,Unit 3,South Korea,operating,PHWR,CANDU-6,700,728,1994-03-17,1997-12-31,1997-12-31,,35.712,129.476,KHNP,KHNP,AECL,IAEA-PRIS/WNA-sample
+Wolsong-4,Wolsong,Unit 4,South Korea,operating,PHWR,CANDU-6,700,728,1997-02-01,1999-10-01,2000-10-01,,35.712,129.476,KHNP,KHNP,AECL,IAEA-PRIS/WNA-sample
+Khmelnitsky-2,Khmelnitsky,Unit 2,Ukraine,operating,VVER,VVER-1000,950,1000,1983-02-01,2004-08-07,2004-09-07,,50.3,26.648,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+Rivne-1,Rivne,Unit 1,Ukraine,operating,VVER,VVER-440,382,420,1973-08-01,1980-05-22,1981-12-22,,51.325,25.892,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+Rivne-2,Rivne,Unit 2,Ukraine,operating,VVER,VVER-440,382,420,1973-08-01,1981-12-22,1981-12-22,,51.325,25.892,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+Rivne-4,Rivne,Unit 4,Ukraine,operating,VVER,VVER-1000,950,1000,1986-08-01,2004-04-05,2004-06-05,,51.325,25.892,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+South Ukraine-2,South Ukraine,Unit 2,Ukraine,operating,VVER,VVER-1000,950,1000,1981-07-01,1985-01-05,1985-04-05,,47.839,31.216,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+South Ukraine-3,South Ukraine,Unit 3,Ukraine,operating,VVER,VVER-1000,950,1000,1985-11-01,1989-09-15,1989-11-15,,47.839,31.216,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+Zaporizhzhia-2,Zaporizhzhia,Unit 2,Ukraine,operating,VVER,VVER-1000,950,1000,1981-01-01,1985-02-01,1985-02-01,,47.506,34.585,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+Zaporizhzhia-3,Zaporizhzhia,Unit 3,Ukraine,operating,VVER,VVER-1000,950,1000,1982-04-01,1986-03-05,1986-12-05,,47.506,34.585,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+Zaporizhzhia-4,Zaporizhzhia,Unit 4,Ukraine,operating,VVER,VVER-1000,950,1000,1983-04-01,1987-12-14,1988-04-14,,47.506,34.585,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+Zaporizhzhia-6,Zaporizhzhia,Unit 6,Ukraine,operating,VVER,VVER-1000,950,1000,1988-08-01,1995-10-18,1995-10-18,,47.506,34.585,Energoatom,Energoatom,Rosatom,IAEA-PRIS/WNA-sample
+Madras-1,Madras,Unit 1,India,operating,PHWR,PHWR-220,170,220,1971-01-01,1983-07-27,1984-12-27,,12.552,80.17,NPCIL,NPCIL,DAE,IAEA-PRIS/WNA-sample
+Madras-2,Madras,Unit 2,India,operating,PHWR,PHWR-220,170,220,1972-10-01,1985-08-21,1986-03-21,,12.552,80.17,NPCIL,NPCIL,DAE,IAEA-PRIS/WNA-sample
+Tarapur-1,Tarapur,Unit 1,India,operating,BWR,BWR,150,160,1964-10-01,1969-01-28,1969-10-28,,19.837,72.658,NPCIL,NPCIL,GE,IAEA-PRIS/WNA-sample
+Tarapur-2,Tarapur,Unit 2,India,operating,BWR,BWR,150,160,1964-10-01,1969-04-16,1969-10-16,,19.837,72.658,NPCIL,NPCIL,GE,IAEA-PRIS/WNA-sample
+Tarapur-3,Tarapur,Unit 3,India,operating,PHWR,PHWR-540,490,540,2000-03-23,2006-06-18,2006-08-18,,19.837,72.658,NPCIL,NPCIL,DAE,IAEA-PRIS/WNA-sample
+Tarapur-4,Tarapur,Unit 4,India,operating,PHWR,PHWR-540,490,540,2000-03-23,2005-06-12,2005-09-12,,19.837,72.658,NPCIL,NPCIL,DAE,IAEA-PRIS/WNA-sample
+Kakrapar-4,Kakrapar,Unit 4,India,under construction,PHWR,PHWR-700,640,700,2010-11-22,,,,21.228,73.057,NPCIL,NPCIL,DAE,IAEA-PRIS/WNA-sample
+Rajasthan-8,Rawatbhata,Unit 8,India,under construction,PHWR,PHWR-700,640,700,2011-09-18,,,,24.874,75.583,NPCIL,NPCIL,NPCIL,IAEA-PRIS/WNA-sample
+Genkai-3,Genkai,Unit 3,Japan,operating,PWR,PWR,1127,1180,1985-01-01,1994-03-18,1994-08-18,,33.519,130.192,Kyushu,Kyushu,Mitsubishi,IAEA-PRIS/WNA-sample
+Genkai-4,Genkai,Unit 4,Japan,operating,PWR,PWR,1127,1180,1988-08-01,1997-07-25,1997-07-25,,33.519,130.192,Kyushu,Kyushu,Mitsubishi,IAEA-PRIS/WNA-sample
+Sendai-2,Sendai,Unit 2,Japan,operating,PWR,PWR,846,890,1981-02-01,1985-11-28,1985-11-28,,31.833,130.185,Kyushu,Kyushu,Mitsubishi,IAEA-PRIS/WNA-sample
+Takahama-1,Takahama,Unit 1,Japan,operating,PWR,PWR,826,870,1972-01-01,1974-11-14,1974-11-14,,35.524,135.508,KEPCO,KEPCO,Westinghouse,IAEA-PRIS/WNA-sample
+Takahama-2,Takahama,Unit 2,Japan,operating,PWR,PWR,826,870,1973-09-01,1975-11-14,1975-11-14,,35.524,135.508,KEPCO,KEPCO,Westinghouse,IAEA-PRIS/WNA-sample
+Fukushima-I-1,Fukushima Daiichi,Unit 1,Japan,shutdown,BWR,BWR-3,439,460,1967-09-25,1970-11-17,1971-03-26,2011-03-11,37.421,141.032,TEPCO,TEPCO,GE,IAEA-PRIS/WNA-sample
+Paks-1,Paks,Unit 1,Hungary,operating,VVER,VVER-440,471,500,1974-08-01,1982-10-22,1983-08-01,,46.573,18.856,MVM Paks,MVM Paks,Rosatom,IAEA-PRIS/WNA-sample
+Paks-2,Paks,Unit 2,Hungary,operating,VVER,VVER-440,471,500,1974-08-01,1984-09-14,1984-11-14,,46.573,18.856,MVM Paks,MVM Paks,Rosatom,IAEA-PRIS/WNA-sample
+Paks-3,Paks,Unit 3,Hungary,operating,VVER,VVER-440,471,500,1979-10-01,1986-10-28,1986-10-28,,46.573,18.856,MVM Paks,MVM Paks,Rosatom,IAEA-PRIS/WNA-sample
+Paks-4,Paks,Unit 4,Hungary,operating,VVER,VVER-440,471,500,1982-08-01,1987-08-16,1987-11-16,,46.573,18.856,MVM Paks,MVM Paks,Rosatom,IAEA-PRIS/WNA-sample
+Paks-II-1,Paks II,Unit 1,Hungary,planned,VVER,VVER-1200,1114,1200,,,,,46.573,18.856,MVM,MVM,Rosatom,IAEA-PRIS/WNA-sample
+Paks-II-2,Paks II,Unit 2,Hungary,planned,VVER,VVER-1200,1114,1200,,,,,46.573,18.856,MVM,MVM,Rosatom,IAEA-PRIS/WNA-sample
+Kuosheng-1,Kuosheng,Unit 1,Taiwan,operating,BWR,BWR-6,951,985,1978-01-01,1981-12-28,1981-12-28,,25.202,121.665,TPC,TPC,GE,IAEA-PRIS/WNA-sample
+Maanshan-1,Maanshan,Unit 1,Taiwan,operating,PWR,PWR,890,951,1978-10-01,1984-07-27,1984-07-27,,21.961,120.748,TPC,TPC,Westinghouse,IAEA-PRIS/WNA-sample
+Maanshan-2,Maanshan,Unit 2,Taiwan,operating,PWR,PWR,890,951,1979-12-01,1985-05-18,1985-05-18,,21.961,120.748,TPC,TPC,Westinghouse,IAEA-PRIS/WNA-sample
+Chinshan-1,Chinshan,Unit 1,Taiwan,shutdown,BWR,BWR-4,604,636,1972-01-01,1977-12-10,1978-12-10,2018-12-05,25.292,121.537,TPC,TPC,GE,IAEA-PRIS/WNA-sample
+Chashma-3,Chashma,Unit 3,Pakistan,operating,PWR,CNP-300,300,340,2011-05-28,2016-10-15,2016-12-28,,32.393,71.463,PAEC,PAEC,CNNC,IAEA-PRIS/WNA-sample
+Chashma-4,Chashma,Unit 4,Pakistan,operating,PWR,CNP-300,300,340,2011-12-18,2017-09-20,2017-09-20,,32.393,71.463,PAEC,PAEC,CNNC,IAEA-PRIS/WNA-sample
+Lianjiang-1,Lianjiang,Unit 1,China,under construction,PWR,HPR-1000,1000,1080,2023-02-23,,,,20.55,110.143,CGN,CGN,CGN,IAEA-PRIS/WNA-sample
+Lufeng-5,Lufeng,Unit 5,China,under construction,PWR,HPR-1000,1000,1080,2022-07-08,,,,22.639,115.699,CGN,CGN,CGN,IAEA-PRIS/WNA-sample
+Changjiang-3,Changjiang,Unit 3,China,under construction,PWR,ACPR-1000,1000,1080,2021-07-28,,,,19.49,109.141,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Fuqing-1,Fuqing,Unit 1,China,operating,PWR,CPR-1000,1000,1089,2008-11-21,2013-11-22,2014-11-22,,25.432,119.462,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Fuqing-2,Fuqing,Unit 2,China,operating,PWR,CPR-1000,1000,1089,2009-06-29,2015-10-16,2015-10-16,,25.432,119.462,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Fuqing-3,Fuqing,Unit 3,China,operating,PWR,CPR-1000,1000,1089,2010-12-31,2016-06-10,2016-10-10,,25.432,119.462,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Fuqing-4,Fuqing,Unit 4,China,operating,PWR,CPR-1000,1000,1089,2012-11-17,2017-09-17,2017-09-17,,25.432,119.462,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Fuqing-5,Fuqing,Unit 5,China,operating,PWR,HPR-1000,1000,1089,2015-05-07,2021-01-30,2021-09-30,,25.432,119.462,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Fuqing-6,Fuqing,Unit 6,China,operating,PWR,HPR-1000,1000,1089,2015-12-22,2022-01-11,2022-03-25,,25.432,119.462,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Ningde-1,Ningde,Unit 1,China,operating,PWR,CPR-1000,1000,1089,2008-02-18,2012-12-28,2013-04-15,,27.06,120.21,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Ningde-2,Ningde,Unit 2,China,operating,PWR,CPR-1000,1000,1089,2008-11-12,2014-01-04,2014-05-04,,27.06,120.21,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Ningde-3,Ningde,Unit 3,China,operating,PWR,CPR-1000,1000,1089,2010-01-08,2015-06-10,2015-06-10,,27.06,120.21,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Ningde-4,Ningde,Unit 4,China,operating,PWR,CPR-1000,1000,1089,2012-09-29,2016-07-21,2016-07-21,,27.06,120.21,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Yangjiang-2,Yangjiang,Unit 2,China,operating,PWR,CPR-1000,1086,1140,2009-05-04,2015-06-05,2015-06-05,,21.705,111.606,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Yangjiang-3,Yangjiang,Unit 3,China,operating,PWR,CPR-1000,1086,1140,2010-11-15,2015-10-01,2016-01-01,,21.705,111.606,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Yangjiang-4,Yangjiang,Unit 4,China,operating,PWR,ACPR-1000,1086,1140,2012-11-17,2017-03-15,2017-03-15,,21.705,111.606,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Yangjiang-6,Yangjiang,Unit 6,China,operating,PWR,ACPR-1000,1086,1140,2013-12-23,2019-07-31,2019-07-31,,21.705,111.606,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Hongyanhe-2,Hongyanhe,Unit 2,China,operating,PWR,CPR-1000,1061,1119,2008-03-28,2014-05-13,2014-05-13,,39.794,121.474,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Hongyanhe-3,Hongyanhe,Unit 3,China,operating,PWR,CPR-1000,1061,1119,2009-03-07,2015-08-16,2015-08-16,,39.794,121.474,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Hongyanhe-4,Hongyanhe,Unit 4,China,operating,PWR,CPR-1000,1061,1119,2009-08-15,2016-09-25,2016-09-25,,39.794,121.474,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Hongyanhe-6,Hongyanhe,Unit 6,China,operating,PWR,ACPR-1000,1061,1119,2015-07-24,2022-08-28,2022-08-28,,39.794,121.474,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Changjiang-1,Changjiang,Unit 1,China,operating,PWR,ACPR-1000,1000,1080,2010-04-25,2015-11-07,2015-11-07,,19.49,109.141,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Changjiang-2,Changjiang,Unit 2,China,operating,PWR,ACPR-1000,1000,1080,2010-11-21,2016-08-26,2016-08-26,,19.49,109.141,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Fangchenggang-1,Fangchenggang,Unit 1,China,operating,PWR,CPR-1000,1000,1086,2010-07-30,2015-10-26,2016-01-01,,21.483,108.14,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Fangchenggang-2,Fangchenggang,Unit 2,China,operating,PWR,CPR-1000,1000,1086,2010-12-23,2016-07-16,2016-10-01,,21.483,108.14,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Fangchenggang-4,Fangchenggang,Unit 4,China,operating,PWR,HPR-1000,1000,1080,2016-12-23,2022-10-25,2023-03-25,,21.483,108.14,CGNPC,CGN,CGN,IAEA-PRIS/WNA-sample
+Qinshan-3-1,Qinshan III,Unit 1,China,operating,PHWR,CANDU-6,677,728,1998-06-08,2002-11-19,2003-07-24,,30.437,120.954,CNNC,CNNC,AECL,IAEA-PRIS/WNA-sample
+Qinshan-3-2,Qinshan III,Unit 2,China,operating,PHWR,CANDU-6,677,728,1998-09-25,2004-06-12,2004-07-01,,30.437,120.954,CNNC,CNNC,AECL,IAEA-PRIS/WNA-sample
+Tianwan-5,Tianwan,Unit 5,China,operating,PWR,VVER-1000,1060,1126,2015-12-27,2020-07-08,2020-09-08,,34.692,119.455,JNPC,JNPC,Rosatom,IAEA-PRIS/WNA-sample
+Tianwan-6,Tianwan,Unit 6,China,operating,PWR,VVER-1000,1060,1126,2016-09-07,2021-05-19,2021-05-19,,34.692,119.455,JNPC,JNPC,Rosatom,IAEA-PRIS/WNA-sample
+Shidaowan-HTR,Shidaowan,HTR-PM,China,operating,HTGR,HTR-PM,200,211,2012-12-09,2021-12-20,2023-12-06,,37.086,122.688,CNNC,CNNC,CNNC,IAEA-PRIS/WNA-sample
+Xudabao-1,Xudabao,Unit 1,China,operating,PWR,VVER-1000,1060,1126,2007-08-18,2021-05-31,2021-09-30,,40.588,120.285,CGNPC,CGN,Rosatom,IAEA-PRIS/WNA-sample
+Xudabao-2,Xudabao,Unit 2,China,operating,PWR,VVER-1000,1060,1126,2008-01-15,2022-12-21,2022-12-21,,40.588,120.285,CGNPC,CGN,Rosatom,IAEA-PRIS/WNA-sample
+Sanmen-2b,Sanmen,Unit 2b,China,under construction,PWR,AP1000,1157,1250,2010-01-01,,,,29.101,121.641,CNNC,CNNC,Westinghouse,IAEA-PRIS/WNA-sample
+Haiyang-3,Haiyang,Unit 3,China,under construction,PWR,AP1000,1157,1250,2022-01-01,,,,36.776,121.461,SPNC,SPNC,Westinghouse,IAEA-PRIS/WNA-sample
+Xudabao-4,Xudabao,Unit 4,China,under construction,VVER,VVER-1200,1200,1250,2023-06-01,,,,40.588,120.285,CGNPC,CGN,Rosatom,IAEA-PRIS/WNA-sample
+Rajasthan-1,Rawatbhata,Unit 1,India,shutdown,PHWR,PHWR-100,90,100,1965-08-01,1972-12-16,1973-12-16,2004-11-04,24.874,75.583,NPCIL,NPCIL,AECL,IAEA-PRIS/WNA-sample
+Rajasthan-3,Rawatbhata,Unit 3,India,operating,PHWR,PHWR-220,202,220,1990-02-01,1999-12-01,2000-06-01,,24.874,75.583,NPCIL,NPCIL,NPCIL,IAEA-PRIS/WNA-sample
+Rajasthan-4,Rawatbhata,Unit 4,India,operating,PHWR,PHWR-220,202,220,1990-10-01,2000-12-23,2000-12-23,,24.874,75.583,NPCIL,NPCIL,NPCIL,IAEA-PRIS/WNA-sample
+Rajasthan-6,Rawatbhata,Unit 6,India,operating,PHWR,PHWR-220,202,220,2002-03-01,2009-01-31,2010-03-31,,24.874,75.583,NPCIL,NPCIL,NPCIL,IAEA-PRIS/WNA-sample
+Narora-1,Narora,Unit 1,India,operating,PHWR,PHWR-220,202,220,1976-01-01,1991-03-01,1991-03-01,,28.194,78.392,NPCIL,NPCIL,NPCIL,IAEA-PRIS/WNA-sample
+Narora-2,Narora,Unit 2,India,operating,PHWR,PHWR-220,202,220,1976-01-01,1992-07-01,1992-07-01,,28.194,78.392,NPCIL,NPCIL,NPCIL,IAEA-PRIS/WNA-sample
+Kaiga-1,Kaiga,Unit 1,India,operating,PHWR,PHWR-220,202,220,1989-09-01,2000-03-16,2000-11-16,,14.881,74.44,NPCIL,NPCIL,NPCIL,IAEA-PRIS/WNA-sample
+Kaiga-2,Kaiga,Unit 2,India,operating,PHWR,PHWR-220,202,220,1989-12-01,1999-12-16,2000-03-16,,14.881,74.44,NPCIL,NPCIL,NPCIL,IAEA-PRIS/WNA-sample
+Kaiga-3,Kaiga,Unit 3,India,operating,PHWR,PHWR-220,202,220,2002-03-15,2007-03-06,2007-03-06,,14.881,74.44,NPCIL,NPCIL,NPCIL,IAEA-PRIS/WNA-sample
+Kaiga-4,Kaiga,Unit 4,India,operating,PHWR,PHWR-220,202,220,2002-03-15,2011-01-20,2011-01-20,,14.881,74.44,NPCIL,NPCIL,NPCIL,IAEA-PRIS/WNA-sample
+Kakrapar-2,Kakrapar,Unit 2,India,operating,PHWR,PHWR-220,202,220,1984-12-01,1995-09-01,1995-09-01,,21.228,73.057,NPCIL,NPCIL,DAE,IAEA-PRIS/WNA-sample
+Kudankulam-4,Kudankulam,Unit 4,India,under construction,VVER,VVER-1000,917,1000,,,,,8.169,77.713,NPCIL,NPCIL,Rosatom,IAEA-PRIS/WNA-sample
+Novovoronezh-3,Novovoronezh,Unit 3,Russia,shutdown,VVER,VVER-440,385,417,1967-07-01,1971-06-28,1971-12-31,2016-02-16,51.288,39.218,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Novovoronezh-4,Novovoronezh,Unit 4,Russia,shutdown,VVER,VVER-440,385,417,1967-07-01,1972-12-28,1972-12-28,2017-09-29,51.288,39.218,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Novovoronezh-5,Novovoronezh,Unit 5,Russia,operating,VVER,VVER-1000,1000,1070,1974-01-01,1980-05-08,1981-02-01,,51.288,39.218,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Leningrad-2,Leningrad,Unit 2,Russia,operating,RBMK,RBMK-1000,925,925,1970-06-01,1975-11-11,1976-02-11,,59.856,29.076,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Leningrad-3,Leningrad,Unit 3,Russia,operating,RBMK,RBMK-1000,925,925,1973-01-01,1979-06-07,1979-12-07,,59.856,29.076,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Leningrad-4,Leningrad,Unit 4,Russia,operating,RBMK,RBMK-1000,925,925,1975-02-01,1981-02-11,1981-08-11,,59.856,29.076,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Balakovo-1,Balakovo,Unit 1,Russia,operating,VVER,VVER-1000,1000,1070,1980-12-01,1985-12-23,1986-05-01,,52.097,47.937,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Balakovo-2,Balakovo,Unit 2,Russia,operating,VVER,VVER-1000,1000,1070,1981-08-01,1987-10-18,1988-01-18,,52.097,47.937,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Balakovo-3,Balakovo,Unit 3,Russia,operating,VVER,VVER-1000,1000,1070,1982-11-01,1988-12-08,1989-04-08,,52.097,47.937,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Balakovo-4,Balakovo,Unit 4,Russia,operating,VVER,VVER-1000,1000,1070,1984-04-01,1993-04-22,1994-04-22,,52.097,47.937,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Rostov-1b,Rostov,Unit 1b,Russia,operating,VVER,VVER-1000,1011,1070,1980-09-01,2001-03-26,2001-12-25,,47.573,42.267,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Kursk-5b,Kursk II,Unit 5b,Russia,under construction,VVER,VVER-TOI,1255,1339,2021-06-22,,,,51.667,35.61,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Kursk-6,Kursk II,Unit 6,Russia,under construction,VVER,VVER-TOI,1255,1339,2022-04-01,,,,51.667,35.61,Rosenergoatom,Rosatom,Rosatom,IAEA-PRIS/WNA-sample
+Heysham-1A,Heysham-1,Unit A,United Kingdom,operating,GCR,AGR,575,620,1970-12-01,1983-06-17,1983-07-01,,54.032,-2.91,EDF,EDF,NNC,IAEA-PRIS/WNA-sample
+Heysham-1B,Heysham-1,Unit B,United Kingdom,operating,GCR,AGR,575,620,1970-12-01,1984-06-01,1984-06-01,,54.032,-2.91,EDF,EDF,NNC,IAEA-PRIS/WNA-sample
+Heysham-2B,Heysham-2,Unit B,United Kingdom,operating,GCR,AGR,615,660,1980-08-01,1989-02-01,1989-02-01,,54.032,-2.91,EDF,EDF,GEC,IAEA-PRIS/WNA-sample
+Torness-B,Torness,Unit B,United Kingdom,operating,GCR,AGR,615,660,1980-08-01,1989-02-21,1989-02-21,,55.966,-2.437,EDF,EDF,GEC,IAEA-PRIS/WNA-sample
+Wylfa-1,Wylfa,Unit 1,United Kingdom,shutdown,GCR,Magnox,490,490,1963-09-01,1971-11-01,1971-11-01,2012-12-30,53.418,-4.473,Magnox,Magnox,AEI/GEC,IAEA-PRIS/WNA-sample
+Pickering-5,Pickering,Unit 5,Canada,operating,PHWR,CANDU-6,516,540,1974-11-01,1982-05-10,1983-05-10,,43.81,-79.072,OPG,OPG,AECL,IAEA-PRIS/WNA-sample
+Pickering-6,Pickering,Unit 6,Canada,operating,PHWR,CANDU-6,516,540,1975-10-01,1983-10-21,1984-02-01,,43.81,-79.072,OPG,OPG,AECL,IAEA-PRIS/WNA-sample
+Pickering-7,Pickering,Unit 7,Canada,operating,PHWR,CANDU-6,516,540,1976-01-01,1985-09-13,1986-01-13,,43.81,-79.072,OPG,OPG,AECL,IAEA-PRIS/WNA-sample
+Pickering-8,Pickering,Unit 8,Canada,operating,PHWR,CANDU-6,516,540,1976-09-01,1986-02-09,1986-02-09,,43.81,-79.072,OPG,OPG,AECL,IAEA-PRIS/WNA-sample
+Forsmark-2,Forsmark,Unit 2,Sweden,operating,BWR,BWR,1120,1166,1975-01-01,1981-07-07,1981-07-07,,60.405,18.17,Vattenfall,Vattenfall,ASEA Atom,IAEA-PRIS/WNA-sample
+Ringhals-4,Ringhals,Unit 4,Sweden,operating,PWR,PWR,1101,1137,1973-10-01,1983-11-21,1983-11-21,,57.257,12.106,Vattenfall,Ringhals,Westinghouse,IAEA-PRIS/WNA-sample
+Oskarshamn-3,Oskarshamn,Unit 3,Sweden,operating,BWR,BWR,473,492,1980-05-01,1985-08-15,1985-08-15,,57.415,16.676,OKG,OKG,ASEA Atom,IAEA-PRIS/WNA-sample
+Asco-1,Asco,Unit 1,Spain,operating,PWR,PWR-3loop,1032,1082,1974-05-16,1983-12-01,1984-08-10,,40.883,0.571,Endesa,ANAV,Westinghouse,IAEA-PRIS/WNA-sample
+Asco-2,Asco,Unit 2,Spain,operating,PWR,PWR-3loop,1027,1082,1975-03-07,1985-09-01,1986-03-31,,40.883,0.571,Endesa,ANAV,Westinghouse,IAEA-PRIS/WNA-sample
+Trillo,Trillo,Unit 1,Spain,operating,PWR,PWR-KWU,1003,1066,1979-08-17,1988-05-17,1988-08-06,,40.684,-2.593,Unión Fenosa,CSN,KWU,IAEA-PRIS/WNA-sample
+Dukovany-2,Dukovany,Unit 2,Czech Republic,operating,VVER,VVER-440,440,500,1977-01-01,1985-12-09,1986-01-14,,49.088,16.147,CEZ,CEZ,Rosatom,IAEA-PRIS/WNA-sample
+Dukovany-4,Dukovany,Unit 4,Czech Republic,operating,VVER,VVER-440,440,500,1981-01-01,1987-07-19,1987-09-19,,49.088,16.147,CEZ,CEZ,Rosatom,IAEA-PRIS/WNA-sample
+Beznau-2,Beznau,Unit 2,Switzerland,operating,PWR,PWR,365,380,1968-08-01,1971-10-23,1972-03-23,,47.523,8.116,Axpo,Axpo,Westinghouse,IAEA-PRIS/WNA-sample
+Mühleberg,Mühleberg,Unit 1,Switzerland,shutdown,BWR,BWR,355,373,1967-03-01,1971-10-06,1972-11-06,2019-12-20,46.997,7.271,BKW,BKW,GE,IAEA-PRIS/WNA-sample
+Doel-1,Doel,Unit 1,Belgium,operating,PWR,PWR-2loop,433,454,1969-07-01,1974-08-28,1975-02-15,,51.325,4.259,Electrabel,Engie,Framatome,IAEA-PRIS/WNA-sample
+Doel-2,Doel,Unit 2,Belgium,operating,PWR,PWR-2loop,433,454,1971-09-01,1975-08-21,1975-12-01,,51.325,4.259,Electrabel,Engie,Framatome,IAEA-PRIS/WNA-sample
+Tihange-1,Tihange,Unit 1,Belgium,operating,PWR,PWR-2loop,962,1009,1975-06-01,1975-10-07,1975-10-07,,50.534,5.271,Electrabel,Engie,Framatome,IAEA-PRIS/WNA-sample
+Olkiluoto-1r,Olkiluoto,Unit 1r,Finland,planned,BWR,BWR,890,930,,,,,61.235,21.445,TVO,TVO,ABB,IAEA-PRIS/WNA-sample
+Thyspunt,Thyspunt,Unit 1,South Africa,proposed,PWR,PWR,1000,1000,,,,,-33.97,25.203,Eskom,Eskom,TBD,IAEA-PRIS/WNA-sample
+Cernavoda-4,Cernavoda,Unit 4,Romania,planned,PHWR,CANDU-6,650,706,,,,,44.316,28.058,SNN,SNN,AECL,IAEA-PRIS/WNA-sample
+Atucha-1,Atucha,Unit 1,Argentina,operating,PHWR,PHWR-357,"1,345",362,1968-06-01,1974-03-19,1974-06-24,,-33.967,-59.205,NASA,NA-SA,Siemens/CNEA,IAEA-PRIS/WNA-sample

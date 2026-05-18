@@ -1,0 +1,9 @@
+{
+  "model_name": "capacity_forecast_xgboost_or_rf",
+  "model_type": "XGBoostRegressor",
+  "target": "heuristic expected capacity by 2035 from current fleet and pipeline",
+  "mae": 3552.2417683919266,
+  "rmse": 6929.865637172285,
+  "r2": 0.4988942014747476,
+  "notes": "Target is a scenario-derived linear combination of pipeline features \u2014 not an independent ground truth. Metrics measure fit to the heuristic, not real-world accuracy. Replace with historical capacity snapshots for production use."
+}

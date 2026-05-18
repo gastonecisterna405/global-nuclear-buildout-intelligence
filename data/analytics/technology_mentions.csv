@@ -1,0 +1,101 @@
+document_id,country,topic,present
+policy-us-001,United States,SMR,1
+policy-us-001,United States,Gen IV,1
+policy-us-001,United States,Molten Salt,0
+policy-us-001,United States,Thorium,0
+policy-us-001,United States,Fast Reactor,0
+policy-us-001,United States,Financing,0
+policy-us-001,United States,Delay Risk,1
+policy-us-001,United States,Energy Security,0
+policy-us-001,United States,Decarbonization,1
+policy-us-001,United States,Industrial Heat,1
+policy-cn-001,China,SMR,0
+policy-cn-001,China,Gen IV,1
+policy-cn-001,China,Molten Salt,0
+policy-cn-001,China,Thorium,0
+policy-cn-001,China,Fast Reactor,1
+policy-cn-001,China,Financing,0
+policy-cn-001,China,Delay Risk,0
+policy-cn-001,China,Energy Security,1
+policy-cn-001,China,Decarbonization,0
+policy-cn-001,China,Industrial Heat,0
+policy-fr-001,France,SMR,0
+policy-fr-001,France,Gen IV,0
+policy-fr-001,France,Molten Salt,0
+policy-fr-001,France,Thorium,0
+policy-fr-001,France,Fast Reactor,0
+policy-fr-001,France,Financing,0
+policy-fr-001,France,Delay Risk,1
+policy-fr-001,France,Energy Security,0
+policy-fr-001,France,Decarbonization,1
+policy-fr-001,France,Industrial Heat,0
+policy-ru-001,Russia,SMR,0
+policy-ru-001,Russia,Gen IV,1
+policy-ru-001,Russia,Molten Salt,0
+policy-ru-001,Russia,Thorium,0
+policy-ru-001,Russia,Fast Reactor,1
+policy-ru-001,Russia,Financing,0
+policy-ru-001,Russia,Delay Risk,0
+policy-ru-001,Russia,Energy Security,0
+policy-ru-001,Russia,Decarbonization,0
+policy-ru-001,Russia,Industrial Heat,0
+policy-ca-001,Canada,SMR,1
+policy-ca-001,Canada,Gen IV,0
+policy-ca-001,Canada,Molten Salt,0
+policy-ca-001,Canada,Thorium,0
+policy-ca-001,Canada,Fast Reactor,0
+policy-ca-001,Canada,Financing,0
+policy-ca-001,Canada,Delay Risk,1
+policy-ca-001,Canada,Energy Security,1
+policy-ca-001,Canada,Decarbonization,1
+policy-ca-001,Canada,Industrial Heat,0
+policy-uk-001,United Kingdom,SMR,1
+policy-uk-001,United Kingdom,Gen IV,0
+policy-uk-001,United Kingdom,Molten Salt,0
+policy-uk-001,United Kingdom,Thorium,0
+policy-uk-001,United Kingdom,Fast Reactor,0
+policy-uk-001,United Kingdom,Financing,0
+policy-uk-001,United Kingdom,Delay Risk,1
+policy-uk-001,United Kingdom,Energy Security,1
+policy-uk-001,United Kingdom,Decarbonization,1
+policy-uk-001,United Kingdom,Industrial Heat,0
+policy-pl-001,Poland,SMR,0
+policy-pl-001,Poland,Gen IV,0
+policy-pl-001,Poland,Molten Salt,0
+policy-pl-001,Poland,Thorium,0
+policy-pl-001,Poland,Fast Reactor,0
+policy-pl-001,Poland,Financing,1
+policy-pl-001,Poland,Delay Risk,1
+policy-pl-001,Poland,Energy Security,1
+policy-pl-001,Poland,Decarbonization,0
+policy-pl-001,Poland,Industrial Heat,0
+policy-in-001,India,SMR,0
+policy-in-001,India,Gen IV,0
+policy-in-001,India,Molten Salt,0
+policy-in-001,India,Thorium,1
+policy-in-001,India,Fast Reactor,0
+policy-in-001,India,Financing,0
+policy-in-001,India,Delay Risk,0
+policy-in-001,India,Energy Security,0
+policy-in-001,India,Decarbonization,0
+policy-in-001,India,Industrial Heat,0
+policy-ar-001,Argentina,SMR,1
+policy-ar-001,Argentina,Gen IV,0
+policy-ar-001,Argentina,Molten Salt,0
+policy-ar-001,Argentina,Thorium,0
+policy-ar-001,Argentina,Fast Reactor,0
+policy-ar-001,Argentina,Financing,0
+policy-ar-001,Argentina,Delay Risk,0
+policy-ar-001,Argentina,Energy Security,0
+policy-ar-001,Argentina,Decarbonization,0
+policy-ar-001,Argentina,Industrial Heat,0
+policy-kr-001,South Korea,SMR,1
+policy-kr-001,South Korea,Gen IV,0
+policy-kr-001,South Korea,Molten Salt,0
+policy-kr-001,South Korea,Thorium,0
+policy-kr-001,South Korea,Fast Reactor,0
+policy-kr-001,South Korea,Financing,0
+policy-kr-001,South Korea,Delay Risk,0
+policy-kr-001,South Korea,Energy Security,0
+policy-kr-001,South Korea,Decarbonization,0
+policy-kr-001,South Korea,Industrial Heat,1

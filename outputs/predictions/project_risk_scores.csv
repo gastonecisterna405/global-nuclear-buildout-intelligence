@@ -1,0 +1,51 @@
+project_id,reactor_name,country,technology_family,capacity_mwe,delay_risk_score,risk_level,realization_probability,realization_label,project_maturity_score
+PIPE-ARG-ATUCHA-CAREM,CAREM-25,Argentina,Small Modular Reactor,27.0,26.6,Low,0.73,High,73.4
+PIPE-BAN-ROOPPUR-UNIT-1,Rooppur-1,Bangladesh,Light Water Reactor,1114.0,28.4,Low,0.72,High,71.6
+PIPE-BAN-ROOPPUR-UNIT-2,Rooppur-2,Bangladesh,Light Water Reactor,1114.0,28.4,Low,0.72,High,71.6
+PIPE-BRA-ANGRA-UNIT-3,Angra-3,Brazil,Light Water Reactor,1405.0,36.4,Medium,0.71,High,70.6
+PIPE-BUL-BELENE-UNIT-1,Belene-1,Bulgaria,Light Water Reactor,1000.0,49.1,Medium,0.59,Medium,58.9
+PIPE-CAN-DARLINGTON-BWRX-300,Darlington-SMR-1,Canada,Small Modular Reactor,300.0,36.8,Medium,0.63,Medium,63.2
+PIPE-CHI-CHANGJIANG-UNIT-3,Changjiang-3,China,Light Water Reactor,1000.0,15.6,Low,0.84,High,84.4
+PIPE-CHI-HAIYANG-UNIT-3,Haiyang-3,China,Light Water Reactor,1157.0,16.2,Low,0.84,High,83.8
+PIPE-CHI-LIANJIANG-UNIT-1,Lianjiang-1,China,Light Water Reactor,1000.0,15.6,Low,0.84,High,84.4
+PIPE-CHI-LUFENG-UNIT-5,Lufeng-5,China,Light Water Reactor,1000.0,15.6,Low,0.84,High,84.4
+PIPE-CHI-SANMEN-UNIT-2B,Sanmen-2b,China,Light Water Reactor,1157.0,16.2,Low,0.84,High,83.8
+PIPE-CHI-SANMEN-UNIT-3,Sanmen-3,China,Light Water Reactor,1157.0,16.2,Low,0.84,High,83.8
+PIPE-CHI-TIANWAN-UNIT-7,Tianwan-7,China,Light Water Reactor,1200.0,15.6,Low,0.84,High,84.4
+PIPE-CHI-XUDABAO-UNIT-3,Xudabao-3,China,Light Water Reactor,1200.0,15.6,Low,0.84,High,84.4
+PIPE-CHI-XUDABAO-UNIT-4,Xudabao-4,China,Light Water Reactor,1200.0,15.6,Low,0.84,High,84.4
+PIPE-CHI-ZHANGZHOU-UNIT-1,Zhangzhou-1,China,Light Water Reactor,1126.0,15.6,Low,0.84,High,84.4
+PIPE-CHI-ZHANGZHOU-UNIT-2,Zhangzhou-2,China,Light Water Reactor,1126.0,15.6,Low,0.84,High,84.4
+PIPE-EGY-EL-DABAA-UNIT-1,El Dabaa-1,Egypt,Light Water Reactor,1114.0,28.5,Low,0.72,High,71.5
+PIPE-EGY-EL-DABAA-UNIT-2,El Dabaa-2,Egypt,Light Water Reactor,1114.0,28.5,Low,0.72,High,71.5
+PIPE-EGY-EL-DABAA-UNIT-3,El Dabaa-3,Egypt,Light Water Reactor,1114.0,42.0,Medium,0.58,Medium,58.0
+PIPE-FIN-OLKILUOTO-UNIT-1R,Olkiluoto-1r,Finland,Light Water Reactor,890.0,27.8,Low,0.72,High,72.2
+PIPE-HUN-PAKS-II-UNIT-1,Paks-II-1,Hungary,Light Water Reactor,1114.0,30.8,Low,0.69,Medium,69.2
+PIPE-HUN-PAKS-II-UNIT-2,Paks-II-2,Hungary,Light Water Reactor,1114.0,30.8,Low,0.69,Medium,69.2
+PIPE-IND-KAKRAPAR-UNIT-4,Kakrapar-4,India,Heavy Water Reactor,640.0,19.2,Low,0.81,High,80.8
+PIPE-IND-KALPAKKAM-PFBR,PFBR,India,Fast Reactor,500.0,31.9,Low,0.68,Medium,68.1
+PIPE-IND-KUDANKULAM-UNIT-3,Kudankulam-3,India,Light Water Reactor,917.0,19.2,Low,0.81,High,80.8
+PIPE-IND-KUDANKULAM-UNIT-4,Kudankulam-4,India,Light Water Reactor,917.0,19.2,Low,0.81,High,80.8
+PIPE-IND-RAWATBHATA-UNIT-7,Rajasthan-7,India,Heavy Water Reactor,640.0,19.2,Low,0.81,High,80.8
+PIPE-IND-RAWATBHATA-UNIT-8,Rajasthan-8,India,Heavy Water Reactor,640.0,19.2,Low,0.81,High,80.8
+PIPE-POL-LUBIATOWO-KOPALINO-UNIT-1,Lubiatowo-1,Poland,Light Water Reactor,1117.0,42.3,Medium,0.58,Medium,57.7
+PIPE-POL-LUBIATOWO-KOPALINO-UNIT-2,Lubiatowo-2,Poland,Light Water Reactor,1117.0,42.3,Medium,0.58,Medium,57.7
+PIPE-ROM-CERNAVODA-UNIT-3,Cernavoda-3,Romania,Heavy Water Reactor,650.0,33.4,Low,0.67,Medium,66.6
+PIPE-ROM-CERNAVODA-UNIT-4,Cernavoda-4,Romania,Heavy Water Reactor,650.0,33.4,Low,0.67,Medium,66.6
+PIPE-RUS-KURSK-II-UNIT-5,Kursk-5,Russia,Light Water Reactor,1255.0,22.4,Low,0.85,High,84.6
+PIPE-RUS-KURSK-II-UNIT-5B,Kursk-5b,Russia,Light Water Reactor,1255.0,22.4,Low,0.85,High,84.6
+PIPE-RUS-KURSK-II-UNIT-6,Kursk-6,Russia,Light Water Reactor,1255.0,22.4,Low,0.85,High,84.6
+PIPE-SLO-MOCHOVCE-UNIT-4,Mochovce-4,Slovakia,Light Water Reactor,471.0,18.5,Low,0.82,High,81.5
+PIPE-SOU-SHIN-KORI-UNIT-5,Shin Kori-5,South Korea,Light Water Reactor,1340.0,38.1,Medium,0.69,Medium,68.9
+PIPE-SOU-SHIN-KORI-UNIT-6,Shin Kori-6,South Korea,Light Water Reactor,1340.0,38.1,Medium,0.69,Medium,68.9
+PIPE-SOU-THYSPUNT-UNIT-1,Thyspunt,South Africa,Light Water Reactor,1000.0,48.7,Medium,0.59,Medium,59.3
+PIPE-TUR-AKKUYU-UNIT-1,Akkuyu-1,Turkey,Light Water Reactor,1114.0,28.1,Low,0.72,High,71.9
+PIPE-TUR-AKKUYU-UNIT-2,Akkuyu-2,Turkey,Light Water Reactor,1114.0,28.1,Low,0.72,High,71.9
+PIPE-TUR-AKKUYU-UNIT-3,Akkuyu-3,Turkey,Light Water Reactor,1114.0,28.1,Low,0.72,High,71.9
+PIPE-TUR-AKKUYU-UNIT-4,Akkuyu-4,Turkey,Light Water Reactor,1114.0,28.1,Low,0.72,High,71.9
+PIPE-UAE-BARAKAH-UNIT-4,Barakah-4,UAE,Light Water Reactor,1345.0,50.5,Medium,0.56,Medium,56.5
+PIPE-UNI-CARBON-FREE-UNIT-1,CP-1,United States,Small Modular Reactor,300.0,56.7,Medium,0.51,Medium,51.3
+PIPE-UNI-HINKLEY-POINT-C-UNIT-1,Hinkley Point C-1,United Kingdom,Light Water Reactor,1630.0,17.8,Low,0.89,High,89.2
+PIPE-UNI-HINKLEY-POINT-C-UNIT-2,Hinkley Point C-2,United Kingdom,Light Water Reactor,1630.0,17.8,Low,0.89,High,89.2
+PIPE-UNI-KEMMERER-UNIT-1,Natrium-1,United States,Fast Reactor,345.0,56.9,Medium,0.51,Medium,51.1
+PIPE-UNI-WYLFA-NEWYDD-UNIT-1,Wylfa Newydd-1,United Kingdom,Light Water Reactor,1380.0,48.1,Medium,0.67,Medium,66.9

@@ -1,0 +1,35 @@
+country,region,cluster_id,cluster_name,pca_x,pca_y
+Argentina,Latin America,0,Mature or legacy fleet,-0.036023149560572655,-0.13866035047470684
+Armenia,Eurasia,3,Advanced technology explorer,-1.4858109060347995,0.4962934647125155
+Bangladesh,Asia,0,Mature or legacy fleet,0.19056671660341426,-2.0863614342826997
+Belgium,Europe,3,Advanced technology explorer,-1.4852224385336623,1.0481506347554972
+Brazil,Latin America,0,Mature or legacy fleet,-0.16105897525611093,-0.9357012767084367
+Bulgaria,Europe,3,Advanced technology explorer,-1.3312441146110443,1.1129312657064578
+Canada,North America,0,Mature or legacy fleet,0.18474876422049358,0.4315226760123948
+China,Asia,1,High-growth builder,8.975612006495627,-0.7680591518851291
+Czech Republic,Europe,3,Advanced technology explorer,-1.3488439250012343,0.38247624161351956
+Egypt,Africa,0,Mature or legacy fleet,0.45443140926527575,-2.5493235580399793
+Finland,Europe,3,Advanced technology explorer,-1.038357334678346,-0.03847246167974314
+France,Europe,3,Advanced technology explorer,-0.3097028789609818,2.6700874107260164
+Germany,Europe,3,Advanced technology explorer,-0.6494339623579864,-0.0957439067327991
+Hungary,Europe,0,Mature or legacy fleet,-0.9269464357531406,-0.19938281171874225
+India,Asia,0,Mature or legacy fleet,4.228466230085794,-1.4705650614529155
+Japan,Asia,3,Advanced technology explorer,-0.4152382939251668,0.43029801954734237
+Mexico,Latin America,3,Advanced technology explorer,-0.819326589527727,-0.33591386199022283
+Netherlands,Europe,3,Advanced technology explorer,-1.2250538843613883,0.31387014564399873
+Pakistan,Asia,0,Mature or legacy fleet,-0.5763382777828356,-1.1265038407291843
+Poland,Europe,0,Mature or legacy fleet,-0.06672033924785864,-2.5774125167702713
+Romania,Europe,0,Mature or legacy fleet,-0.6676659645378643,-1.003612427112185
+Russia,Eurasia,3,Advanced technology explorer,1.011603744660418,0.03598186013312685
+Slovakia,Europe,3,Advanced technology explorer,-1.2184169997260414,0.23287674378358783
+South Africa,Africa,3,Advanced technology explorer,-1.0077560398562488,0.7527536648345031
+South Korea,Asia,3,Advanced technology explorer,0.23798003696640038,0.08378569348090513
+Spain,Europe,3,Advanced technology explorer,-1.023894446792879,0.4065129276819323
+Sweden,Europe,3,Advanced technology explorer,-1.2993440764977267,0.5986287035798465
+Switzerland,Europe,3,Advanced technology explorer,-1.4442505236312067,0.8775410557775575
+Taiwan,Asia,3,Advanced technology explorer,-1.1557384946942086,0.21049159684363986
+Turkey,Europe,0,Mature or legacy fleet,0.9611298320444984,-2.413978705670993
+UAE,Middle East,0,Mature or legacy fleet,-0.47547488006168553,-1.2004246387023965
+Ukraine,Eurasia,3,Advanced technology explorer,-1.3387922462418118,1.0547222694550273
+United Kingdom,Europe,3,Advanced technology explorer,0.1899456932323969,0.924070784945074
+United States,North America,2,Emerging nuclear entrant,5.072170744058205,4.877120844717465

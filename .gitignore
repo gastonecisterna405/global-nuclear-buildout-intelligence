@@ -4,19 +4,27 @@ __pycache__/
 .DS_Store
 *.db
 *.sqlite
+
+# descargados de internet (fallan en entornos sin red — se regeneran del sample)
+data/raw/our_world_in_data/
+data/raw/world_bank/
+data/raw/gem/
+
+# uploads manuales (no versionar datos sensibles)
 data/raw/manual_uploads/
+data/raw/iaea_pris/
+data/raw/iaea_rds1/
+data/raw/iaea_aris/
+data/raw/iaea_smr/
+data/raw/world_nuclear_association/
+data/raw/global_energy_monitor/
+data/raw/eia/
 
-# datos descargados (se regeneran con el pipeline)
-data/raw/
+# interim — siempre reproducible desde raw
 data/interim/
-data/processed/
-data/analytics/
 
-# outputs generados
-outputs/
-
-# modelos serializados (demasiado grandes para git)
-models/*.joblib
-
-# exports powerbi generados
+# exportaciones Power BI (reproducibles con el pipeline)
 data/powerbi/
+
+# modelos demasiado pesados para git (los joblib chicos van trackeados)
+# models/*.joblib  <- se incluyen porque son < 1MB cada uno

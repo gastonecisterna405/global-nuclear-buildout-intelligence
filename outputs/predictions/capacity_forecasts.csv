@@ -1,0 +1,35 @@
+country,region,forecast_capacity_2035_mwe,target_capacity_2035_mwe,policy_signal_score
+Argentina,Latin America,2275.9,1696.25,57.0
+Armenia,Eurasia,843.9,376.0,35.0
+Bangladesh,Asia,1649.1,1671.0,51.0
+Belgium,Europe,5588.9,5925.0,35.0
+Brazil,Latin America,3072.0,2622.25,45.6
+Bulgaria,Europe,2092.1,2103.0,35.0
+Canada,North America,10458.0,10517.0,55.2
+China,Asia,60465.0,60924.25,100.0
+Czech Republic,Europe,3210.5,3760.0,35.0
+Egypt,Africa,2285.2,2172.3,60.4
+Finland,Europe,4851.6,4762.5,43.6
+France,Europe,61377.9,62025.0,35.0
+Germany,Europe,2818.5,0.0,35.0
+Hungary,Europe,2882.8,2886.6,53.9
+India,Asia,9577.4,9708.5,97.0
+Japan,Asia,9027.5,9806.0,35.0
+Mexico,Latin America,1420.3,1354.0,35.0
+Netherlands,Europe,824.5,515.0,35.0
+Pakistan,Asia,3398.0,3400.0,35.0
+Poland,Europe,2029.2,1005.3000000000001,53.9
+Romania,Europe,1933.0,1885.0,50.2
+Russia,Eurasia,12928.6,31820.75,59.0
+Slovakia,Europe,2126.0,2054.25,43.0
+South Africa,Africa,1971.5,1950.0,35.0
+South Korea,Asia,11441.1,25760.0,51.0
+Spain,Europe,7739.6,7264.0,35.0
+Sweden,Europe,4697.1,5908.0,35.0
+Switzerland,Europe,2532.0,2920.0,35.0
+Taiwan,Asia,2587.9,2731.0,35.0
+Turkey,Europe,3281.2,3342.0,67.0
+UAE,Middle East,4952.7,5043.75,43.0
+Ukraine,Eurasia,12977.5,13114.0,35.0
+United Kingdom,Europe,5955.9,7460.0,51.0
+United States,North America,77681.9,80188.75,63.0

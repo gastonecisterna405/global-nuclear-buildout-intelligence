@@ -12,6 +12,12 @@ if str(ROOT) not in sys.path:
 
 from src import config
 from src.dashboard.components.styling import apply_style
+
+# Auto-run pipeline on first deploy (e.g. Streamlit Cloud) if processed files are missing
+if not (config.PROCESSED / "reactors_master.csv").exists():
+    import subprocess, sys as _sys
+    with st.spinner("First run — generating processed data (takes ~10 seconds)..."):
+        subprocess.run([_sys.executable, str(ROOT / "run_pipeline.py")], check=True)
 from src.dashboard.page_renderers import (
     country_clustering,
     country_deep_dive,

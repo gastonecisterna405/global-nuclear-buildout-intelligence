@@ -1,0 +1,126 @@
+document_id,country,term,count
+policy-us-001,United States,advanced,1
+policy-us-001,United States,reactors,1
+policy-us-001,United States,smr,1
+policy-us-001,United States,demonstrations,1
+policy-us-001,United States,haleu,1
+policy-us-001,United States,fuel,1
+policy-us-001,United States,supply,1
+policy-us-001,United States,licensing,1
+policy-us-001,United States,modernization,1
+policy-us-001,United States,clean,1
+policy-us-001,United States,firm,1
+policy-us-001,United States,power,1
+policy-us-001,United States,industrial,1
+policy-us-001,United States,heat,1
+policy-us-001,United States,recurring,1
+policy-us-001,United States,policy,1
+policy-us-001,United States,priorities,1
+policy-cn-001,China,large,1
+policy-cn-001,China,pwr,1
+policy-cn-001,China,buildout,1
+policy-cn-001,China,continues,1
+policy-cn-001,China,alongside,1
+policy-cn-001,China,htr-pm,1
+policy-cn-001,China,demonstration,1
+policy-cn-001,China,fast,1
+policy-cn-001,China,reactor,1
+policy-cn-001,China,development,1
+policy-cn-001,China,energy,1
+policy-cn-001,China,security,1
+policy-cn-001,China,framing,1
+policy-fr-001,France,france,1
+policy-fr-001,France,announced,1
+policy-fr-001,France,construction,1
+policy-fr-001,France,six,1
+policy-fr-001,France,epr2,1
+policy-fr-001,France,units,1
+policy-fr-001,France,potential,1
+policy-fr-001,France,additional,1
+policy-fr-001,France,reactors,1
+policy-fr-001,France,energy,1
+policy-fr-001,France,sovereignty,1
+policy-fr-001,France,decarbonization,1
+policy-fr-001,France,primary,1
+policy-fr-001,France,drivers,1
+policy-ru-001,Russia,fuel,2
+policy-ru-001,Russia,fast,1
+policy-ru-001,Russia,reactor,1
+policy-ru-001,Russia,deployment,1
+policy-ru-001,Russia,sodium-cooled,1
+policy-ru-001,Russia,technology,1
+policy-ru-001,Russia,mox,1
+policy-ru-001,Russia,closed,1
+policy-ru-001,Russia,cycle,1
+policy-ru-001,Russia,strategy,1
+policy-ru-001,Russia,emphasized,1
+policy-ca-001,Canada,smr,1
+policy-ca-001,Canada,deployment,1
+policy-ca-001,Canada,bwrx-300,1
+policy-ca-001,Canada,licensing,1
+policy-ca-001,Canada,grid,1
+policy-ca-001,Canada,reliability,1
+policy-ca-001,Canada,clean,1
+policy-ca-001,Canada,electricity,1
+policy-ca-001,Canada,targets,1
+policy-ca-001,Canada,emphasized,1
+policy-uk-001,United Kingdom,hinkley,1
+policy-uk-001,United Kingdom,point,1
+policy-uk-001,United Kingdom,epr,1
+policy-uk-001,United Kingdom,construction,1
+policy-uk-001,United Kingdom,smr,1
+policy-uk-001,United Kingdom,program,1
+policy-uk-001,United Kingdom,evaluation,1
+policy-uk-001,United Kingdom,energy,1
+policy-uk-001,United Kingdom,security,1
+policy-uk-001,United Kingdom,net,1
+policy-uk-001,United Kingdom,zero,1
+policy-uk-001,United Kingdom,targets,1
+policy-pl-001,Poland,energy,1
+policy-pl-001,Poland,security,1
+policy-pl-001,Poland,coal,1
+policy-pl-001,Poland,replacement,1
+policy-pl-001,Poland,ap1000,1
+policy-pl-001,Poland,technology,1
+policy-pl-001,Poland,selection,1
+policy-pl-001,Poland,supply,1
+policy-pl-001,Poland,chain,1
+policy-pl-001,Poland,development,1
+policy-pl-001,Poland,financing,1
+policy-in-001,India,expansion,2
+policy-in-001,India,domestic,1
+policy-in-001,India,phwr,1
+policy-in-001,India,fleet,1
+policy-in-001,India,pfbr,1
+policy-in-001,India,fast,1
+policy-in-001,India,breeder,1
+policy-in-001,India,reactor,1
+policy-in-001,India,kudankulam,1
+policy-in-001,India,thorium,1
+policy-in-001,India,fuel,1
+policy-in-001,India,cycle,1
+policy-in-001,India,development,1
+policy-ar-001,Argentina,carem,1
+policy-ar-001,Argentina,small,1
+policy-ar-001,Argentina,modular,1
+policy-ar-001,Argentina,reactor,1
+policy-ar-001,Argentina,development,1
+policy-ar-001,Argentina,domestic,1
+policy-ar-001,Argentina,engineering,1
+policy-ar-001,Argentina,capability,1
+policy-ar-001,Argentina,long,1
+policy-ar-001,Argentina,nuclear,1
+policy-ar-001,Argentina,experience,1
+policy-ar-001,Argentina,highlighted,1
+policy-kr-001,South Korea,apr1400,1
+policy-kr-001,South Korea,export,1
+policy-kr-001,South Korea,success,1
+policy-kr-001,South Korea,uae,1
+policy-kr-001,South Korea,shin,1
+policy-kr-001,South Korea,hanul,1
+policy-kr-001,South Korea,expansion,1
+policy-kr-001,South Korea,smr,1
+policy-kr-001,South Korea,development,1
+policy-kr-001,South Korea,i-smr,1
+policy-kr-001,South Korea,hydrogen,1
+policy-kr-001,South Korea,production,1
