@@ -1,205 +1,170 @@
-# Global Nuclear Buildout Intelligence Platform
+# Global Nuclear Buildout Intelligence
 
-**End-to-end ML and analytics platform for nuclear capacity forecasting, technology maturity scoring, project risk assessment, and electricity supply scenarios.**
+AI-driven nuclear energy intelligence platform for forecasting reactor deployment, analyzing global buildout trends, and supporting strategic energy insights.
 
-Built as a portfolio project by a Nuclear Engineer transitioning into data science. The platform demonstrates a production-style analytics pipeline — from raw, heterogeneous data to interactive dashboard and executive reporting.
+## Executive Summary
 
----
+This project is an end-to-end analytics platform for nuclear energy strategy. It combines public and sample reactor datasets, country-level context, machine learning, scenario modeling, NLP-style policy signals, SQL outputs, and a Streamlit dashboard to analyze nuclear capacity, project pipelines, technology maturity, and deployment risk.
 
-## What it does
+The repository is designed as a realistic consulting-style data product: transparent assumptions, reproducible pipeline steps, clear outputs, and business-facing reporting.
 
-Governments, utilities, and investors need to understand where nuclear capacity could grow, which reactor technologies are gaining traction, and how realistic project pipelines are. Public data on this is fragmented across databases, PDFs, and industry publications.
+## Objective
 
-This platform:
-- **Ingests and standardizes** reactor, country, technology, and policy data from multiple public sources
-- **Scores projects and technologies** using transparent, auditable heuristics (maturity, delay risk, realization probability)
-- **Forecasts capacity** with XGBoost/Random Forest cross-sectional models and Holt-Winters time series
-- **Clusters countries** by nuclear strategy using KMeans + PCA
-- **Extracts policy signals** from text using NLP (keyword extraction, topic tagging)
-- **Models electricity scenarios** under Conservative / Base / Accelerated buildout assumptions
-- **Publishes results** through a 14-page Streamlit dashboard, Power BI-ready CSVs, SQLite database, and executive reports
+Build a structured intelligence platform that helps answer practical questions about nuclear energy deployment:
 
----
+- Which countries have the strongest operating and planned nuclear capacity?
+- How are reactor technologies distributed across regions and project stages?
+- Which project pipelines appear higher risk based on transparent scoring rules?
+- How could different buildout assumptions affect future capacity and electricity generation?
+- How can fragmented public energy data be transformed into decision-ready outputs?
 
-## Architecture
+## Problem Statement
 
+Nuclear project data is fragmented across technical databases, country reports, policy documents, and industry publications. Strategic users need a clean way to compare projects, technologies, countries, and scenarios without overstating uncertainty.
+
+This platform addresses that problem by standardizing the data workflow, documenting assumptions, creating analytical features, and presenting outputs through dashboards, reports, and exportable tables.
+
+## Data Sources
+
+The project supports multiple public nuclear and energy data sources, with sample data included so the pipeline can run without private files.
+
+- IAEA PRIS-style reactor data
+- IAEA RDS-1-style capacity projection templates
+- IAEA ARIS / SMR catalogue-style advanced reactor information
+- World Nuclear Association-style country and project information
+- Global Energy Monitor-style facility tracking
+- Our World in Data energy data
+- World Bank country indicators
+- Labeled sample data for reproducible demonstration
+
+The included sample data is used for demonstration and methodology validation. It should not be treated as a live official dataset.
+
+## Features
+
+- Reactor fleet and project pipeline analytics
+- Nuclear capacity forecasting with machine learning and time-series models
+- Project realization and delay-risk scoring
+- Technology maturity scoring for reactor families
+- Country clustering using KMeans and PCA
+- Policy and technology signal extraction from text
+- Electricity generation scenarios under configurable assumptions
+- SQL analytical layer for reusable queries
+- Streamlit dashboard with multi-page analysis views
+- Power BI-ready export structure
+- Executive reports, model cards, methodology notes, and data dictionaries
+- PySpark / Databricks templates for scale-out ETL patterns
+
+## Tech Stack
+
+- Python
+- pandas, numpy
+- scikit-learn
+- XGBoost
+- statsmodels
+- NLTK
+- matplotlib, seaborn, Plotly
+- Streamlit
+- SQLite
+- pytest
+- PySpark / Databricks templates
+
+## Project Structure
+
+```text
+global-nuclear-buildout-intelligence/
+├── data/                 # raw, sample, and processed analytical datasets
+├── docs/                 # methodology, architecture, model card, data dictionary
+├── models/               # serialized model artifacts
+├── notebooks/            # exploratory analysis and modeling notebooks
+├── outputs/              # figures, reports, metrics, predictions, SQL results
+├── powerbi/              # Power BI schema and export documentation
+├── spark/                # PySpark and Databricks templates
+├── sql/                  # table creation and analytical queries
+├── src/                  # ingestion, features, models, NLP, reports, dashboard
+├── tests/                # pytest coverage for core pipeline behavior
+├── run_pipeline.py       # end-to-end pipeline entry point
+└── README.md
 ```
-Data Sources
-├── IAEA PRIS / RDS-1 / ARIS / SMR Catalogue  (manual template workflow)
-├── World Nuclear Association / Global Energy Monitor  (manual template)
-├── Our World in Data Energy  (optional download)
-└── World Bank WDI  (optional API)
-        │
-        ▼
-  raw/  (dirty CSVs + manual exports)
-        │
-  clean_reactor_data.py ──► reactors_cleaned.csv  (interim/)
-  clean_country_data.py ──► country_context.csv
-        │
-  integrate_sources.py
-  ├── add_reactor_feature_flags()   — SMR/Gen IV/molten salt/thorium/fast flags
-  ├── build_technology_taxonomy()   — 13 types, maturity scores
-  ├── build_reactor_pipeline()      — maturity + delay risk + realization probability
-  ├── build_country_profiles()      — operating/construction/planned capacity aggregates
-  └── build_capacity_scenarios()    — Conservative / Base / Accelerated to 2050
-        │
-  processed/  (reactors_master.csv, reactor_pipeline.csv, country_nuclear_profile.csv, ...)
-        │
-  ┌─────┴──────┬──────────┬────────┬────────┐
-  ML models   NLP       SQL     Reports  Dashboard
-  XGBoost     NLTK    SQLite   Markdown  Streamlit
-  KMeans+PCA  topics  15 queries  PDF-ready  14 pages
-  Statsmodels
-        │
-  outputs/  (predictions/, metrics/, figures/, reports/)
-  data/powerbi/  (fact + dim tables)
-```
 
----
+## Methodology
 
-## Quickstart
+The workflow follows a reproducible data-product pattern:
+
+1. Ingest or generate reactor, country, technology, policy, and energy datasets.
+2. Clean and standardize raw fields into consistent analytical tables.
+3. Engineer project, country, technology, scenario, and policy features.
+4. Train or apply forecasting, classification, clustering, and scoring models.
+5. Evaluate model outputs and record metrics where appropriate.
+6. Generate figures, reports, SQL exports, predictions, and dashboard-ready tables.
+7. Present results through Streamlit and structured documentation.
+
+Risk, maturity, and scenario outputs are intentionally transparent. Where real historical labels are not available, the repository documents heuristic assumptions rather than presenting them as ground truth.
+
+## Results / Insights
+
+The repository produces local outputs after running the pipeline, including:
+
+- reactor fleet summaries by country, region, technology, and project status
+- capacity forecast tables and visualizations
+- project risk and realization probability outputs
+- country strategy clusters
+- technology maturity rankings
+- electricity generation scenario outputs
+- data quality and source coverage reports
+- executive markdown reports for non-technical review
+
+For current generated artifacts, see:
+
+- `outputs/reports/global_nuclear_buildout_report.md`
+- `outputs/reports/executive_summary.md`
+- `outputs/metrics/`
+- `outputs/predictions/`
+- `outputs/figures/`
+
+## Screenshots
+
+Representative generated figures:
+
+![Planned capacity by country](outputs/figures/planned_capacity_by_country.png)
+
+![Capacity scenarios to 2050](outputs/figures/capacity_scenarios_2050.png)
+
+![Country strategy clusters](outputs/figures/country_strategy_clusters.png)
+
+Dashboard screenshots will be added soon.
+
+## How to Run Locally
 
 ```bash
-git clone https://github.com/<your-handle>/global-nuclear-buildout-intelligence
+git clone https://github.com/gastonecisterna405/global-nuclear-buildout-intelligence.git
 cd global-nuclear-buildout-intelligence
 
-python -m venv .venv && source .venv/bin/activate
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 
-python run_pipeline.py      # builds all processed tables, models, and reports
+python run_pipeline.py
 streamlit run src/dashboard/app.py
 ```
 
-The pipeline runs end-to-end on **labeled sample data** so the full system works before any manual source files are added. See [Data Sources](#data-sources) for how to plug in real data.
+Run tests with:
 
----
-
-## Results (sample data)
-
-> All numbers below are from the labeled sample dataset (19 reactor records, 16 countries). They demonstrate the pipeline and scoring logic — not official statistics. Replace with IAEA PRIS exports for production use.
-
-| Layer | Key output |
-|---|---|
-| **Fleet** | 7 operating units · 8.5 GWe operating · 6 units under construction · 6.3 GWe |
-| **Pipeline** | 13 pipeline projects across Construction / Planned / Proposed stages |
-| **Technology taxonomy** | 13 reactor types scored across 8 technology families |
-| **Capacity forecast (XGBoost)** | R² = 0.67 on heuristic target (cross-sectional, 16 countries) |
-| **Country clusters** | 3 clusters · silhouette = 0.19 |
-| **2050 Base scenario** | ~6.2 GWe · ~47 TWh/yr (sample fleet only) |
-| **Technology maturity** | Highest: VVER / PWR / BWR · Lowest: Thorium / Microreactor / MSR |
-| **Policy NLP** | 6 countries tagged across 10 topic signals (SMR, Gen IV, financing, ...) |
-
----
-
-## Notebooks
-
-Run `python run_pipeline.py` first, then open any notebook from the `notebooks/` directory.
-
-| Notebook | What it covers |
-|---|---|
-| [02 Data Cleaning](notebooks/02_data_cleaning_and_integration.ipynb) | Dirty → clean walkthrough, schema diff, data lineage |
-| [03 Global Nuclear EDA](notebooks/03_global_nuclear_eda.ipynb) | Fleet capacity, tech mix, age distribution, GDP scatter, decade buildout |
-| [04 Reactor Pipeline EDA](notebooks/04_reactor_pipeline_eda.ipynb) | Pipeline funnel, timeline, risk matrix, realization probability |
-| [05 Technology Mix](notebooks/05_technology_mix_eda.ipynb) | SMR vs Gen IV vs commercial LWR, maturity scoring breakdown |
-| [06 Forecasting](notebooks/06_forecasting_capacity_buildout.ipynb) | XGBoost feature importance, Holt-Winters trend, model limitations |
-| [07 Project Risk Scoring](notebooks/07_project_risk_scoring.ipynb) | Classification pipeline, risk matrix, score sensitivity |
-| [09 Country Clustering](notebooks/09_country_clustering.ipynb) | KMeans + PCA segmentation, cluster profiles |
-| [10 NLP Policy Intelligence](notebooks/10_nlp_policy_and_technology_text.ipynb) | Keyword extraction, topic tagging, country signal heatmap |
-
----
-
-## Dashboard pages
-
-```
-Executive Overview · Global Nuclear Map · Country Deep Dive · Reactor Pipeline ·
-Technology Mix · SMR / Gen IV / Thorium Watch · Forecasting · Project Risk Scoring ·
-Electricity Supply Scenarios · Country Strategy Clustering · NLP / Policy Intelligence ·
-Data Quality & Source Coverage · Executive Report · Power BI Export
+```bash
+pytest
 ```
 
-All sidebar filters (country, region, status, technology, scenario, capacity factor, price) propagate across pages.
+## Future Improvements
 
----
+- Replace sample data with regularly refreshed official source exports.
+- Add stronger historical project completion labels for supervised risk modeling.
+- Add weather, market, policy, and financing indicators where reliable sources are available.
+- Track model experiments and data versions with a formal MLOps tool.
+- Add dashboard screenshots and deployment documentation.
+- Expand Power BI and Databricks workflows for enterprise-style delivery.
 
-## Data sources
+## Professional Note
 
-| Source | Type | Ingestion |
-|---|---|---|
-| IAEA PRIS | Official reactor database | Manual template (`data/raw/iaea_pris/`) |
-| IAEA RDS-1 | Capacity projections to 2050 | Manual template |
-| IAEA ARIS / SMR Catalogue | Advanced reactor designs | Manual template |
-| World Nuclear Association | Country profiles, pipeline | Manual template |
-| Global Energy Monitor | Facility-level tracker | Manual template |
-| Our World in Data Energy | Generation + nuclear share | Optional download |
-| World Bank WDI | GDP, population | Optional API |
-| Labeled sample data | Demo fallback | Auto-generated |
-
-Manual templates are created automatically at `data/raw/*/` when you run the pipeline. Fill them with official exports to replace sample data.
-
----
-
-## Tech stack
-
-| Layer | Tools |
-|---|---|
-| Data | pandas · numpy · requests |
-| ML | scikit-learn · XGBoost · statsmodels |
-| NLP | NLTK |
-| Visualization | matplotlib · seaborn · plotly |
-| Dashboard | Streamlit |
-| Storage | SQLite · CSV (Power BI) |
-| Scale-out | PySpark / Databricks template (`spark/`) |
-| Tests | pytest (24 tests) |
-
----
-
-## Project structure
-
-```
-├── run_pipeline.py          # single entry point: runs all 21 pipeline steps
-├── src/
-│   ├── data/                # ingestion, cleaning, sample data, source registry
-│   ├── features/            # reactor flags, taxonomy, pipeline scoring, scenarios
-│   ├── models/              # XGBoost, Statsmodels, clustering, risk classifier, maturity
-│   ├── eda/                 # EDA figure generation and report
-│   ├── nlp/                 # text cleaning, keyword extraction, topic tagging
-│   ├── sql/                 # SQLite build, 15 analytical queries, Power BI export
-│   ├── reports/             # executive report, model card, interview brief
-│   ├── dashboard/           # Streamlit app (app.py routes to 14 page modules)
-│   └── utils/               # paths, constants, validation, plotting theme
-├── notebooks/               # 11 portfolio-facing analysis notebooks
-├── tests/                   # 24 pytest tests
-├── data/
-│   ├── raw/                 # source files + manual templates
-│   ├── interim/             # cleaned pre-integration tables
-│   └── processed/           # final analytical tables
-├── outputs/
-│   ├── figures/             # EDA charts (PNG)
-│   ├── metrics/             # JSON model metrics
-│   ├── predictions/         # forecast and risk CSVs
-│   └── reports/             # markdown reports
-├── models/                  # serialized joblib models
-├── spark/                   # PySpark ETL + Databricks notebook template
-└── docs/                    # model card, Power BI guide, interview brief
-```
-
----
-
-## Methodology notes
-
-**Forecasting caveat:** The XGBoost model's target is a scenario-derived heuristic (not historical snapshots), so metrics measure fit to a formula rather than real-world predictive accuracy. A production model would require timestamped PRIS data to build a proper supervised dataset.
-
-**Risk scoring:** Project maturity and delay risk are transparent, auditable heuristics (weighted combination of status, technology maturity, country experience, and GDP proxy). Labels are clearly derived from scoring rules — not from historical realization outcomes.
-
-**Scenarios:** `TWh/yr = capacity_GW × capacity_factor × 8.76`. Capacity factor, realization adjustment, and price per MWh are user-configurable in the dashboard. Not a market forecast.
-
----
-
-## Interview pitch
-
-> I built a strategic nuclear analytics platform that uses public reactor, energy, and economic data to analyze global buildout, classify reactor technologies, forecast capacity, score project risk, estimate electricity supply scenarios, and communicate results through dashboards and executive reports. The architecture mirrors a real consulting data product: transparent scoring, auditable heuristics, honest uncertainty, and a full ingestion-to-output pipeline.
-
----
+This project reflects my target work at the intersection of nuclear engineering, data science, simulation, forecasting, and strategic decision support for energy and industrial systems.
 
 ## License
 
